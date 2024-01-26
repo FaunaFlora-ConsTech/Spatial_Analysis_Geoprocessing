@@ -1,0 +1,235 @@
+WEBVTT
+
+aba09894-5b58-472a-82e2-a746448c839b-0
+00:00:02.120 --> 00:00:08.405
+In this video, we're going to be
+using the buffer tool to create
+
+aba09894-5b58-472a-82e2-a746448c839b-1
+00:00:08.405 --> 00:00:14.400
+a buffer zone of 1 kilometre
+around the oil rig near our MPA.
+
+2230ef71-9010-49c1-b95e-465a74f12416-0
+00:00:15.640 --> 00:00:18.537
+So first of all, let's just
+remove some of these layers in
+
+2230ef71-9010-49c1-b95e-465a74f12416-1
+00:00:18.537 --> 00:00:20.600
+our contents that we don't need
+any more.
+
+3a378bd9-0115-4c38-ae52-f8e8b821c7bd-0
+00:00:21.320 --> 00:00:26.143
+So we'll keep the dissolved
+layer that we created and we'll
+
+3a378bd9-0115-4c38-ae52-f8e8b821c7bd-1
+00:00:26.143 --> 00:00:29.440
+remove the other spawning ground
+layers.
+
+9ae7c1e0-32cc-4c0a-9a24-6676d056652b-0
+00:00:33.480 --> 00:00:35.080
+And now let's run the buffer
+tool.
+
+dccc673a-0468-4f76-a150-c7d835ead12d-0
+00:00:35.080 --> 00:00:42.318
+So we're going to go into the
+geoprocessing window and search
+
+dccc673a-0468-4f76-a150-c7d835ead12d-1
+00:00:42.318 --> 00:00:48.040
+in buffer and it's the first
+tool that comes up.
+
+9ca7d9e2-8088-49ca-acf1-a8ee23a23761-0
+00:00:52.040 --> 00:00:54.600
+And let's put in the parameters
+for this tool.
+
+2518ccef-f3b5-4428-adf1-f138c6cf2656-0
+00:00:55.280 --> 00:00:59.580
+So our input feature is the oil
+rig as this is the layer that we
+
+2518ccef-f3b5-4428-adf1-f138c6cf2656-1
+00:00:59.580 --> 00:01:02.160
+want to create the buffer zone
+around.
+
+454cb5ea-9a10-4a4b-bcef-f58600017864-0
+00:01:03.920 --> 00:01:07.664
+And now we need to choose where
+we want to save the new buffer
+
+454cb5ea-9a10-4a4b-bcef-f58600017864-1
+00:01:07.664 --> 00:01:10.160
+layer to and what we're going to
+name it.
+
+f965817a-efb7-4f1c-a8bd-1813e53081e2-0
+00:01:11.520 --> 00:01:17.416
+So let's make sure it's going
+into our Geodatabase and we'll
+
+f965817a-efb7-4f1c-a8bd-1813e53081e2-1
+00:01:17.416 --> 00:01:19.640
+name it oil rig buffer.
+
+4bb652ee-ca8f-47d5-adfe-73034fbbc64d-0
+00:01:24.280 --> 00:01:26.360
+And now the distance.
+
+cfcfc10d-258d-42b8-b8a6-a52c326f78bf-0
+00:01:26.720 --> 00:01:31.417
+We're creating a buffer zone of
+1 kilometre, so we can put one
+
+cfcfc10d-258d-42b8-b8a6-a52c326f78bf-1
+00:01:31.417 --> 00:01:32.760
+in this first box.
+
+55578690-f37f-423a-9a94-46def2f386ab-0
+00:01:34.840 --> 00:01:38.365
+And we're going to choose the
+linear unit option as we are
+
+55578690-f37f-423a-9a94-46def2f386ab-1
+00:01:38.365 --> 00:01:39.800
+measuring in kilometres.
+
+9276a9c3-17e5-4104-965b-4606d131303d-0
+00:01:39.800 --> 00:01:40.960
+
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-0
+00:01:40.960 --> 00:01:45.607
+But we could choose field if our
+layer had a column in its table
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-1
+00:01:45.607 --> 00:01:49.540
+that specified the buffer
+distance. And now we want to
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-2
+00:01:49.540 --> 00:01:53.258
+choose the units to be
+kilometres, the side type we
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-3
+00:01:53.258 --> 00:01:57.762
+could choose full, which would
+mean that the buffer zone would
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-4
+00:01:57.762 --> 00:02:02.124
+include the area of the feature
+being buffered, or the other
+
+531913d0-89ae-4e68-bc3a-8263f8e578b6-5
+00:02:02.124 --> 00:02:06.200
+option which excludes the input
+Polygon from the buffer.
+
+bfe4b977-81a3-489e-bf50-5f7583d68529-0
+00:02:06.640 --> 00:02:10.086
+It doesn't really matter for
+what we're doing as we're just
+
+bfe4b977-81a3-489e-bf50-5f7583d68529-1
+00:02:10.086 --> 00:02:13.589
+using this to see whether the
+buffer zone would overlap, but
+
+bfe4b977-81a3-489e-bf50-5f7583d68529-2
+00:02:13.589 --> 00:02:15.599
+we'll just use the exclude
+option.
+
+acece94b-645c-431c-9694-5965f7692403-0
+00:02:17.520 --> 00:02:20.760
+The method planar measures
+distance in on a 2D plane,
+
+acece94b-645c-431c-9694-5965f7692403-1
+00:02:20.760 --> 00:02:24.240
+whereas geodesic will account
+for the shape of the earth.
+
+a0c64f3e-9457-44e8-aa33-0fc0d18c6c09-0
+00:02:24.680 --> 00:02:28.706
+So you should use geodesic if
+your data is covering multiple
+
+a0c64f3e-9457-44e8-aa33-0fc0d18c6c09-1
+00:02:28.706 --> 00:02:32.600
+UTM zones or your projection may
+distort area or distance.
+
+b73e9687-a202-43bd-a0a6-9b562b8db079-0
+00:02:32.880 --> 00:02:36.700
+But since we're using a singular
+UTM zone that's minimising
+
+b73e9687-a202-43bd-a0a6-9b562b8db079-1
+00:02:36.700 --> 00:02:40.585
+distortion, we can choose the
+Planar option and the dissolve
+
+b73e9687-a202-43bd-a0a6-9b562b8db079-2
+00:02:40.585 --> 00:02:44.533
+type just allows us to choose
+whether we want to dissolve any
+
+b73e9687-a202-43bd-a0a6-9b562b8db079-3
+00:02:44.533 --> 00:02:45.680
+of the boundaries.
+
+6ac9dd58-78d8-4d3a-88bc-08164fff4427-0
+00:02:45.680 --> 00:02:51.390
+But we can just leave this as no
+dissolve and run the tool and
+
+6ac9dd58-78d8-4d3a-88bc-08164fff4427-1
+00:02:51.390 --> 00:02:56.920
+now we can see our new layer on
+our map and in our contents.
+
+04d2779a-96f1-4f6e-976f-68ff0958e778-0
+00:02:56.960 --> 00:03:01.524
+So we have a 1 kilometer buffer
+zone around the location of the
+
+04d2779a-96f1-4f6e-976f-68ff0958e778-1
+00:03:01.524 --> 00:03:06.230
+oil rig, and we can zoom to this
+layer by right clicking on it in
+
+04d2779a-96f1-4f6e-976f-68ff0958e778-2
+00:03:06.230 --> 00:03:09.440
+the contents and clicking the
+zoom to layer.
+
+ea0eedbb-6214-4da4-8db1-bebaccd4c7fa-0
+00:03:09.960 --> 00:03:13.658
+And we can see that it's buffer
+zone does overlap with the no
+
+ea0eedbb-6214-4da4-8db1-bebaccd4c7fa-1
+00:03:13.658 --> 00:03:17.000
+take zone that we're proposing
+for the spawning months.
+
+0256bbdb-eac8-4adf-a84e-e1c69b4bb935-0
+00:03:17.240 --> 00:03:21.720
+So we'll need to remove this
+area of the no take zone.
+
+525da574-7777-4eb3-90e8-711703a7b31c-0
+00:03:22.800 --> 00:03:26.080
+So just remember to hit save to
+save your progress.

@@ -1,0 +1,267 @@
+WEBVTT
+
+649fdd35-0523-49b6-ad3c-47de03b3e520-0
+00:00:02.800 --> 00:00:07.174
+Now that you have projected all
+your data layers and your map,
+
+649fdd35-0523-49b6-ad3c-47de03b3e520-1
+00:00:07.174 --> 00:00:10.160
+you're ready to do some area
+calculations.
+
+9ffaa69b-4c9f-4eb4-9f31-a4c30249102c-0
+00:00:11.080 --> 00:00:16.318
+So when you do any geometry
+calculations in QGIS, you first
+
+9ffaa69b-4c9f-4eb4-9f31-a4c30249102c-1
+00:00:16.318 --> 00:00:21.732
+of all need to set the units of
+your project so that you know
+
+9ffaa69b-4c9f-4eb4-9f31-a4c30249102c-2
+00:00:21.732 --> 00:00:26.359
+what units these measurements
+are being measured in.
+
+c4d30db5-9523-40a7-8e4f-3b16c2a272c9-0
+00:00:27.040 --> 00:00:33.254
+So to do that you need to go
+into the Project tab and go into
+
+c4d30db5-9523-40a7-8e4f-3b16c2a272c9-1
+00:00:33.254 --> 00:00:39.469
+properties, and in this project
+properties window you want to
+
+c4d30db5-9523-40a7-8e4f-3b16c2a272c9-2
+00:00:39.469 --> 00:00:45.584
+make sure you're in the General
+tab and we're going to be in
+
+c4d30db5-9523-40a7-8e4f-3b16c2a272c9-3
+00:00:45.584 --> 00:00:48.090
+this measurement section.
+
+aa080a16-7be7-4630-8121-9acc6846b884-0
+00:00:48.570 --> 00:00:51.905
+So in here we can see that we
+can set the units for distance
+
+aa080a16-7be7-4630-8121-9acc6846b884-1
+00:00:51.905 --> 00:00:54.530
+measurement and the units for
+area measurement.
+
+6908afe0-1ad9-43e2-bd94-a8adb1bcd1e2-0
+00:00:55.040 --> 00:00:57.680
+We don't need to worry about
+distance as we're not
+
+6908afe0-1ad9-43e2-bd94-a8adb1bcd1e2-1
+00:00:57.680 --> 00:00:58.560
+calculating that.
+
+0748ef0a-7d5a-4b8a-a1e5-48a3805a5844-0
+00:00:58.840 --> 00:01:02.276
+So we'll just make sure that the
+units for area measurement is
+
+0748ef0a-7d5a-4b8a-a1e5-48a3805a5844-1
+00:01:02.276 --> 00:01:03.640
+set to square kilometres.
+
+ee97707b-8623-4bba-b9a4-0ff751ceaa11-0
+00:01:04.840 --> 00:01:10.156
+So we'll set that, we'll hit,
+apply and hit OK, and now we can
+
+ee97707b-8623-4bba-b9a4-0ff751ceaa11-1
+00:01:10.156 --> 00:01:11.760
+calculate the area.
+
+8f9af52a-cd29-4a52-89a4-312a75ec078b-0
+00:01:12.680 --> 00:01:16.658
+So we'll start off calculating
+the area for Ziama and when you
+
+8f9af52a-cd29-4a52-89a4-312a75ec078b-1
+00:01:16.658 --> 00:01:20.572
+calculate area in QGIS, you need
+to use that layers attribute
+
+8f9af52a-cd29-4a52-89a4-312a75ec078b-2
+00:01:20.572 --> 00:01:21.520
+table to do so.
+
+69382499-e7e2-4064-84d6-6ef69b2e53be-0
+00:01:21.960 --> 00:01:28.490
+So we're going to open up Ziama
+protected area attribute table
+
+69382499-e7e2-4064-84d6-6ef69b2e53be-1
+00:01:28.490 --> 00:01:34.399
+and now we need to create a new
+field or a new column to
+
+69382499-e7e2-4064-84d6-6ef69b2e53be-2
+00:01:34.399 --> 00:01:36.680
+calculate the area in.
+
+e7f053d9-31e5-4aa0-8905-6ce6ae774428-0
+00:01:37.600 --> 00:01:42.755
+So to do that we need to toggle
+editing mode on using this
+
+e7f053d9-31e5-4aa0-8905-6ce6ae774428-1
+00:01:42.755 --> 00:01:48.347
+button here and then go across
+to the new field button which is
+
+e7f053d9-31e5-4aa0-8905-6ce6ae774428-2
+00:01:48.347 --> 00:01:53.240
+here and click on this which
+will bring up this pop up.
+
+677389cc-ff88-4c7e-86cb-66a97ec0104a-0
+00:01:53.680 --> 00:01:59.308
+So here in name we can name our
+new column so we'll name it Area
+
+677389cc-ff88-4c7e-86cb-66a97ec0104a-1
+00:01:59.308 --> 00:02:04.590
+and for type we'll make sure
+that it says decimal number and
+
+677389cc-ff88-4c7e-86cb-66a97ec0104a-2
+00:02:04.590 --> 00:02:09.699
+then the length number is how
+many numbers there can be in
+
+677389cc-ff88-4c7e-86cb-66a97ec0104a-3
+00:02:09.699 --> 00:02:14.548
+your total number and the
+precision is how many decimal
+
+677389cc-ff88-4c7e-86cb-66a97ec0104a-4
+00:02:14.548 --> 00:02:16.280
+places there can be.
+
+c99b742c-acc6-4927-8461-99dc01f36e4d-0
+00:02:16.520 --> 00:02:20.281
+So we'll keep length the same
+but we'll turn down precision to
+
+c99b742c-acc6-4927-8461-99dc01f36e4d-1
+00:02:20.281 --> 00:02:20.520
+two.
+
+4bf2076b-99a2-47c8-85de-2df8dc2ef124-0
+00:02:20.520 --> 00:02:25.440
+So our area will have two
+decimal places and hit.
+
+84a70f44-9701-43a3-b6dd-46712c976bd2-0
+00:02:25.520 --> 00:02:29.240
+OK so now we have our new column
+for area.
+
+08d42e0a-ba15-4e8d-a429-c74f786d76d1-0
+00:02:29.440 --> 00:02:32.560
+So we're going to use this
+column to calculate the area.
+
+8d7d060f-9b48-4718-a4ba-8b086cb65608-0
+00:02:33.320 --> 00:02:37.803
+So the way we can do this is by
+using this drop down box here to
+
+8d7d060f-9b48-4718-a4ba-8b086cb65608-1
+00:02:37.803 --> 00:02:42.217
+select the area column and then
+this is where we can put in the
+
+8d7d060f-9b48-4718-a4ba-8b086cb65608-2
+00:02:42.217 --> 00:02:44.080
+function to calculate area.
+
+2e48656a-b67a-4ac1-95bb-55f198cc9f44-0
+00:02:44.320 --> 00:02:50.955
+So that's $ and then area and
+now we can click update all and
+
+2e48656a-b67a-4ac1-95bb-55f198cc9f44-1
+00:02:50.955 --> 00:02:52.240
+there we go.
+
+3be4aad5-20d9-465e-a330-f9f44096ea63-0
+00:02:52.240 --> 00:02:56.923
+That's populated the row under
+area with the total area of
+
+3be4aad5-20d9-465e-a330-f9f44096ea63-1
+00:02:56.923 --> 00:02:57.400
+Ziama.
+
+9ae590e1-e7ce-44ce-a9f9-cc73e58ac7d5-0
+00:02:57.920 --> 00:03:02.920
+So we can see that it's 1221.95
+kilometres squared.
+
+97147d88-353f-4c47-8242-61f4a5d27a59-0
+00:03:03.520 --> 00:03:06.200
+And now we've made a change to
+our table.
+
+814717d8-8985-4d5e-8c5e-3f4956031517-0
+00:03:06.200 --> 00:03:11.321
+So let's just remember to save
+our edits so we can use the
+
+814717d8-8985-4d5e-8c5e-3f4956031517-1
+00:03:11.321 --> 00:03:16.530
+third button from the left at
+the top of our table to do so
+
+814717d8-8985-4d5e-8c5e-3f4956031517-2
+00:03:16.530 --> 00:03:22.085
+and toggle editing mode off and
+that's how to calculate area in
+
+814717d8-8985-4d5e-8c5e-3f4956031517-3
+00:03:22.085 --> 00:03:22.520
+QGIS.
+
+20b243be-14e6-4eef-8eb9-82551bd95e1b-0
+00:03:22.840 --> 00:03:26.573
+So now have a go at doing the
+same for the Wonegizi and
+
+20b243be-14e6-4eef-8eb9-82551bd95e1b-1
+00:03:26.573 --> 00:03:28.240
+Wologizi protected areas.
+
+a3a17b73-0706-414c-8e5e-c3f31ca22ade-0
+00:03:28.440 --> 00:03:31.532
+You don't need to worry about
+setting the project units
+
+a3a17b73-0706-414c-8e5e-c3f31ca22ade-1
+00:03:31.532 --> 00:03:33.520
+anymore as we've already done
+that.
+
+5bec00f6-ce26-405b-9a60-dfd2c827716a-0
+00:03:33.520 --> 00:03:36.807
+So just open up the attribute
+table for these two other
+
+5bec00f6-ce26-405b-9a60-dfd2c827716a-1
+00:03:36.807 --> 00:03:40.447
+protected areas, create a new
+field and calculate the area in
+
+5bec00f6-ce26-405b-9a60-dfd2c827716a-2
+00:03:40.447 --> 00:03:40.800
+there.

@@ -1,0 +1,204 @@
+WEBVTT
+
+3202ca41-42cd-410f-9d1f-d3570cb43e2c-0
+00:00:01.860 --> 00:00:05.569
+So we have our data in our
+table, but we want to see our
+
+3202ca41-42cd-410f-9d1f-d3570cb43e2c-1
+00:00:05.569 --> 00:00:09.733
+sighting locations on our map,
+and so to do that we're going to
+
+3202ca41-42cd-410f-9d1f-d3570cb43e2c-2
+00:00:09.733 --> 00:00:10.969
+need to use a tool.
+
+20ed5c5d-7c75-411f-963f-fc34693291db-0
+00:00:12.310 --> 00:00:13.960
+We can shut this table
+
+16166437-977f-4cca-b1d9-9fdb4e3d22f7-0
+00:00:14.750 --> 00:00:16.910
+and go into the processing tab
+
+e913d2a5-7fef-41e4-a2e9-888f09fc11ba-0
+00:00:17.970 --> 00:00:19.740
+and open up the toolbox
+
+85f42d65-fe06-482c-859d-705a37a2f25b-0
+00:00:22.050 --> 00:00:26.639
+and now we're in the processing
+toolbox. We can search in the
+
+85f42d65-fe06-482c-859d-705a37a2f25b-1
+00:00:26.639 --> 00:00:31.229
+tool that we need and we need
+create points layer from table.
+
+85f42d65-fe06-482c-859d-705a37a2f25b-2
+00:00:31.229 --> 00:00:32.340
+So type that in
+
+2cf3d9eb-eadd-46b5-aefd-74175965e0a8-0
+00:00:38.020 --> 00:00:40.960
+and once it comes up you can
+double click on it
+
+9cb46df6-ffe9-4d64-a519-14490ee0cb4e-0
+00:00:41.650 --> 00:00:43.460
+to bring up the tool window
+
+a3848781-4273-4a4a-a3c5-6762cd0bad73-0
+00:00:44.350 --> 00:00:47.640
+and so to run the tool we need
+to put in the parameters
+
+877943b7-3292-4363-9b2c-e1a4a79f4d9a-0
+00:00:48.540 --> 00:00:52.832
+so the input layer QGIS has put
+this in for us. It's our
+
+877943b7-3292-4363-9b2c-e1a4a79f4d9a-1
+00:00:52.832 --> 00:00:54.790
+Hippogriff sightings table
+
+ac877dc4-8575-4167-b3ba-257a0441e826-0
+00:00:55.490 --> 00:00:59.812
+and now we need to put in the X
+field and the Y field so when we
+
+ac877dc4-8575-4167-b3ba-257a0441e826-1
+00:00:59.812 --> 00:01:03.801
+click on the drop down box we
+can choose from the different
+
+ac877dc4-8575-4167-b3ba-257a0441e826-2
+00:01:03.801 --> 00:01:07.060
+column headings which one
+represents the X field
+
+d3058730-0892-4da7-938a-496189429e51-0
+00:01:07.700 --> 00:01:11.080
+and the X field is longitude.
+And the Y field is latitude.
+
+78b15966-4fdf-424b-9425-5b2639ca8bca-0
+00:01:11.830 --> 00:01:15.353
+And a good way to remember this
+is to think that you walk along
+
+78b15966-4fdf-424b-9425-5b2639ca8bca-1
+00:01:15.353 --> 00:01:17.060
+the corridor and up the stairs.
+
+e21f6bd2-1df1-4f27-bc6a-51ce450bf208-0
+00:01:18.520 --> 00:01:21.885
+We don't need to worry about Z
+Field or M Field as we don't
+
+e21f6bd2-1df1-4f27-bc6a-51ce450bf208-1
+00:01:21.885 --> 00:01:23.120
+have these in our data
+
+e85fae9c-1f27-4e77-b6ce-da285805ad08-0
+00:01:23.950 --> 00:01:27.926
+and so the last thing to choose
+is our coordinate reference
+
+e85fae9c-1f27-4e77-b6ce-da285805ad08-1
+00:01:27.926 --> 00:01:28.390
+system.
+
+a4edf5d8-be78-4341-b55a-9f69e933e467-0
+00:01:29.340 --> 00:01:33.012
+So this is the reference system
+that the points were collected
+
+a4edf5d8-be78-4341-b55a-9f69e933e467-1
+00:01:33.012 --> 00:01:36.685
+in and they were collected in
+the geographic coordinate system
+
+a4edf5d8-be78-4341-b55a-9f69e933e467-2
+00:01:36.685 --> 00:01:40.358
+WGS 1984. So to set this we need
+to click on the little button
+
+a4edf5d8-be78-4341-b55a-9f69e933e467-3
+00:01:40.358 --> 00:01:41.350
+here on the right
+
+4ed24b9e-3bb6-40a3-abdf-f334ff367f27-0
+00:01:42.210 --> 00:01:46.620
+and we could type in the search
+bar WGS 84
+
+85fa3ac6-2d43-4e17-b13d-898aaf6d1f0c-0
+00:01:47.570 --> 00:01:50.253
+to try and look for this
+coordinate system. But we can
+
+85fa3ac6-2d43-4e17-b13d-898aaf6d1f0c-1
+00:01:50.253 --> 00:01:53.131
+see that it gives us lots of
+different choices, and it's a
+
+85fa3ac6-2d43-4e17-b13d-898aaf6d1f0c-2
+00:01:53.131 --> 00:01:56.010
+bit confusing which one is the
+one that we're looking for.
+
+ab1c2b95-34eb-4215-be8e-b7c811207efb-0
+00:01:56.710 --> 00:02:01.681
+So what we can do instead is
+type in the WKID number of the
+
+ab1c2b95-34eb-4215-be8e-b7c811207efb-1
+00:02:01.681 --> 00:02:05.990
+coordinate system, or the ID
+number, which is 4326,
+
+7c786ece-54dd-40c2-9d58-bf495ea1df40-0
+00:02:07.390 --> 00:02:11.565
+and we can see that we've got
+it. Here it's WGS 84. So we can
+
+7c786ece-54dd-40c2-9d58-bf495ea1df40-1
+00:02:11.565 --> 00:02:14.730
+click on this, click OK and now
+we can hit run
+
+72e2af88-aec3-4a89-a100-23d01dbf3af0-0
+00:02:16.570 --> 00:02:18.160
+and that's gonna run out all.
+
+8cc8b2b6-2b7d-4466-bdd4-b38cbb819329-0
+00:02:19.650 --> 00:02:23.417
+So it ran really quickly. We
+just need to shut the table now.
+
+8cc8b2b6-2b7d-4466-bdd4-b38cbb819329-1
+00:02:23.417 --> 00:02:25.970
+And now on our map we can see
+our points,
+
+093cae67-6843-4a0d-8886-b8502d349862-0
+00:02:27.030 --> 00:02:30.575
+so we just need to right click
+on the points in the layers and
+
+093cae67-6843-4a0d-8886-b8502d349862-1
+00:02:30.575 --> 00:02:33.896
+click zoom to layer to see them
+all and there we go. We've
+
+093cae67-6843-4a0d-8886-b8502d349862-2
+00:02:33.896 --> 00:02:36.879
+successfully plotted the
+sighting locations from the
+
+093cae67-6843-4a0d-8886-b8502d349862-3
+00:02:36.879 --> 00:02:39.300
+Excel table, so just remember to
+hit save.

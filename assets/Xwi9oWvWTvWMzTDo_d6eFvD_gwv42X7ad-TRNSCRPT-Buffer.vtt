@@ -1,0 +1,288 @@
+WEBVTT
+
+4bcb5849-0ae4-4267-b989-18d335a49f1c-0
+00:00:01.600 --> 00:00:06.365
+In this video we're going to be
+using the buffer tool, so let's
+
+4bcb5849-0ae4-4267-b989-18d335a49f1c-1
+00:00:06.365 --> 00:00:10.386
+just make sure we have the
+layers that we need in our
+
+4bcb5849-0ae4-4267-b989-18d335a49f1c-2
+00:00:10.386 --> 00:00:11.280
+layers list.
+
+53f4ab8a-3b6b-4fd1-9aa9-8736600252fd-0
+00:00:12.080 --> 00:00:17.683
+So first of all, we can get rid
+of the proposed no take zone for
+
+53f4ab8a-3b6b-4fd1-9aa9-8736600252fd-1
+00:00:17.683 --> 00:00:23.200
+the spawning months that doesn't
+have the boundaries dissolved.
+
+bd3e11de-80a8-42a7-9f6d-3c9e0bf53268-0
+00:00:23.600 --> 00:00:25.600
+So it's this pink one here.
+
+56686074-4976-499e-a38b-d5eaf2f99172-0
+00:00:26.200 --> 00:00:27.720
+So we're going to remove that.
+
+c705c711-38c5-497c-92de-c104769475fb-0
+00:00:28.000 --> 00:00:30.400
+So let's right click and click
+remove.
+
+daf9a3b3-e8e2-4d4f-aff2-b0f555f26884-0
+00:00:33.320 --> 00:00:37.195
+And then we also need to make
+sure that we've added in this
+
+daf9a3b3-e8e2-4d4f-aff2-b0f555f26884-1
+00:00:37.195 --> 00:00:41.071
+oil rig layer as this is what
+we're going to be running the
+
+daf9a3b3-e8e2-4d4f-aff2-b0f555f26884-2
+00:00:41.071 --> 00:00:42.040
+buffer tool on.
+
+d3dda8f8-9b2e-43f6-bfbb-9974a837c978-0
+00:00:43.880 --> 00:00:47.000
+So now let's get up the buffer
+tool window.
+
+32bff60e-44ac-4095-9fac-e1d1cacefd4a-0
+00:00:47.280 --> 00:00:56.880
+We'll go into the processing
+toolbox and type in buffer and
+
+32bff60e-44ac-4095-9fac-e1d1cacefd4a-1
+00:00:56.880 --> 00:01:03.280
+it's under the vector geometry
+toolbox.
+
+298eaf12-96d9-47d7-b4ae-362cf47de6c6-0
+00:01:03.440 --> 00:01:04.680
+It's just called buffer.
+
+436accda-6cae-4573-9e57-8f167be48043-0
+00:01:04.680 --> 00:01:06.080
+So it's this one here.
+
+215e7199-3c58-4a20-86e6-7df4fe19642c-0
+00:01:08.400 --> 00:01:11.200
+The first thing we need to
+choose is our input layer.
+
+d3c1c6d8-9597-4a57-9351-0a77206b4c0a-0
+00:01:11.200 --> 00:01:15.513
+So what we want to create a
+buffer around and that's going
+
+d3c1c6d8-9597-4a57-9351-0a77206b4c0a-1
+00:01:15.513 --> 00:01:20.119
+to be the oil rig and then the
+distance, we want a buffer of 1
+
+d3c1c6d8-9597-4a57-9351-0a77206b4c0a-2
+00:01:20.119 --> 00:01:22.240
+kilometre around the oil rig.
+
+3687a3f1-03f2-4789-95b8-9cb5ac0c0a40-0
+00:01:22.240 --> 00:01:27.674
+So we're going to choose the
+kilometre option and type one in
+
+3687a3f1-03f2-4789-95b8-9cb5ac0c0a40-1
+00:01:27.674 --> 00:01:33.108
+this box here and then we have
+some other options that we can
+
+3687a3f1-03f2-4789-95b8-9cb5ac0c0a40-2
+00:01:33.108 --> 00:01:34.159
+choose here.
+
+41c32850-4b45-4e93-9062-683fb4b33df5-0
+00:01:34.480 --> 00:01:38.040
+So these are how the buffer is
+going to end up looking.
+
+40185070-ea49-4872-b699-956f57f4bbaf-0
+00:01:38.360 --> 00:01:43.202
+The segments is how many lines
+the tool is going to use to show
+
+40185070-ea49-4872-b699-956f57f4bbaf-1
+00:01:43.202 --> 00:01:48.044
+where to draw the buffer around
+the feature five is the default
+
+40185070-ea49-4872-b699-956f57f4bbaf-2
+00:01:48.044 --> 00:01:50.919
+and that's fine for what we're
+doing.
+
+51734243-92a4-46da-9885-e2ea1d2a6436-0
+00:01:51.160 --> 00:01:54.749
+But if you're using the buffer
+tool in the future you might
+
+51734243-92a4-46da-9885-e2ea1d2a6436-1
+00:01:54.749 --> 00:01:58.040
+want to play around with this
+and see what works best.
+
+ed55f4c4-daf4-4b14-91fe-56627d17a346-0
+00:01:58.800 --> 00:02:03.392
+The end cap style we only need
+to worry about when we have line
+
+ed55f4c4-daf4-4b14-91fe-56627d17a346-1
+00:02:03.392 --> 00:02:07.698
+features, so we're working with
+a Polygon, we don't need to
+
+ed55f4c4-daf4-4b14-91fe-56627d17a346-2
+00:02:07.698 --> 00:02:08.560
+change this.
+
+75f659d7-8e32-4deb-b218-d33d3307521c-0
+00:02:09.000 --> 00:02:10.560
+And then the join style.
+
+28fd0773-c5fd-48d6-9f15-428864b7a415-0
+00:02:10.880 --> 00:02:14.250
+This is how the buffer is
+actually going to look, the
+
+28fd0773-c5fd-48d6-9f15-428864b7a415-1
+00:02:14.250 --> 00:02:15.000
+shape of it.
+
+8d393989-0b3e-4fe3-94ab-e326b2a40ee7-0
+00:02:15.440 --> 00:02:20.075
+So we've got a round option,
+we've got the mitre option which
+
+8d393989-0b3e-4fe3-94ab-e326b2a40ee7-1
+00:02:20.075 --> 00:02:24.561
+is a square, and we've got the
+bevel option which is like a
+
+8d393989-0b3e-4fe3-94ab-e326b2a40ee7-2
+00:02:24.561 --> 00:02:25.159
+diamond.
+
+d5505588-443c-4e6f-95f9-d0be2c5bf707-0
+00:02:26.440 --> 00:02:31.813
+The mitre limit we don't need to
+worry about as it's only if we
+
+d5505588-443c-4e6f-95f9-d0be2c5bf707-1
+00:02:31.813 --> 00:02:34.080
+set that as the join style.
+
+5b8c525c-68f6-4340-88c9-586b8be36b95-0
+00:02:34.360 --> 00:02:37.800
+And we also have a toggle box to
+dissolve the result.
+
+817cbfe0-289b-4051-8cd7-078952ad7613-0
+00:02:38.400 --> 00:02:42.239
+We don't need to worry about
+this because we only have one
+
+817cbfe0-289b-4051-8cd7-078952ad7613-1
+00:02:42.239 --> 00:02:42.760
+Polygon.
+
+31d06203-2cb3-408b-bb28-99bd5c397365-0
+00:02:43.040 --> 00:02:47.403
+But if we had lots of features,
+say lots of points, and when we
+
+31d06203-2cb3-408b-bb28-99bd5c397365-1
+00:02:47.403 --> 00:02:51.017
+created the buffers they
+overlapped, then this would
+
+31d06203-2cb3-408b-bb28-99bd5c397365-2
+00:02:51.017 --> 00:02:55.040
+dissolve the boundaries between
+those overlapping buffers.
+
+3b5ec482-49b9-47e0-86ee-d3a83af58422-0
+00:02:55.600 --> 00:02:57.360
+But we don't need to worry about
+this.
+
+b6939966-f047-46d4-b7f7-d5258d3e9965-0
+00:02:57.600 --> 00:03:01.388
+So all we need to do now is just
+choose where to save the new
+
+b6939966-f047-46d4-b7f7-d5258d3e9965-1
+00:03:01.388 --> 00:03:03.160
+layer to and what to name it.
+
+88cd6565-f9e2-4775-96d2-afa2bca4b4f8-0
+00:03:03.800 --> 00:03:07.732
+So we're going to click on these
+three dots here and choose Save
+
+88cd6565-f9e2-4775-96d2-afa2bca4b4f8-1
+00:03:07.732 --> 00:03:08.640
+to Geo Package.
+
+4da19e30-55e8-45d7-b218-c1e09c6868e5-0
+00:03:09.000 --> 00:03:15.595
+Make sure it's going into that
+Geo package we set up and we can
+
+4da19e30-55e8-45d7-b218-c1e09c6868e5-1
+00:03:15.595 --> 00:03:21.676
+name it oil rig Buffer click,
+OK, hit run and there on our
+
+4da19e30-55e8-45d7-b218-c1e09c6868e5-2
+00:03:21.676 --> 00:03:26.520
+map, we can see the buffer
+around the oil rig.
+
+26433e41-122d-4e99-bb13-9cca68d83dbf-0
+00:03:27.200 --> 00:03:29.200
+So let's zoom into this layer.
+
+087b9711-3c20-42d7-953d-0e38ea494b78-0
+00:03:33.120 --> 00:03:39.216
+We can see the buffer around the
+oil rig and we can also see that
+
+087b9711-3c20-42d7-953d-0e38ea494b78-1
+00:03:39.216 --> 00:03:44.573
+it's overlapping with our
+proposed No Take zone, which is
+
+087b9711-3c20-42d7-953d-0e38ea494b78-2
+00:03:44.573 --> 00:03:47.160
+this green layer underneath.
+
+afc34274-17bd-4a87-abd7-6fdcb112a42f-0
+00:03:51.960 --> 00:03:56.116
+So we're going to have to remove
+this area of the No take zone,
+
+afc34274-17bd-4a87-abd7-6fdcb112a42f-1
+00:03:56.116 --> 00:03:58.520
+but we'll do that in the next
+video.
+
+6ebc7450-3172-4652-bd7f-ac2cb2443781-0
+00:03:59.240 --> 00:04:03.440
+So for now, just remember to hit
+save to save your progress.

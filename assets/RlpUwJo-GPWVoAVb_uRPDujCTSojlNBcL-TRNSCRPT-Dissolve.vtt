@@ -1,0 +1,237 @@
+WEBVTT
+
+7483852a-4242-4f94-b8fc-699bd20c6351-0
+00:00:00.840 --> 00:00:04.760
+In this video we're going to be
+using the Dissolve tool.
+
+90419f12-ea22-43d3-a587-13a697acae27-0
+00:00:06.640 --> 00:00:12.102
+The dissolve tool can dissolve
+the boundaries between features
+
+90419f12-ea22-43d3-a587-13a697acae27-1
+00:00:12.102 --> 00:00:17.651
+within a layer and it can also
+dissolve the boundaries based on
+
+90419f12-ea22-43d3-a587-13a697acae27-2
+00:00:17.651 --> 00:00:20.600
+the attributes of those
+features.
+
+8b06d89d-3a4f-4494-8230-be44b8cf7843-0
+00:00:21.440 --> 00:00:25.413
+So within our merged data set,
+we can see that where the
+
+8b06d89d-3a4f-4494-8230-be44b8cf7843-1
+00:00:25.413 --> 00:00:29.944
+spawning grounds and the current
+no take MPA zone overlap, we've
+
+8b06d89d-3a4f-4494-8230-be44b8cf7843-2
+00:00:29.944 --> 00:00:33.360
+got some boundaries, some lines
+in between them.
+
+c9a24ed6-1f8b-4aed-a3ae-afef6b69edcc-0
+00:00:33.840 --> 00:00:35.480
+
+
+6fee4d08-8034-4945-872e-06996824fa86-0
+00:00:35.480 --> 00:00:38.426
+And we don't want this as we
+want it to be all merged
+
+6fee4d08-8034-4945-872e-06996824fa86-1
+00:00:38.426 --> 00:00:41.646
+together so that we can see
+where the no take zone will be
+
+6fee4d08-8034-4945-872e-06996824fa86-2
+00:00:41.646 --> 00:00:43.120
+during the spawning months.
+
+ef61eb01-eab4-44d3-8c3c-58c07e732c8a-0
+00:00:47.600 --> 00:00:49.960
+So let's open up the Dissolve
+tool.
+
+40b47ac5-d3d4-4483-91be-b5393ddadb73-0
+00:00:49.960 --> 00:00:55.047
+We'll type it into the
+Geoprocessing window and open it
+
+40b47ac5-d3d4-4483-91be-b5393ddadb73-1
+00:00:55.047 --> 00:00:55.320
+up.
+
+409f6911-4fe9-411e-b97c-f4f716a54951-0
+00:00:57.080 --> 00:01:01.360
+Our input feature is just the
+merged layer that we created.
+
+151b71ab-6687-4485-8195-079b6fabe094-0
+00:01:02.920 --> 00:01:09.124
+We'll drag that in and now we
+can choose where we want to save
+
+151b71ab-6687-4485-8195-079b6fabe094-1
+00:01:09.124 --> 00:01:15.624
+the new layer that's going to be
+created and what we want to name
+
+151b71ab-6687-4485-8195-079b6fabe094-2
+00:01:15.624 --> 00:01:15.920
+it.
+
+d2ed3fdf-8e92-401e-880e-fcaf6d678e81-0
+00:01:16.360 --> 00:01:23.702
+So we'll make sure it's going
+into our Geodatabase and we'll
+
+d2ed3fdf-8e92-401e-880e-fcaf6d678e81-1
+00:01:23.702 --> 00:01:29.480
+name it something like spawning
+months no take.
+
+1226ee99-6c67-4bd1-b2f9-da888c8ed7ac-0
+00:01:30.640 --> 00:01:33.640
+So we know it's the no take zone
+during the spawning months.
+
+704dd141-4605-4b5a-bf05-e484d231fe22-0
+00:01:35.480 --> 00:01:40.320
+And in the dissolve tool, you
+could also set dissolve fields.
+
+de36f90c-0061-40a2-bd19-65123abe9094-0
+00:01:40.760 --> 00:01:46.281
+And so these are the columns or
+the attributes within a layer
+
+de36f90c-0061-40a2-bd19-65123abe9094-1
+00:01:46.281 --> 00:01:51.180
+that we can use to tell the tool
+where to dissolve the
+
+de36f90c-0061-40a2-bd19-65123abe9094-2
+00:01:51.180 --> 00:01:52.160
+boundaries.
+
+179663fc-81b9-4978-ae20-17f4d2a8d216-0
+00:01:53.280 --> 00:01:57.131
+So this isn't relevant for our
+layer because we just want to
+
+179663fc-81b9-4978-ae20-17f4d2a8d216-1
+00:01:57.131 --> 00:02:01.045
+dissolve all the boundaries or
+any boundary that's in between
+
+179663fc-81b9-4978-ae20-17f4d2a8d216-2
+00:02:01.045 --> 00:02:03.760
+the no take zone and the
+spawning grounds.
+
+b31d4f21-13e4-4f3b-b5f3-93d9484e0e9a-0
+00:02:04.280 --> 00:02:08.017
+But if you had a layer for
+example that was a continent,
+
+b31d4f21-13e4-4f3b-b5f3-93d9484e0e9a-1
+00:02:08.017 --> 00:02:12.147
+and then you had the boundaries
+for the countries and you also
+
+b31d4f21-13e4-4f3b-b5f3-93d9484e0e9a-2
+00:02:12.147 --> 00:02:15.885
+had the boundaries for the
+regions within the countries,
+
+b31d4f21-13e4-4f3b-b5f3-93d9484e0e9a-3
+00:02:15.885 --> 00:02:19.360
+but you didn't want the regional
+boundaries anymore.
+
+eb534cbd-2ac6-4c67-8742-928520f58179-0
+00:02:20.560 --> 00:02:25.324
+Then you would need a column
+within the table for the data
+
+eb534cbd-2ac6-4c67-8742-928520f58179-1
+00:02:25.324 --> 00:02:29.120
+that tells you what country each
+region is in.
+
+ced5638f-b215-4016-8d09-8f46ce82554f-0
+00:02:29.440 --> 00:02:34.441
+And you could use this column
+within this dissolve fields to
+
+ced5638f-b215-4016-8d09-8f46ce82554f-1
+00:02:34.441 --> 00:02:39.032
+tell the dissolve tool to
+dissolve the boundaries where
+
+ced5638f-b215-4016-8d09-8f46ce82554f-2
+00:02:39.032 --> 00:02:41.000
+the country is the same.
+
+161fe65b-2165-4c43-864f-ee9caf994b8e-0
+00:02:41.320 --> 00:02:45.309
+So all the regions in the same
+country and it would dissolve
+
+161fe65b-2165-4c43-864f-ee9caf994b8e-1
+00:02:45.309 --> 00:02:46.160
+these for us.
+
+d1a08539-e037-4a95-a629-0ee2d7f350c9-0
+00:02:46.160 --> 00:02:51.018
+We just want to dissolve these
+couple boundaries here where the
+
+d1a08539-e037-4a95-a629-0ee2d7f350c9-1
+00:02:51.018 --> 00:02:53.600
+spawning grounds are
+overlapping.
+
+c29122d0-a176-4a27-9190-92cfecdbb9a5-0
+00:02:54.120 --> 00:02:57.157
+If we don't set a dissolve field
+then ArcGIS Pro just
+
+c29122d0-a176-4a27-9190-92cfecdbb9a5-1
+00:02:57.157 --> 00:03:00.532
+automatically dissolves all
+boundaries between the features
+
+c29122d0-a176-4a27-9190-92cfecdbb9a5-2
+00:03:00.532 --> 00:03:01.320
+in that layer.
+
+70f62016-d82a-4f61-bed5-bc966217fd84-0
+00:03:01.440 --> 00:03:05.694
+So we can just run the tool how
+it is and then this is going to
+
+70f62016-d82a-4f61-bed5-bc966217fd84-1
+00:03:05.694 --> 00:03:10.082
+create this new data layer where
+we can see those boundaries have
+
+70f62016-d82a-4f61-bed5-bc966217fd84-2
+00:03:10.082 --> 00:03:11.080
+been dissolved.
+
+41fba878-e89d-41d1-9f63-906d56eb2b93-0
+00:03:11.760 --> 00:03:15.680
+And so that's how to run the
+dissolve tool in Arcgis Pro.
+
+edd9b57c-8fac-4183-816d-030adf1a92a1-0
+00:03:16.040 --> 00:03:18.200
+So just remember to hit the save
+button.

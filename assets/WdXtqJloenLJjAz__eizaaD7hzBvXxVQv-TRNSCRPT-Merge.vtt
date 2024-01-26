@@ -1,0 +1,311 @@
+WEBVTT
+
+43b93f71-327e-4edd-bd12-112b2cedbec1-0
+00:00:01.440 --> 00:00:06.857
+In this video we're going to be
+using the merge tool, but first
+
+43b93f71-327e-4edd-bd12-112b2cedbec1-1
+00:00:06.857 --> 00:00:12.360
+of all, let's just clean up our
+layers list so we can remove the
+
+43b93f71-327e-4edd-bd12-112b2cedbec1-2
+00:00:12.360 --> 00:00:16.000
+spawning grounds layer that
+isn't clipped.
+
+350ba34c-5ecb-4caf-b065-cfda9cccef20-0
+00:00:17.080 --> 00:00:22.852
+So we'll click on this, right
+click and click remove layer and
+
+350ba34c-5ecb-4caf-b065-cfda9cccef20-1
+00:00:22.852 --> 00:00:27.891
+we can also toggle off the
+territorial sea layer as we
+
+350ba34c-5ecb-4caf-b065-cfda9cccef20-2
+00:00:27.891 --> 00:00:30.640
+don't need this at the moment.
+
+ddbf7239-e2d6-4e9b-bd41-9a6a1b83e2f6-0
+00:00:32.440 --> 00:00:38.412
+And so in this video we're going
+to be merging the MPA no Take
+
+ddbf7239-e2d6-4e9b-bd41-9a6a1b83e2f6-1
+00:00:38.412 --> 00:00:41.920
+layer with the spawning clips
+layer.
+
+067789e9-e7fb-46bb-9cca-e4c80fd11e5c-0
+00:00:42.320 --> 00:00:46.505
+And this is because the purple
+Polygon we can see for the MPA
+
+067789e9-e7fb-46bb-9cca-e4c80fd11e5c-1
+00:00:46.505 --> 00:00:50.487
+no take is the current no Take
+zone that's around Tristina
+
+067789e9-e7fb-46bb-9cca-e4c80fd11e5c-2
+00:00:50.487 --> 00:00:50.960
+Island.
+
+a4478bcb-f2c6-40df-b7db-90bc303cf4b5-0
+00:00:51.880 --> 00:00:56.246
+The clipped spawning grounds we
+want to create as a no take zone
+
+a4478bcb-f2c6-40df-b7db-90bc303cf4b5-1
+00:00:56.246 --> 00:01:00.612
+during the spawning seasons and
+so we want to merge these layers
+
+a4478bcb-f2c6-40df-b7db-90bc303cf4b5-2
+00:01:00.612 --> 00:01:04.978
+so that we can create a map that
+shows the no take zones for the
+
+a4478bcb-f2c6-40df-b7db-90bc303cf4b5-3
+00:01:04.978 --> 00:01:06.119
+spawning seasons.
+
+0c0821f4-35e9-45e7-84f2-a08bc443ca16-0
+00:01:07.040 --> 00:01:11.072
+Just a note to make here, the
+merge tool is similar to the
+
+0c0821f4-35e9-45e7-84f2-a08bc443ca16-1
+00:01:11.072 --> 00:01:14.080
+union tool, but there are some
+differences.
+
+f0cc45de-4ca6-4b6e-a4c0-517845e3fd14-0
+00:01:14.680 --> 00:01:19.768
+So both tools will merge the
+features of two layers together,
+
+f0cc45de-4ca6-4b6e-a4c0-517845e3fd14-1
+00:01:19.768 --> 00:01:25.103
+but the Union tool creates a new
+features for where the polygons
+
+f0cc45de-4ca6-4b6e-a4c0-517845e3fd14-2
+00:01:25.103 --> 00:01:25.760
+overlap.
+
+d1001327-5dae-4a2a-8857-6572ea1c42bf-0
+00:01:26.280 --> 00:01:29.692
+We're not interested in where
+the polygons overlap as we just
+
+d1001327-5dae-4a2a-8857-6572ea1c42bf-1
+00:01:29.692 --> 00:01:32.280
+want to merge this all into one,
+no take zone.
+
+655f38d4-2329-4654-a20b-2260afbac260-0
+00:01:32.480 --> 00:01:35.680
+And so Merge is the tool that we
+want to use in this video.
+
+ded4c558-7944-4f68-9cd7-8a15c45c2a2a-0
+00:01:37.840 --> 00:01:43.420
+So let's go into the processing
+toolbox and search Merge, and
+
+ded4c558-7944-4f68-9cd7-8a15c45c2a2a-1
+00:01:43.420 --> 00:01:47.560
+the tool that we want is Merge
+Vector Layers.
+
+7b2136f9-b219-4ace-a4ee-49556ae4846e-0
+00:01:47.560 --> 00:01:54.719
+So we're going to click on this,
+and this tool is fairly easy to
+
+7b2136f9-b219-4ace-a4ee-49556ae4846e-1
+00:01:54.719 --> 00:01:55.160
+run.
+
+204c0f01-5e76-441b-9c46-1f3148fcbfa9-0
+00:01:55.520 --> 00:01:59.286
+We just need to choose what
+layers we're merging together in
+
+204c0f01-5e76-441b-9c46-1f3148fcbfa9-1
+00:01:59.286 --> 00:02:01.200
+this Input Layers section here.
+
+ccc5a9d7-b05c-4499-967a-4a0b0bd5fd1d-0
+00:02:03.480 --> 00:02:11.501
+So let's click on the three
+little dots button next to this
+
+ccc5a9d7-b05c-4499-967a-4a0b0bd5fd1d-1
+00:02:11.501 --> 00:02:20.056
+section and here we can toggle
+on which layers we want to merge
+
+ccc5a9d7-b05c-4499-967a-4a0b0bd5fd1d-2
+00:02:20.056 --> 00:02:21.260
+together.
+
+885491e8-3135-4651-a256-1a6b9cd9c129-0
+00:02:21.680 --> 00:02:26.217
+And so that's the MPA no take
+layer and the spawning clipped
+
+885491e8-3135-4651-a256-1a6b9cd9c129-1
+00:02:26.217 --> 00:02:30.458
+layer and then we'll click OK
+and now in the Input layer
+
+885491e8-3135-4651-a256-1a6b9cd9c129-2
+00:02:30.458 --> 00:02:34.549
+section we can see we have two
+layers selected for the
+
+885491e8-3135-4651-a256-1a6b9cd9c129-3
+00:02:34.549 --> 00:02:37.600
+Coordinate reference system
+destination.
+
+3eb9d26f-3e86-478e-95d6-e35d3aa65f97-0
+00:02:37.920 --> 00:02:42.998
+All of our data layers and our
+map are in the UTM zone 21 N.
+
+3eb9d26f-3e86-478e-95d6-e35d3aa65f97-1
+00:02:42.998 --> 00:02:47.993
+And so if we click on this drop
+down arrow here, we can see
+
+3eb9d26f-3e86-478e-95d6-e35d3aa65f97-2
+00:02:47.993 --> 00:02:51.240
+that's the first option that
+comes up.
+
+b240d2d8-4ced-4929-90f9-9ab10a6fa580-0
+00:02:51.600 --> 00:02:53.360
+And so we can just click on that
+here.
+
+713c23b4-3ce7-4fbb-a3f1-3fbce4079b42-0
+00:02:54.200 --> 00:02:57.650
+And now under merge, this is
+where we choose where to save
+
+713c23b4-3ce7-4fbb-a3f1-3fbce4079b42-1
+00:02:57.650 --> 00:03:00.400
+the new layer that's going to be
+created into.
+
+a8bd0e85-69f5-4900-ad11-6576bf788ec5-0
+00:03:00.680 --> 00:03:04.498
+So we'll click on the three
+little dots next to this and
+
+a8bd0e85-69f5-4900-ad11-6576bf788ec5-1
+00:03:04.498 --> 00:03:06.240
+choose save to Geopackage.
+
+52ca13bf-0e18-45b7-ad21-927794dd14c2-0
+00:03:06.880 --> 00:03:10.965
+And now navigate to your project
+folder and find the Geopackage
+
+52ca13bf-0e18-45b7-ad21-927794dd14c2-1
+00:03:10.965 --> 00:03:13.200
+that we created in the last
+video.
+
+5e34650d-1392-42d6-9e3f-47be970d8a9e-0
+00:03:13.640 --> 00:03:19.134
+So we'll go into this and now we
+can choose the name of the layer
+
+5e34650d-1392-42d6-9e3f-47be970d8a9e-1
+00:03:19.134 --> 00:03:20.800
+that we're creating.
+
+430e4870-fc6e-46c1-95c9-7c34347fe0b5-0
+00:03:25.800 --> 00:03:32.083
+So we can name it No Take
+Spawning Season and click OK and
+
+430e4870-fc6e-46c1-95c9-7c34347fe0b5-1
+00:03:32.083 --> 00:03:34.000
+then run the tool.
+
+2c4f7e5d-2429-49b4-a151-91821d9007a7-0
+00:03:39.000 --> 00:03:45.055
+So once it's run we can shut the
+window and let's turn off the
+
+2c4f7e5d-2429-49b4-a151-91821d9007a7-1
+00:03:45.055 --> 00:03:51.111
+layers that we merged so the MPA
+no take zone and the spawning
+
+2c4f7e5d-2429-49b4-a151-91821d9007a7-2
+00:03:51.111 --> 00:03:51.880
+clipped.
+
+26c155e2-8c13-424a-88f0-535883fa5340-0
+00:03:52.440 --> 00:03:57.381
+And now we can look just at the
+new merged layer and so we can
+
+26c155e2-8c13-424a-88f0-535883fa5340-1
+00:03:57.381 --> 00:04:02.165
+see that the merge tool has
+merged the spawning grounds with
+
+26c155e2-8c13-424a-88f0-535883fa5340-2
+00:04:02.165 --> 00:04:04.440
+the current no take MPA zone.
+
+549267eb-4710-4f21-8691-352a120ec039-0
+00:04:06.120 --> 00:04:09.745
+So let's have a look at the
+attribute table of our merged
+
+549267eb-4710-4f21-8691-352a120ec039-1
+00:04:09.745 --> 00:04:10.120
+layer.
+
+a38e4b4c-a424-4026-9513-261ad3f947a6-0
+00:04:10.440 --> 00:04:14.348
+So we'll right click and open up
+the attribute table, and we can
+
+a38e4b4c-a424-4026-9513-261ad3f947a6-1
+00:04:14.348 --> 00:04:18.137
+see that there's four rows in
+this table representing the four
+
+a38e4b4c-a424-4026-9513-261ad3f947a6-2
+00:04:18.137 --> 00:04:19.279
+different polygons.
+
+8b855ddf-7666-4258-ae48-6d259dde33b4-0
+00:04:23.200 --> 00:04:29.848
+So we can highlight each row to
+see that the layer has the four
+
+8b855ddf-7666-4258-ae48-6d259dde33b4-1
+00:04:29.848 --> 00:04:36.080
+polygons inside, and so that's
+how to run the merge tool in
+
+8b855ddf-7666-4258-ae48-6d259dde33b4-2
+00:04:36.080 --> 00:04:36.599
+QGIS.
+
+5af4425f-ee65-4e4e-93c6-a7063fe74be4-0
+00:04:37.040 --> 00:04:40.440
+So just remember to hit save to
+save your progress.

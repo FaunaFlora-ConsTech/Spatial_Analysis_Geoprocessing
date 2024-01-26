@@ -1,0 +1,202 @@
+WEBVTT
+
+e8e91535-caa7-4be4-91fd-7447947eb45a-0
+00:00:01.840 --> 00:00:06.940
+In this video we're going to run
+a definition query, but to start
+
+e8e91535-caa7-4be4-91fd-7447947eb45a-1
+00:00:06.940 --> 00:00:11.577
+off with let's organise our
+contents and delete some of the
+
+e8e91535-caa7-4be4-91fd-7447947eb45a-2
+00:00:11.577 --> 00:00:14.359
+layers that we don't need any
+more.
+
+5e49d3de-a025-4132-a485-6dd178e742d4-0
+00:00:15.000 --> 00:00:19.000
+So our hippogriff sighting
+points that don't have the
+
+5e49d3de-a025-4132-a485-6dd178e742d4-1
+00:00:19.000 --> 00:00:23.520
+joined environment data we can
+remove as we don't need them.
+
+93373322-7e53-4282-94c8-c15dce9962be-0
+00:00:24.000 --> 00:00:29.287
+So just right click on this
+layer without the environment
+
+93373322-7e53-4282-94c8-c15dce9962be-1
+00:00:29.287 --> 00:00:35.213
+data and click remove. And just
+a point to make here as we saved
+
+93373322-7e53-4282-94c8-c15dce9962be-2
+00:00:35.213 --> 00:00:38.040
+this layer into a Geo database,
+
+7753e4c9-7af5-4708-a387-bb571a88cf95-0
+00:00:38.160 --> 00:00:43.427
+we can access this layer again
+if we wanted to add it back into
+
+7753e4c9-7af5-4708-a387-bb571a88cf95-1
+00:00:43.427 --> 00:00:48.366
+our project, just by going into
+the databases folder in our
+
+7753e4c9-7af5-4708-a387-bb571a88cf95-2
+00:00:48.366 --> 00:00:53.222
+catalog pane, expanding our
+Hippogriff project Geodatabase
+
+7753e4c9-7af5-4708-a387-bb571a88cf95-3
+00:00:53.222 --> 00:00:57.996
+and then we can see our layers
+that we've saved into that
+
+7753e4c9-7af5-4708-a387-bb571a88cf95-4
+00:00:57.996 --> 00:00:59.560
+Geodatabase inside.
+
+ba09cec1-c229-449e-8e13-d39719158b58-0
+00:01:01.840 --> 00:01:07.109
+So the other things we can
+delete are the tables, so just
+
+ba09cec1-c229-449e-8e13-d39719158b58-1
+00:01:07.109 --> 00:01:08.200
+remove them.
+
+015378ed-afcc-4f5b-bb8c-d02c83031df6-0
+00:01:11.160 --> 00:01:13.720
+And now let's run our definition
+query.
+
+2233caf7-7a73-436f-9ded-c0162bd12c76-0
+00:01:13.960 --> 00:01:20.110
+So we're going to right click on
+our sighting points and go into
+
+2233caf7-7a73-436f-9ded-c0162bd12c76-1
+00:01:20.110 --> 00:01:26.260
+properties, and then we're going
+to go into the Definition Query
+
+2233caf7-7a73-436f-9ded-c0162bd12c76-2
+00:01:26.260 --> 00:01:32.126
+tab and to add a new query we
+can click on the Add New button
+
+2233caf7-7a73-436f-9ded-c0162bd12c76-3
+00:01:32.126 --> 00:01:32.599
+here.
+
+8a4b5345-bdb7-4cda-a548-395ecd0ea329-0
+00:01:34.000 --> 00:01:39.560
+And so we're looking for a
+sighting of a nest that occurred
+
+8a4b5345-bdb7-4cda-a548-395ecd0ea329-1
+00:01:39.560 --> 00:01:41.600
+in a secondary forest.
+
+8bfcb12f-337d-4eed-871f-e3bff6317900-0
+00:01:42.080 --> 00:01:47.661
+So our first clause or our first
+query is going to be where
+
+8bfcb12f-337d-4eed-871f-e3bff6317900-1
+00:01:47.661 --> 00:01:50.080
+sighting is equal to NEST.
+
+327145a9-fedd-4d92-a16b-3667cc462f1a-0
+00:01:50.680 --> 00:01:55.922
+So in this button here we can
+add sighting and then we want it
+
+327145a9-fedd-4d92-a16b-3667cc462f1a-1
+00:01:55.922 --> 00:01:57.920
+to say is equal to nest.
+
+29b868b3-c8e5-4538-9e61-df7e6543c753-0
+00:01:58.400 --> 00:02:03.760
+But the sighting also occurred
+in a secondary forest, so we
+
+29b868b3-c8e5-4538-9e61-df7e6543c753-1
+00:02:03.760 --> 00:02:09.478
+need to add another clause and
+in the first button here we want
+
+29b868b3-c8e5-4538-9e61-df7e6543c753-2
+00:02:09.478 --> 00:02:14.750
+it to say 'and' not 'or' as the
+sighting was a nest and it
+
+29b868b3-c8e5-4538-9e61-df7e6543c753-3
+00:02:14.750 --> 00:02:17.520
+occurred in a secondary forest.
+
+869eafa9-868a-445e-bb74-a8710831b59d-0
+00:02:18.640 --> 00:02:23.556
+And then our field for this
+clause will be environment is
+
+869eafa9-868a-445e-bb74-a8710831b59d-1
+00:02:23.556 --> 00:02:25.760
+equal to secondary forest.
+
+1b7e3598-c3b7-41a6-b758-d840fc71cf9a-0
+00:02:26.760 --> 00:02:33.641
+And now we can click apply and
+click OK and now we can see that
+
+1b7e3598-c3b7-41a6-b758-d840fc71cf9a-1
+00:02:33.641 --> 00:02:38.480
+that definition query has
+filtered our data.
+
+7b34b993-7b63-4904-9382-45b9d349b8a8-0
+00:02:38.800 --> 00:02:43.222
+So the only points that we can
+see on our map are the points
+
+7b34b993-7b63-4904-9382-45b9d349b8a8-1
+00:02:43.222 --> 00:02:45.760
+that fit the criteria that we
+set.
+
+531025b6-0907-46a5-b31f-2962e3277d52-0
+00:02:46.800 --> 00:02:52.105
+So we know our sighting occurred
+in Wonegizi protected area which
+
+531025b6-0907-46a5-b31f-2962e3277d52-1
+00:02:52.105 --> 00:02:55.240
+for me is the orange coloured
+Polygon.
+
+978a0a51-ba50-45e2-a70d-ad5ca6755b9f-0
+00:02:56.400 --> 00:03:00.571
+And as we only have one data
+point here, that is a nest
+
+978a0a51-ba50-45e2-a70d-ad5ca6755b9f-1
+00:03:00.571 --> 00:03:05.263
+sighting in a secondary forest,
+this must be where our missing
+
+978a0a51-ba50-45e2-a70d-ad5ca6755b9f-2
+00:03:05.263 --> 00:03:09.508
+nest sighting is, where there
+should have been two nests
+
+978a0a51-ba50-45e2-a70d-ad5ca6755b9f-3
+00:03:09.508 --> 00:03:13.680
+recorded instead of one. And
+just remember to hit save.

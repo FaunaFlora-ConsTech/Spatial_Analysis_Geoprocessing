@@ -1,0 +1,150 @@
+WEBVTT
+
+07918441-ef92-457b-8cd6-670825d46409-0
+00:00:01.760 --> 00:00:08.215
+In this video we're going to be
+running the difference tool as
+
+07918441-ef92-457b-8cd6-670825d46409-1
+00:00:08.215 --> 00:00:10.880
+when we created the buffer
+
+19232b12-90d8-4dbb-9d93-4e1001106ce1-0
+00:00:11.600 --> 00:00:18.055
+we can see that the buffer zone
+of the oil rig overlaps with our
+
+19232b12-90d8-4dbb-9d93-4e1001106ce1-1
+00:00:18.055 --> 00:00:20.240
+proposed No take zone.
+
+574c6f5b-1e9b-421a-808e-f9c8f17401a2-0
+00:00:20.880 --> 00:00:24.646
+As the oil rig is already
+established, we need to create
+
+574c6f5b-1e9b-421a-808e-f9c8f17401a2-1
+00:00:24.646 --> 00:00:28.546
+our No Take zone around the
+buffer of the oil rig, the one
+
+574c6f5b-1e9b-421a-808e-f9c8f17401a2-2
+00:00:28.546 --> 00:00:29.999
+kilometre buffer zone.
+
+3285ca29-3334-4635-993e-1c309d5644a0-0
+00:00:30.480 --> 00:00:35.896
+And so we want to remove this
+section of our No Take layer so
+
+3285ca29-3334-4635-993e-1c309d5644a0-1
+00:00:35.896 --> 00:00:40.440
+that it doesn't have any
+overlaps with this buffer.
+
+428ae4a0-52c2-4735-9280-aa885b0adc69-0
+00:00:40.960 --> 00:00:45.040
+So let's go in the toolbox and
+open up the difference tool.
+
+d8dc7e9f-2d93-4e43-8a0b-80bab2cad968-0
+00:00:45.240 --> 00:00:50.960
+It's under vector overlay and we
+need to put in our input layer.
+
+af8a1abc-5c49-4a0c-9f88-0f2513fd3580-0
+00:00:50.960 --> 00:00:56.680
+So this is the layer that we're
+removing or cutting away from.
+
+2be54dd7-975c-46ae-a9b2-366f113b3e4c-0
+00:00:57.000 --> 00:01:00.560
+And so that's our new no take
+layer.
+
+22ef2ec6-4549-4ea4-9025-b60d9d687f76-0
+00:01:01.360 --> 00:01:06.515
+And then the overlay layer is
+what layer is going to tell QGIS
+
+22ef2ec6-4549-4ea4-9025-b60d9d687f76-1
+00:01:06.515 --> 00:01:08.480
+where to cut this layer.
+
+94e34e85-6cb4-4063-8f24-32a01f072527-0
+00:01:08.680 --> 00:01:11.080
+And so that's going to be the
+oil rig buffer.
+
+5291e03f-f52b-4af1-8683-a54c40571d56-0
+00:01:13.320 --> 00:01:16.872
+And then the last thing we need
+to do is just choose where to
+
+5291e03f-f52b-4af1-8683-a54c40571d56-1
+00:01:16.872 --> 00:01:19.680
+save the new layer that it's
+going to create to.
+
+59907cc9-1068-4775-bebe-30831a57c2f7-0
+00:01:19.800 --> 00:01:24.751
+So we're going to save it to Geo
+package like normal, choose our
+
+59907cc9-1068-4775-bebe-30831a57c2f7-1
+00:01:24.751 --> 00:01:28.560
+Geo package and then we'll
+choose our layer name.
+
+c3929105-c5ff-42e9-b763-278b2549ceb2-0
+00:01:28.960 --> 00:01:36.635
+And so we're going to call it No
+Take final,  and click OK and
+
+c3929105-c5ff-42e9-b763-278b2549ceb2-1
+00:01:36.635 --> 00:01:39.560
+then we'll run the tool.
+
+4c1c950a-6ba5-47ea-acb4-ef0d345b6bec-0
+00:01:43.480 --> 00:01:48.953
+And now if we toggle off the oil
+rig buffer layer and the
+
+4c1c950a-6ba5-47ea-acb4-ef0d345b6bec-1
+00:01:48.953 --> 00:01:54.803
+original no take layer, we can
+see that our new new layer has
+
+4c1c950a-6ba5-47ea-acb4-ef0d345b6bec-2
+00:01:54.803 --> 00:02:00.560
+that chunk taken out of it where
+the buffer was overlapping.
+
+c82406c2-1c32-4d60-a9f9-f1c318804a1d-0
+00:02:01.520 --> 00:02:06.892
+So you can right click on this
+new layer and click Zoom to
+
+c82406c2-1c32-4d60-a9f9-f1c318804a1d-1
+00:02:06.892 --> 00:02:11.991
+layer and we can see it's
+exactly the same as the layer
+
+c82406c2-1c32-4d60-a9f9-f1c318804a1d-2
+00:02:11.991 --> 00:02:17.728
+before except it's taken the cut
+out here the section out here
+
+c82406c2-1c32-4d60-a9f9-f1c318804a1d-3
+00:02:17.728 --> 00:02:23.374
+where the buffer was overlapping
+and so that's how to run the
+
+c82406c2-1c32-4d60-a9f9-f1c318804a1d-4
+00:02:23.374 --> 00:02:25.560
+difference tool in QGIS.
+
+bedeaba7-d35b-48cb-b594-717dbb576770-0
+00:02:25.880 --> 00:02:30.680
+So as always, just hit save to
+save your progress.

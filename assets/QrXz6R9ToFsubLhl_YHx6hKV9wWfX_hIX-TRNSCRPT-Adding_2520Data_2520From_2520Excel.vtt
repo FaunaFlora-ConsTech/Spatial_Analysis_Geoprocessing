@@ -1,0 +1,241 @@
+WEBVTT
+
+5c4da286-85d2-4b0c-8731-e094f24d176f-0
+00:00:01.970 --> 00:00:06.289
+At this point you should have
+opened up your Arcgis Pro
+
+5c4da286-85d2-4b0c-8731-e094f24d176f-1
+00:00:06.289 --> 00:00:10.840
+project, named it something like
+Hippogriff Project and be
+
+5c4da286-85d2-4b0c-8731-e094f24d176f-2
+00:00:10.840 --> 00:00:13.540
+looking at a page similar to
+this.
+
+961f9fe8-9feb-42fb-8f72-2ddc286272a0-0
+00:00:14.440 --> 00:00:18.728
+Now we're going to add in our
+Excel data and so to do that
+
+961f9fe8-9feb-42fb-8f72-2ddc286272a0-1
+00:00:18.728 --> 00:00:23.453
+we'll set up a folder connection
+in the catalog pane here on the
+
+961f9fe8-9feb-42fb-8f72-2ddc286272a0-2
+00:00:23.453 --> 00:00:23.890
+right.
+
+da61a6e3-5aec-4e30-8cb2-ac925aa2264e-0
+00:00:24.790 --> 00:00:28.826
+If you don't have your catalog
+pane up, you just need to go
+
+da61a6e3-5aec-4e30-8cb2-ac925aa2264e-1
+00:00:28.826 --> 00:00:29.970
+into the View tab
+
+82c95841-b97a-47fe-b2a4-3e4f232662c7-0
+00:00:30.800 --> 00:00:33.730
+and click on where it says
+Catalog Pane
+
+ee68d274-07c8-429a-ae32-2c4e8bc45369-0
+00:00:37.060 --> 00:00:41.517
+and now we'll go into the
+Catalog pane where it says
+
+ee68d274-07c8-429a-ae32-2c4e8bc45369-1
+00:00:41.517 --> 00:00:43.200
+Folders, right click
+
+619bc57a-2c89-438a-9550-15f1a70333f0-0
+00:00:45.970 --> 00:00:48.410
+and click Add Folder Connection.
+
+5cf2a70f-a500-439d-9634-8ded56d08363-0
+00:00:51.720 --> 00:00:56.154
+In this window we're going to
+navigate to our Materials folder
+
+5cf2a70f-a500-439d-9634-8ded56d08363-1
+00:00:56.154 --> 00:00:59.110
+in our Hippogriff folder that we
+created.
+
+382a5d05-9341-4494-ae65-982b1349f421-0
+00:01:00.300 --> 00:01:02.220
+So find where this is
+
+36ad86d0-0e7d-4ec3-be06-d30f663e3a7d-0
+00:01:11.130 --> 00:01:15.597
+and once you can see your
+materials folder, click on it
+
+36ad86d0-0e7d-4ec3-be06-d30f663e3a7d-1
+00:01:15.597 --> 00:01:18.310
+but don't go into it and click
+OK
+
+3ecde7ea-913c-4eed-986c-1cc4380e3c9f-0
+00:01:22.240 --> 00:01:26.850
+and now we can see our Materials
+folder in our catalog pane
+
+f49899f8-55b9-46db-a6bc-5f1dc20f8b4d-0
+00:01:28.040 --> 00:01:29.660
+so we can expand this
+
+1418b44d-ce11-4ffa-8176-c733057a153d-0
+00:01:33.370 --> 00:01:37.000
+and we'll see our Hippogriff
+Excel workbook.
+
+987c86cc-6131-4a0d-b840-4325b73e71c6-0
+00:01:37.740 --> 00:01:41.560
+We can't add a whole Excel
+workbook into our project,
+
+103f969c-bc9a-4483-97ac-160343688268-0
+00:01:42.240 --> 00:01:46.520
+so we'll need to expand this to
+access the individual sheets.
+
+c0180360-f4cd-418e-9283-82c2f01b54e7-0
+00:01:47.720 --> 00:01:48.930
+So expand this
+
+45495f4f-5902-4325-8c46-cacf95d95b31-0
+00:01:50.070 --> 00:01:54.281
+and it might take a while to
+load. If it doesn't work and you
+
+45495f4f-5902-4325-8c46-cacf95d95b31-1
+00:01:54.281 --> 00:01:58.288
+get a message like 'required
+driver is not installed', you
+
+45495f4f-5902-4325-8c46-cacf95d95b31-2
+00:01:58.288 --> 00:02:02.160
+need to download a specific
+Microsoft engine driver. The
+
+45495f4f-5902-4325-8c46-cacf95d95b31-3
+00:02:02.160 --> 00:02:06.100
+instructions for how to do this
+will be below this video.
+
+fb928096-f781-49fe-8714-85801629a9d6-0
+00:02:07.050 --> 00:02:10.340
+Once you can see your table
+sheet,
+
+3ee927eb-099b-42ef-82ef-fc60acf0fa1b-0
+00:02:11.030 --> 00:02:15.860
+you can click on it and drag it
+across into your contents
+
+a94a087b-bba6-4c33-9f5d-417e3f55b917-0
+00:02:18.360 --> 00:02:23.036
+and now it's in your contents.
+We can open it up and have a
+
+a94a087b-bba6-4c33-9f5d-417e3f55b917-1
+00:02:23.036 --> 00:02:27.400
+look at the data inside. So
+right click on it and click
+
+a94a087b-bba6-4c33-9f5d-417e3f55b917-2
+00:02:27.400 --> 00:02:27.790
+open.
+
+7e1c2e79-8f95-4b94-abbc-bf979fed4288-0
+00:02:31.390 --> 00:02:37.486
+The first column we have in our
+table is the OID. This is the
+
+7e1c2e79-8f95-4b94-abbc-bf979fed4288-1
+00:02:37.486 --> 00:02:38.470
+object ID,
+
+2e477128-4354-43a0-9cba-4cb93f24a04a-0
+00:02:39.240 --> 00:02:42.700
+so we have a different number
+for each row.
+
+b27578ab-4678-4dac-9a63-879f46b307c8-0
+00:02:45.020 --> 00:02:50.075
+We have the unique key as well
+and so these are the numbers of
+
+b27578ab-4678-4dac-9a63-879f46b307c8-1
+00:02:50.075 --> 00:02:55.130
+the different GPS points. And
+again, we have one for each row.
+
+ca7db49b-7085-40c3-ae1d-58aad16d1076-0
+00:02:56.570 --> 00:03:00.030
+We have the date that the
+sighting happened.
+
+1ebf2721-12ce-441b-8c04-6d0cb25a582d-0
+00:03:00.830 --> 00:03:05.497
+We have the longitude and
+latitude of the sighting. So
+
+1ebf2721-12ce-441b-8c04-6d0cb25a582d-1
+00:03:05.497 --> 00:03:07.280
+where was it located?
+
+2ecf80aa-62dd-411b-9a1b-04ef6df1d5c8-0
+00:03:08.450 --> 00:03:11.520
+And we have what type of
+sighting it was.
+
+2e5213bd-f41d-4737-8a13-3c2ae21bad11-0
+00:03:13.530 --> 00:03:17.980
+And so some of the sightings
+were from tracks, from
+
+2e5213bd-f41d-4737-8a13-3c2ae21bad11-1
+00:03:17.980 --> 00:03:21.660
+footprints, from remaining food
+and so on.
+
+b07e55d9-1ab3-4050-8850-27c9863ac2a3-0
+00:03:22.800 --> 00:03:27.386
+And then these last columns,
+Arcgis Pro has automatically put
+
+b07e55d9-1ab3-4050-8850-27c9863ac2a3-1
+00:03:27.386 --> 00:03:29.680
+them in and we don't need them,
+
+737f0ac4-9350-4475-bcef-078da5a24895-0
+00:03:30.410 --> 00:03:34.522
+so we can just click on all of
+them and hide them. To do that,
+
+737f0ac4-9350-4475-bcef-078da5a24895-1
+00:03:34.522 --> 00:03:36.220
+just click on one of them,
+
+31666263-760a-451d-b718-9ea65fa2266c-0
+00:03:37.500 --> 00:03:42.105
+hold down your control button
+and click on the rest that we
+
+31666263-760a-451d-b718-9ea65fa2266c-1
+00:03:42.105 --> 00:03:42.950
+don't need.
+
+6bbb57a2-1410-47d8-9993-736f1e29f5db-0
+00:03:44.650 --> 00:03:46.080
+Now you can right click
+
+1c4e8076-182d-4c0b-bfdb-6c213ddf1880-0
+00:03:47.940 --> 00:03:50.100
+and click hide field.

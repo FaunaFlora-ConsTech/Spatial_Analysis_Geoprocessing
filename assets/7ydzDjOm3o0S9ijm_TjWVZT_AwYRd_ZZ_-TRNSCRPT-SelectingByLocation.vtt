@@ -1,0 +1,358 @@
+WEBVTT
+
+6fda84be-5763-497e-8b4a-eacb07a9e809-0
+00:00:01.320 --> 00:00:06.374
+In this video we're going to
+learn how to select our data by
+
+6fda84be-5763-497e-8b4a-eacb07a9e809-1
+00:00:06.374 --> 00:00:07.120
+location.
+
+21dc025b-4a31-4d21-9cf0-e71a26af1dc5-0
+00:00:07.880 --> 00:00:12.577
+To begin with, we need to make
+sure that we clear any selection
+
+21dc025b-4a31-4d21-9cf0-e71a26af1dc5-1
+00:00:12.577 --> 00:00:16.320
+or defined query that we have on
+our data already.
+
+e8c64628-b0f7-4ea8-98a4-16f576f63b49-0
+00:00:17.400 --> 00:00:22.280
+To do that, we need to go back
+into our point layer properties.
+
+707789be-3f79-43d3-a931-fea28326a772-0
+00:00:22.640 --> 00:00:29.031
+So right click on our points
+layer and go into properties and
+
+707789be-3f79-43d3-a931-fea28326a772-1
+00:00:29.031 --> 00:00:35.422
+we want to be in the source tab
+to go back into query builder
+
+707789be-3f79-43d3-a931-fea28326a772-2
+00:00:35.422 --> 00:00:40.680
+and now we can hit the button
+clear at the bottom.
+
+d3965d76-9042-4f3a-b79d-498c4433f55d-0
+00:00:40.800 --> 00:00:45.617
+Click OK and then click apply on
+the property window and now we
+
+d3965d76-9042-4f3a-b79d-498c4433f55d-1
+00:00:45.617 --> 00:00:49.682
+can see we have all of our
+points back and there's no
+
+d3965d76-9042-4f3a-b79d-498c4433f55d-2
+00:00:49.682 --> 00:00:52.920
+defined query on our points
+layer anymore.
+
+44165490-2a4b-455f-a648-91ae060b4381-0
+00:00:54.400 --> 00:00:59.088
+If you had a selection on your
+data as well that you needed to
+
+44165490-2a4b-455f-a648-91ae060b4381-1
+00:00:59.088 --> 00:01:04.000
+clear, you can use this deselect
+button in the selection toolbar.
+
+e8595ecd-1297-4e6b-a34a-136c7432b712-0
+00:01:05.400 --> 00:01:09.612
+If you don't have the selection
+toolbar, you just need to right
+
+e8595ecd-1297-4e6b-a34a-136c7432b712-1
+00:01:09.612 --> 00:01:13.760
+click at the top in the toolbars
+and now you can toggle it on.
+
+77cce844-fad0-4898-8820-ed8337a26c3d-0
+00:01:16.960 --> 00:01:21.048
+So we're going to use the Select
+by Location tool in this video
+
+77cce844-fad0-4898-8820-ed8337a26c3d-1
+00:01:21.048 --> 00:01:24.880
+to see how many sighting points
+were in the Ziama protected
+
+77cce844-fad0-4898-8820-ed8337a26c3d-2
+00:01:24.880 --> 00:01:25.199
+area.
+
+07bbf33e-755d-4871-93d0-07bc537993ba-0
+00:01:26.040 --> 00:01:30.387
+We'll use the quick access
+button in the selection toolbar
+
+07bbf33e-755d-4871-93d0-07bc537993ba-1
+00:01:30.387 --> 00:01:35.176
+where we just were and it's the
+fourth button along to select by
+
+07bbf33e-755d-4871-93d0-07bc537993ba-2
+00:01:35.176 --> 00:01:35.840
+location.
+
+9d2c828f-3d18-48fc-8bca-05223ab09439-0
+00:01:36.680 --> 00:01:39.560
+So we'll click on this and it
+will bring up this window.
+
+d6faa245-b4cc-45f4-9779-003f695a2d77-0
+00:01:41.080 --> 00:01:45.471
+And then for the first drop down
+box, we want to select features
+
+d6faa245-b4cc-45f4-9779-003f695a2d77-1
+00:01:45.471 --> 00:01:47.160
+from our sighting points.
+
+16f8e3bc-3e88-4f0e-8b0d-6df52a585dd9-0
+00:01:47.720 --> 00:01:51.210
+And so we can leave that how it
+is or you can click on the drop
+
+16f8e3bc-3e88-4f0e-8b0d-6df52a585dd9-1
+00:01:51.210 --> 00:01:53.720
+down box to choose this if you
+don't have it.
+
+87682fc4-3bf2-4587-9d97-f706c0a7abe8-0
+00:01:54.760 --> 00:01:59.254
+And we want it to be where the
+features are within the Ziama
+
+87682fc4-3bf2-4587-9d97-f706c0a7abe8-1
+00:01:59.254 --> 00:02:00.360
+protected area.
+
+d1864b66-10b8-4a20-99e3-90811d178a7d-0
+00:02:00.360 --> 00:02:05.384
+So we're going to choose the are
+within button for this section
+
+d1864b66-10b8-4a20-99e3-90811d178a7d-1
+00:02:05.384 --> 00:02:10.094
+and we want to compare to the
+features from Ziama protected
+
+d1864b66-10b8-4a20-99e3-90811d178a7d-2
+00:02:10.094 --> 00:02:14.647
+area as this is the one that
+we're interested in to begin
+
+d1864b66-10b8-4a20-99e3-90811d178a7d-3
+00:02:14.647 --> 00:02:15.040
+with.
+
+785d6f9b-7458-451a-9d88-c648dd3b26d7-0
+00:02:15.560 --> 00:02:22.812
+So we'll choose Ziama PA in this
+box and underneath this we want
+
+785d6f9b-7458-451a-9d88-c648dd3b26d7-1
+00:02:22.812 --> 00:02:29.284
+to make sure that this says
+create a new selection and to
+
+785d6f9b-7458-451a-9d88-c648dd3b26d7-2
+00:02:29.284 --> 00:02:34.640
+run a selection tool in the
+proper way in QGIS.
+
+61d9fc39-1897-4aa1-9db8-192e9318db13-0
+00:02:34.640 --> 00:02:38.618
+We would want our data to all be
+in the same coordinate reference
+
+61d9fc39-1897-4aa1-9db8-192e9318db13-1
+00:02:38.618 --> 00:02:39.040
+system.
+
+be84f475-84a0-488f-855d-9c4bd7045b25-0
+00:02:39.720 --> 00:02:43.420
+Our point data is in a different
+coordinate system to Ziama
+
+be84f475-84a0-488f-855d-9c4bd7045b25-1
+00:02:43.420 --> 00:02:46.320
+protected area as we haven't
+projected it yet.
+
+8fd16d77-fd50-47da-94cd-2298abd9ccbe-0
+00:02:46.560 --> 00:02:50.310
+So it's still in a geographic
+coordinate system, whereas the
+
+8fd16d77-fd50-47da-94cd-2298abd9ccbe-1
+00:02:50.310 --> 00:02:53.200
+Ziama protected area is in a
+projected system.
+
+79d6b416-abef-4d8d-b0e5-71ff18f894ac-0
+00:02:53.600 --> 00:02:57.564
+We'll be covering how to project
+GIS data in a later lesson in
+
+79d6b416-abef-4d8d-b0e5-71ff18f894ac-1
+00:02:57.564 --> 00:02:58.320
+this course.
+
+3b0a250a-cf84-49c7-b94c-42b36cbaaacc-0
+00:02:58.600 --> 00:03:02.768
+So for now, we're going to
+choose an option to bypass the
+
+3b0a250a-cf84-49c7-b94c-42b36cbaaacc-1
+00:03:02.768 --> 00:03:07.368
+fact that we haven't projected
+this data and that's by clicking
+
+3b0a250a-cf84-49c7-b94c-42b36cbaaacc-2
+00:03:07.368 --> 00:03:11.752
+on the spanner icon that's just
+to the right of the where we
+
+3b0a250a-cf84-49c7-b94c-42b36cbaaacc-3
+00:03:11.752 --> 00:03:16.280
+chose the Ziama protected area
+option which will bring up this
+
+3b0a250a-cf84-49c7-b94c-42b36cbaaacc-4
+00:03:16.280 --> 00:03:16.639
+page.
+
+a788fbc3-4291-40df-988f-3aa846b81657-0
+00:03:17.360 --> 00:03:21.040
+And in the top drop down box we
+want to choose do not filter.
+
+c9937ef4-ce29-43ed-ac4e-dab03e10bb68-0
+00:03:23.200 --> 00:03:29.215
+Now we can go back and we can
+hit run and our select tool is
+
+c9937ef4-ce29-43ed-ac4e-dab03e10bb68-1
+00:03:29.215 --> 00:03:34.640
+going to run and now we can see
+that it's highlighted.
+
+717baa05-d07e-45a9-a222-6ba30cf772ce-0
+00:03:34.640 --> 00:03:38.017
+It's selected all the points
+that have occurred within all
+
+717baa05-d07e-45a9-a222-6ba30cf772ce-1
+00:03:38.017 --> 00:03:41.280
+the sightings that occurred
+within Ziama protected area.
+
+5fa9cd49-92dd-43a9-9b07-f67f87bd0850-0
+00:03:42.560 --> 00:03:45.360
+So we want to know how many
+occurred in Ziama.
+
+e523c58c-8a64-4545-a34a-5e5250778f6b-0
+00:03:45.720 --> 00:03:49.515
+We could just count the points
+that we can see on our map that
+
+e523c58c-8a64-4545-a34a-5e5250778f6b-1
+00:03:49.515 --> 00:03:50.480
+are highlighted.
+
+ce3c5dab-8548-42bf-bc02-d184660c1c00-0
+00:03:50.920 --> 00:03:53.960
+But if we had a large data set,
+this would take a long time.
+
+67a56d2d-3e51-4e0e-a28c-9d0937fbeefa-0
+00:03:54.400 --> 00:03:59.295
+So a better way to do this is to
+open up the attribute table and
+
+67a56d2d-3e51-4e0e-a28c-9d0937fbeefa-1
+00:03:59.295 --> 00:04:03.813
+then at the very top of the
+table it tells us how many rows
+
+67a56d2d-3e51-4e0e-a28c-9d0937fbeefa-2
+00:04:03.813 --> 00:04:06.600
+there are and how many are
+selected.
+
+91762838-e28e-4a15-ab57-c00b0c820a25-0
+00:04:06.880 --> 00:04:11.691
+So it's telling us that 32 rows
+are selected, so 32 sightings
+
+91762838-e28e-4a15-ab57-c00b0c820a25-1
+00:04:11.691 --> 00:04:14.640
+happened within Ziama protected
+area.
+
+1aecb555-90e4-461f-b22f-d06ae7680442-0
+00:04:15.800 --> 00:04:20.593
+We can also see the points that
+are selected as they're
+
+1aecb555-90e4-461f-b22f-d06ae7680442-1
+00:04:20.593 --> 00:04:26.157
+highlighted in the table and we
+could click on the button within
+
+1aecb555-90e4-461f-b22f-d06ae7680442-2
+00:04:26.157 --> 00:04:28.640
+the the top bar of the table.
+
+446bf0e5-b048-47a9-9e14-960f0435b205-0
+00:04:29.960 --> 00:04:33.600
+That lets us move all the
+selected rows to the top.
+
+370b1606-f62e-48a5-8f31-f11af026a22f-0
+00:04:33.600 --> 00:04:35.120
+So it's this button here.
+
+622cd1e6-b114-4650-b41f-59c089139438-0
+00:04:36.920 --> 00:04:39.720
+And now all the selected rows
+are at the top.
+
+c0fdec0a-a1fc-473d-a339-eb9cc72bd285-0
+00:04:43.680 --> 00:04:46.960
+So now just remember to clear
+the selection.
+
+403ab36f-f4fc-4a11-bcd4-ca82bf3532c7-0
+00:04:46.960 --> 00:04:52.040
+We can use the clear selection
+button in the table here or we
+
+403ab36f-f4fc-4a11-bcd4-ca82bf3532c7-1
+00:04:52.040 --> 00:04:56.711
+could also deselect the features
+using the button in the
+
+403ab36f-f4fc-4a11-bcd4-ca82bf3532c7-2
+00:04:56.711 --> 00:05:02.120
+selection toolbar and now have a
+go at doing the same process for
+
+403ab36f-f4fc-4a11-bcd4-ca82bf3532c7-3
+00:05:02.120 --> 00:05:07.528
+Wonegizi and Wologizi to see how
+many sighting points occurred in
+
+403ab36f-f4fc-4a11-bcd4-ca82bf3532c7-4
+00:05:07.528 --> 00:05:08.839
+these two areas.

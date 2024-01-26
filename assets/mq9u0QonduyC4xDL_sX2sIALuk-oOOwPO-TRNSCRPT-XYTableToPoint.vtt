@@ -1,0 +1,282 @@
+WEBVTT
+
+2fa5858a-ca22-4edd-b827-3493807b0717-0
+00:00:00.440 --> 00:00:05.721
+So we can see our table of data,
+but we can't actually see where
+
+2fa5858a-ca22-4edd-b827-3493807b0717-1
+00:00:05.721 --> 00:00:08.240
+these data points are on a map.
+
+ec68a696-a3a0-443a-acb8-cc49bb69083d-0
+00:00:09.160 --> 00:00:13.720
+To do that we need to use the
+tool XY Table to point.
+
+47260cb5-f190-49a0-83c7-be90732303e7-0
+00:00:15.440 --> 00:00:25.666
+To access this tool we need to
+go into the Analysis tab at the
+
+47260cb5-f190-49a0-83c7-be90732303e7-1
+00:00:25.666 --> 00:00:29.400
+top and click on Tools.
+
+72f80189-5f45-4b63-a48b-55f03e6678a3-0
+00:00:32.640 --> 00:00:36.880
+Now on the right hand side we
+have the Geoprocessing pane.
+
+3980ae2f-8533-441e-a259-b14bd103f26c-0
+00:00:37.680 --> 00:00:45.120
+So in the search bar we can put
+in XY table to point and it's
+
+3980ae2f-8533-441e-a259-b14bd103f26c-1
+00:00:45.120 --> 00:00:48.000
+come up here at the top.
+
+dc4325c2-12ef-4333-861f-9b037ff63eea-0
+00:00:48.400 --> 00:00:52.781
+So once you have it, click on
+this and it's going to bring up
+
+dc4325c2-12ef-4333-861f-9b037ff63eea-1
+00:00:52.781 --> 00:00:54.760
+the window to run this tool.
+
+e790763c-56c0-4540-9cc3-29a3013bf2da-0
+00:00:56.240 --> 00:01:00.755
+And to run this tool we need to
+put in the parameters to be able
+
+e790763c-56c0-4540-9cc3-29a3013bf2da-1
+00:01:00.755 --> 00:01:01.520
+to do that.
+
+0fb0742f-b5d5-49ce-b708-6928cca5f616-0
+00:01:02.200 --> 00:01:07.423
+So the first one is what is the
+input table and that's going to
+
+0fb0742f-b5d5-49ce-b708-6928cca5f616-1
+00:01:07.423 --> 00:01:10.280
+be our hippogriff sightings
+table.
+
+25f6076f-521f-4e04-86f2-d0d8c30aa488-0
+00:01:11.520 --> 00:01:16.566
+So an easy way to put this in is
+just to click hold and drag it
+
+25f6076f-521f-4e04-86f2-d0d8c30aa488-1
+00:01:16.566 --> 00:01:21.613
+from the contents into the top
+section here under where it says
+
+25f6076f-521f-4e04-86f2-d0d8c30aa488-2
+00:01:21.613 --> 00:01:22.559
+Input Table.
+
+f3a9c3a7-0f28-457d-91fc-e34eaaeaa8f6-0
+00:01:25.600 --> 00:01:30.080
+Going down we have the output
+feature class and in this box we
+
+f3a9c3a7-0f28-457d-91fc-e34eaaeaa8f6-1
+00:01:30.080 --> 00:01:34.631
+can choose where we want to save
+the output and what we want to
+
+f3a9c3a7-0f28-457d-91fc-e34eaaeaa8f6-2
+00:01:34.631 --> 00:01:35.200
+name it.
+
+89c8244d-bb1f-4da2-98dd-67bbd0e28779-0
+00:01:36.560 --> 00:01:40.996
+So we can click on the browse
+icon here and then in the
+
+89c8244d-bb1f-4da2-98dd-67bbd0e28779-1
+00:01:40.996 --> 00:01:44.800
+browser we can choose where we
+want to save it.
+
+fb3c3118-5c9e-48bf-82f4-85490249a23c-0
+00:01:45.280 --> 00:01:50.468
+So I'm in the Hippogriff project
+folder here and inside we have a
+
+fb3c3118-5c9e-48bf-82f4-85490249a23c-1
+00:01:50.468 --> 00:01:55.264
+geodatabase that ArcGIS Pro has
+automatically created for us
+
+fb3c3118-5c9e-48bf-82f4-85490249a23c-2
+00:01:55.264 --> 00:02:00.296
+when we set up this project, and
+this is a great place to store
+
+fb3c3118-5c9e-48bf-82f4-85490249a23c-3
+00:02:00.296 --> 00:02:03.520
+all of our related data to this
+project.
+
+7b72f5f5-77ba-47da-a61f-a6dac0b85807-0
+00:02:04.000 --> 00:02:09.076
+So let's go into the geodatabase
+by clicking on it twice and then
+
+7b72f5f5-77ba-47da-a61f-a6dac0b85807-1
+00:02:09.076 --> 00:02:13.000
+we can name the output that
+we're going to create.
+
+5b06d9d8-1d41-4713-b370-a3c1266f1f7f-0
+00:02:13.080 --> 00:02:20.040
+So let's name it Hippogriff
+Sightings and hit Save.
+
+6928244d-ccca-43fc-b9fc-c73d88a3baa8-0
+00:02:20.840 --> 00:02:24.325
+The next thing we need to look
+at is the X field and the Y
+
+6928244d-ccca-43fc-b9fc-c73d88a3baa8-1
+00:02:24.325 --> 00:02:24.680
+field.
+
+4b2087eb-05db-49f2-8a53-b72871d741a2-0
+00:02:25.080 --> 00:02:29.844
+So in these boxes, you're going
+to choose what columns within
+
+4b2087eb-05db-49f2-8a53-b72871d741a2-1
+00:02:29.844 --> 00:02:34.840
+your table represent the X field
+and what represent the Y field.
+
+4244c4ef-aef4-457d-a8f0-740ff62f5177-0
+00:02:35.680 --> 00:02:42.375
+So the X is always going to be
+longitude and the Y is always
+
+4244c4ef-aef4-457d-a8f0-740ff62f5177-1
+00:02:42.375 --> 00:02:44.680
+going to be latitude.
+
+709fa52e-d87b-4a26-b018-e8f8839dc486-0
+00:02:46.120 --> 00:02:52.042
+A good way to remember this is
+that you go along the corridor
+
+709fa52e-d87b-4a26-b018-e8f8839dc486-1
+00:02:52.042 --> 00:02:54.240
+and then up the stairs.
+
+61148dca-009a-4358-bc9c-29a6174ec6f4-0
+00:02:54.760 --> 00:03:00.501
+So your X is longitude, your Y
+is latitude, and these are the
+
+61148dca-009a-4358-bc9c-29a6174ec6f4-1
+00:03:00.501 --> 00:03:06.057
+fields that are going to allow
+us to actually plot the data
+
+61148dca-009a-4358-bc9c-29a6174ec6f4-2
+00:03:06.057 --> 00:03:08.280
+onto our map going down.
+
+27977ad2-7c11-447b-9a00-52f70333ebe8-0
+00:03:08.880 --> 00:03:17.096
+We don't need a Z field because
+we don't have any height data in
+
+27977ad2-7c11-447b-9a00-52f70333ebe8-1
+00:03:17.096 --> 00:03:18.360
+our table.
+
+66e685f0-30f7-4d97-a3ab-d869a307dd70-0
+00:03:19.560 --> 00:03:23.358
+And then for coordinate system
+our data was collected in the
+
+66e685f0-30f7-4d97-a3ab-d869a307dd70-1
+00:03:23.358 --> 00:03:25.040
+coordinate system WGS 1984.
+
+25b904d9-559d-40c3-9d98-df20726dcea8-0
+00:03:25.640 --> 00:03:30.016
+ArcGIS has automatically put
+that in for us, so that's great,
+
+25b904d9-559d-40c3-9d98-df20726dcea8-1
+00:03:30.016 --> 00:03:31.640
+it's got the right one.
+
+41623723-51f8-4515-af64-2a378c97088e-0
+00:03:32.080 --> 00:03:36.988
+If yours isn't saying WGS 1984,
+the way to choose the correct
+
+41623723-51f8-4515-af64-2a378c97088e-1
+00:03:36.988 --> 00:03:41.897
+coordinate system is by clicking
+on the icon to the right and
+
+41623723-51f8-4515-af64-2a378c97088e-2
+00:03:41.897 --> 00:03:46.805
+then in the search bar you can
+type in what coordinate system
+
+41623723-51f8-4515-af64-2a378c97088e-3
+00:03:46.805 --> 00:03:51.159
+your data was collected in so we
+can type in WGS 1984.
+
+dcdb7bc2-921a-4cfc-bc0f-b94382cfac43-0
+00:03:51.440 --> 00:03:55.668
+This is going to narrow down the
+searches and then make sure
+
+dcdb7bc2-921a-4cfc-bc0f-b94382cfac43-1
+00:03:55.668 --> 00:03:59.827
+you're looking in geographic
+coordinate system, under world
+
+dcdb7bc2-921a-4cfc-bc0f-b94382cfac43-2
+00:03:59.827 --> 00:04:02.600
+and the top one we can see is
+WGS 1984.
+
+95894e66-439c-4b31-8477-ab4d32a155d3-0
+00:04:02.600 --> 00:04:07.440
+So we can click on that, click
+OK and now we can run our tool.
+
+29cac892-7bad-4bcc-a10f-01c8718b5702-0
+00:04:08.320 --> 00:04:16.384
+So hit run and once that loads,
+you should be able to see your
+
+29cac892-7bad-4bcc-a10f-01c8718b5702-1
+00:04:16.384 --> 00:04:21.120
+points of the sightings on your
+map.
+
+5f39dd25-cd64-4fd9-884d-e18cd5d3be7d-0
+00:04:21.880 --> 00:04:25.899
+We've created a vector data
+layer, we can see it in our
+
+5f39dd25-cd64-4fd9-884d-e18cd5d3be7d-1
+00:04:25.899 --> 00:04:29.560
+contents, the hippogriff
+sightings from our table.
+
+e5de025d-81b9-47b0-b417-39e9b01bb0d3-0
+00:04:29.800 --> 00:04:32.560
+So all we need to do now is just
+hit save.

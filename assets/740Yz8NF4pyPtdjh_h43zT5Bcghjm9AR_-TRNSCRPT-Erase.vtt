@@ -1,0 +1,164 @@
+WEBVTT
+
+e2b1cf60-4873-4bc7-b080-82e506039c58-0
+00:00:01.080 --> 00:00:05.513
+In this video, we're going to be
+running the erase tool as when
+
+e2b1cf60-4873-4bc7-b080-82e506039c58-1
+00:00:05.513 --> 00:00:09.600
+we created the buffer zone
+around the oil rig, we saw that
+
+e2b1cf60-4873-4bc7-b080-82e506039c58-2
+00:00:09.600 --> 00:00:13.480
+it overlaps with the No Take
+zone that we're proposing.
+
+b2bb0333-7e4d-481b-87d5-dad56ab79d0d-0
+00:00:13.960 --> 00:00:17.867
+And as this oil rig is already
+established, we need to create
+
+b2bb0333-7e4d-481b-87d5-dad56ab79d0d-1
+00:00:17.867 --> 00:00:20.200
+our No Take zone around this
+buffer.
+
+620334d0-d718-4eb8-bd59-efac215ecd37-0
+00:00:20.600 --> 00:00:25.937
+So what we want to do is we want
+to remove this intersection from
+
+620334d0-d718-4eb8-bd59-efac215ecd37-1
+00:00:25.937 --> 00:00:28.040
+our proposed No Take zone.
+
+e8ca8dc5-e225-46a9-9abb-65cc9ba72a3d-0
+00:00:29.080 --> 00:00:30.960
+So let's find the erase tool.
+
+a04720eb-33ee-41e4-90fd-84ef389d9cac-0
+00:00:31.040 --> 00:00:36.494
+We're going to the Geoprocessing
+pane and type in erase, and it's
+
+a04720eb-33ee-41e4-90fd-84ef389d9cac-1
+00:00:36.494 --> 00:00:41.040
+the top tool, and this is a
+really simple tool to run.
+
+6371ee63-5edb-404c-a099-0b6c80e3c485-0
+00:00:41.760 --> 00:00:46.565
+The first thing parameter we
+need to put in is the input
+
+6371ee63-5edb-404c-a099-0b6c80e3c485-1
+00:00:46.565 --> 00:00:47.240
+feature.
+
+0f49276c-d130-4fab-b71f-6e90674a35be-0
+00:00:47.440 --> 00:00:52.320
+And so this is going to be the
+layer that we're applying the
+
+0f49276c-d130-4fab-b71f-6e90674a35be-1
+00:00:52.320 --> 00:00:53.440
+erase tool to.
+
+de22231d-1a6b-4180-80c8-e5310d8b5c19-0
+00:00:53.520 --> 00:00:56.787
+So that's going to be our
+spawning grounds layer as we
+
+de22231d-1a6b-4180-80c8-e5310d8b5c19-1
+00:00:56.787 --> 00:00:59.640
+need to cut the intersection out
+of this layer.
+
+1ea187ef-a826-49c4-9a29-bedb705254e7-0
+00:01:00.120 --> 00:01:04.920
+And the erase feature is what
+layer we're using to tell Arc
+
+1ea187ef-a826-49c4-9a29-bedb705254e7-1
+00:01:04.920 --> 00:01:07.640
+GIS where to cut our input
+layer.
+
+4369d370-e1a8-44a7-8131-40893a307f35-0
+00:01:08.280 --> 00:01:13.562
+So this is going to be the oil
+rig buffer and then we just need
+
+4369d370-e1a8-44a7-8131-40893a307f35-1
+00:01:13.562 --> 00:01:18.680
+to choose where to save the new
+layer to and what to name it.
+
+cfe5721f-4624-4870-a524-668e863dc309-0
+00:01:19.200 --> 00:01:27.305
+So we'll make sure that we're in
+our Geodatabase and we can name
+
+cfe5721f-4624-4870-a524-668e863dc309-1
+00:01:27.305 --> 00:01:34.040
+it something like spawning
+months erased, click save.
+
+b4921173-8673-48fe-8afe-8683af9a7d48-0
+00:01:34.640 --> 00:01:44.098
+And now we can run the tool and
+now we can see this new layer in
+
+b4921173-8673-48fe-8afe-8683af9a7d48-1
+00:01:44.098 --> 00:01:45.990
+our contents.
+
+b598fdff-9aa3-4c40-a133-b1400b68cacd-0
+00:01:45.990 --> 00:01:50.038
+So we'll just toggle off the oil
+rig buffer layer and the
+
+b598fdff-9aa3-4c40-a133-b1400b68cacd-1
+00:01:50.038 --> 00:01:52.830
+original spawning months no take
+layer.
+
+43e6f04c-e880-4aa8-b87b-55b0bc887e45-0
+00:01:53.550 --> 00:01:58.749
+And now we can see that this new
+layer has got the intersection
+
+43e6f04c-e880-4aa8-b87b-55b0bc887e45-1
+00:01:58.749 --> 00:02:02.080
+with the oil rig buffer removed
+from it.
+
+a446ea32-682b-4124-9b83-cb6cb54784c9-0
+00:02:03.000 --> 00:02:08.745
+So you can see how ArcGIS Pro
+has used the oil rig buffer
+
+a446ea32-682b-4124-9b83-cb6cb54784c9-1
+00:02:08.745 --> 00:02:13.600
+layer to cut a section from this
+this new layer.
+
+369b6dd8-3bc7-4d6a-80a3-8ca146d3daac-0
+00:02:14.080 --> 00:02:18.168
+And if we zoom out, we can see
+where it's taken that
+
+369b6dd8-3bc7-4d6a-80a3-8ca146d3daac-1
+00:02:18.168 --> 00:02:19.480
+intersection out.
+
+8ef017d0-dad9-4f41-8f07-aea653527d80-0
+00:02:20.600 --> 00:02:24.920
+And so that's how to run an
+erase tool in ArcGIS Pro.
+
+6f9050f9-83af-496b-bcf6-780e8bc20653-0
+00:02:25.640 --> 00:02:27.120
+Just remember to hit save.

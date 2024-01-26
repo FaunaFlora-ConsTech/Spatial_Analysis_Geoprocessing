@@ -1,0 +1,219 @@
+WEBVTT
+
+2909ecff-025d-427b-b742-cd9189088f6b-0
+00:00:01.560 --> 00:00:06.502
+In this video, we're going to be
+using the Select Features by
+
+2909ecff-025d-427b-b742-cd9189088f6b-1
+00:00:06.502 --> 00:00:11.365
+Value tool to see how many of
+our sightings occurred in each
+
+2909ecff-025d-427b-b742-cd9189088f6b-2
+00:00:11.365 --> 00:00:12.960
+type of environment.
+
+92bc8893-9c4a-4507-9185-492640402f81-0
+00:00:13.720 --> 00:00:17.304
+So the first thing we need to
+make sure is to clear any
+
+92bc8893-9c4a-4507-9185-492640402f81-1
+00:00:17.304 --> 00:00:19.800
+selection we have on our data
+already.
+
+b303251a-ec84-47f0-8aa3-872be453c02b-0
+00:00:20.320 --> 00:00:24.349
+So we'll go into the selection
+toolbar and click on the
+
+b303251a-ec84-47f0-8aa3-872be453c02b-1
+00:00:24.349 --> 00:00:28.522
+Deselect button and now the
+button that we want to use to
+
+b303251a-ec84-47f0-8aa3-872be453c02b-2
+00:00:28.522 --> 00:00:32.840
+select our features by a value
+is the button to the left of
+
+b303251a-ec84-47f0-8aa3-872be453c02b-3
+00:00:32.840 --> 00:00:33.199
+this.
+
+97d240ea-2c3f-4047-9c8a-ba455a782593-0
+00:00:33.200 --> 00:00:37.549
+But before we click on it, we
+just want to make sure that we
+
+97d240ea-2c3f-4047-9c8a-ba455a782593-1
+00:00:37.549 --> 00:00:41.400
+have our Sightings layer
+selected in the layers list.
+
+312afcb7-8adb-4bc4-81db-3af78d00e05f-0
+00:00:41.600 --> 00:00:45.252
+And now we can click on the
+Select features by Value button
+
+312afcb7-8adb-4bc4-81db-3af78d00e05f-1
+00:00:45.252 --> 00:00:47.200
+which will bring up this window.
+
+d825cefe-b35a-4744-9f62-7b40e9c12518-0
+00:00:47.800 --> 00:00:51.718
+And so this shows all the
+columns that we have in our
+
+d825cefe-b35a-4744-9f62-7b40e9c12518-1
+00:00:51.718 --> 00:00:52.880
+sightings table.
+
+c811b0b6-5bd4-4c94-9bee-af2d8b0d2b87-0
+00:00:53.320 --> 00:00:56.440
+We're interested in the bottom
+one, the environment.
+
+c3a64342-5083-4af9-b69a-7dbbd334485c-0
+00:00:58.600 --> 00:01:02.023
+And So what we need to change is
+this button to the right hand
+
+c3a64342-5083-4af9-b69a-7dbbd334485c-1
+00:01:02.023 --> 00:01:03.600
+side that says exclude field.
+
+4fa3686a-d54d-4b8f-ba79-bbab4c17714b-0
+00:01:03.600 --> 00:01:06.439
+This is what all of the
+different column headings say at
+
+4fa3686a-d54d-4b8f-ba79-bbab4c17714b-1
+00:01:06.439 --> 00:01:08.880
+the moment because none of our
+data is selected.
+
+77304cae-6872-4141-9988-a3e8d2add0ac-0
+00:01:09.240 --> 00:01:11.991
+So we're going to click on this
+one for the environment and
+
+77304cae-6872-4141-9988-a3e8d2add0ac-1
+00:01:11.991 --> 00:01:13.000
+change it to equal to.
+
+bfd68e49-b5d7-4cdb-a736-a28854b5da6a-0
+00:01:13.880 --> 00:01:17.895
+And now in the box that we can
+type in, we can type in what
+
+bfd68e49-b5d7-4cdb-a736-a28854b5da6a-1
+00:01:17.895 --> 00:01:20.840
+environment we want to select
+the data for.
+
+6bf6a489-526d-4ffe-aad2-3dd74bded8a1-0
+00:01:21.240 --> 00:01:25.324
+So if we look for farm, we can
+just type an F and now we can
+
+6bf6a489-526d-4ffe-aad2-3dd74bded8a1-1
+00:01:25.324 --> 00:01:27.200
+see that it brings up farms.
+
+1e8aa2a7-b2ab-4bdf-afe1-5c002b52748e-0
+00:01:27.200 --> 00:01:31.275
+So we'll click on this and now
+we can click on the Select
+
+1e8aa2a7-b2ab-4bdf-afe1-5c002b52748e-1
+00:01:31.275 --> 00:01:32.400
+Features button.
+
+125a896d-9f7f-4039-9982-3ed7df32ef7c-0
+00:01:34.480 --> 00:01:39.309
+And so if we shut this window
+now, we can see on our map that
+
+125a896d-9f7f-4039-9982-3ed7df32ef7c-1
+00:01:39.309 --> 00:01:43.437
+some of the points are
+highlighted, some of the data
+
+125a896d-9f7f-4039-9982-3ed7df32ef7c-2
+00:01:43.437 --> 00:01:44.840
+has been selected.
+
+150a5597-1a07-4f45-87f4-2e19fbacc8d2-0
+00:01:45.640 --> 00:01:49.412
+So now we can go and open up the
+attribute table for our
+
+150a5597-1a07-4f45-87f4-2e19fbacc8d2-1
+00:01:49.412 --> 00:01:53.647
+sightings layer to see the rows
+that have been selected and how
+
+150a5597-1a07-4f45-87f4-2e19fbacc8d2-2
+00:01:53.647 --> 00:01:54.640
+many there are.
+
+275e51b2-9e53-47d1-9f76-36e7de945159-0
+00:02:05.100 --> 00:02:08.731
+So like we did in the last
+video, we can look at the top of
+
+275e51b2-9e53-47d1-9f76-36e7de945159-1
+00:02:08.731 --> 00:02:12.060
+the table and it tells us that
+10 points are selected.
+
+d75b563d-ad34-4ab7-87d2-ceead5c8ced2-0
+00:02:12.060 --> 00:02:15.820
+So we know that 10 sightings
+occurred within farmland.
+
+7d98df56-50ed-4a43-87bb-94b58ff41e92-0
+00:02:17.020 --> 00:02:20.969
+And again, we can move the
+selected rows to the top and
+
+7d98df56-50ed-4a43-87bb-94b58ff41e92-1
+00:02:20.969 --> 00:02:25.411
+just to check our selection, we
+can scroll across on our table
+
+7d98df56-50ed-4a43-87bb-94b58ff41e92-2
+00:02:25.411 --> 00:02:29.361
+and we can see all of the of
+these selected points have
+
+7d98df56-50ed-4a43-87bb-94b58ff41e92-3
+00:02:29.361 --> 00:02:30.560
+occurred in farm.
+
+855cf20d-9d8c-4472-a04e-62412820fb67-0
+00:02:31.760 --> 00:02:35.504
+And so now have a go at doing
+the same thing for the different
+
+855cf20d-9d8c-4472-a04e-62412820fb67-1
+00:02:35.504 --> 00:02:39.427
+types of environment and writing
+down how many sightings occurred
+
+855cf20d-9d8c-4472-a04e-62412820fb67-2
+00:02:39.427 --> 00:02:40.200
+in each type.
+
+dd6cafab-e2ad-4f9c-a7bc-fff19d6d1e36-0
+00:02:40.840 --> 00:02:44.914
+And just remember each time to
+deselect the selected features
+
+dd6cafab-e2ad-4f9c-a7bc-fff19d6d1e36-1
+00:02:44.914 --> 00:02:47.280
+before you run your next
+selection.

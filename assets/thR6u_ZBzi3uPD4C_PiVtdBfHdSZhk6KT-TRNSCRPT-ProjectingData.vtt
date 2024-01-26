@@ -1,0 +1,536 @@
+WEBVTT
+
+7f7acd7f-c728-4d0d-be2d-21b20289af7a-0
+00:00:00.520 --> 00:00:06.653
+We have decided to project our
+data layers into the projection
+
+7f7acd7f-c728-4d0d-be2d-21b20289af7a-1
+00:00:06.653 --> 00:00:13.078
+WGS 1984 UTM Zone 29 N, so let's
+start by projecting the sighting
+
+7f7acd7f-c728-4d0d-be2d-21b20289af7a-2
+00:00:13.078 --> 00:00:13.760
+points.
+
+861e97b2-b374-402c-8937-711b0462614d-0
+00:00:14.040 --> 00:00:18.303
+We're going to be using the
+Geoprocessing Toolbox to find a
+
+861e97b2-b374-402c-8937-711b0462614d-1
+00:00:18.303 --> 00:00:19.440
+tool to do this.
+
+f502fd46-9b69-4cfb-a05f-9cf32b6d29e6-0
+00:00:19.800 --> 00:00:26.553
+So we can go into the Analysis
+tab at the top and click on the
+
+f502fd46-9b69-4cfb-a05f-9cf32b6d29e6-1
+00:00:26.553 --> 00:00:30.520
+Tools button to open up our
+toolbox.
+
+dcbf019b-3671-461d-8541-8cf523d8e62a-0
+00:00:32.320 --> 00:00:35.400
+And now we can search in
+Project.
+
+c387b7e3-2ad7-4546-aa9c-93aa3c166c91-0
+00:00:43.260 --> 00:00:47.970
+So we can see that we've had
+lots of tools come up that all
+
+c387b7e3-2ad7-4546-aa9c-93aa3c166c91-1
+00:00:47.970 --> 00:00:49.540
+say Project on them.
+
+87f5e3e6-5785-4b12-9435-f6a2cbd1c1a4-0
+00:00:49.860 --> 00:00:52.220
+So what is the right tool to
+use?
+
+491482d1-8196-4d35-a67c-89b2d6db0d66-0
+00:00:55.260 --> 00:00:58.300
+We've got a tool that's called
+Project.
+
+383f8482-22b3-427e-b793-f0c8b88e5535-0
+00:00:58.580 --> 00:01:03.009
+We've got one that's called
+Project Raster for projecting
+
+383f8482-22b3-427e-b793-f0c8b88e5535-1
+00:01:03.009 --> 00:01:04.460
+raster data layers.
+
+01097a71-04fc-4140-bd94-dab0e946acb9-0
+00:01:04.840 --> 00:01:09.754
+We've got Batch Project, which
+lets you project several layers
+
+01097a71-04fc-4140-bd94-dab0e946acb9-1
+00:01:09.754 --> 00:01:11.080
+at the same time.
+
+375bae65-5ed1-46e9-8c99-064a4b257cd5-0
+00:01:12.640 --> 00:01:19.151
+We've got Package Project, which
+isn't a projection tool, that's
+
+375bae65-5ed1-46e9-8c99-064a4b257cd5-1
+00:01:19.151 --> 00:01:23.760
+just for packaging up our Arcgis
+Pro project.
+
+9fa9826e-089e-414f-a645-62ad633958c5-0
+00:01:24.480 --> 00:01:28.117
+And then we have Define
+Projection, and this is what you
+
+9fa9826e-089e-414f-a645-62ad633958c5-1
+00:01:28.117 --> 00:01:32.200
+would use if your data layer was
+missing a coordinate reference
+
+9fa9826e-089e-414f-a645-62ad633958c5-2
+00:01:32.200 --> 00:01:35.200
+system and you needed to give it
+a projection.
+
+ba9687c7-1fd2-4de2-a4dd-9c73928d3daf-0
+00:01:35.920 --> 00:01:39.160
+But our data layers already have
+a coordinate reference system.
+
+20d49406-ee1e-4a46-9eaf-b8830e8feff1-0
+00:01:39.160 --> 00:01:42.310
+We know what they are, we just
+want to change this to a new
+
+20d49406-ee1e-4a46-9eaf-b8830e8feff1-1
+00:01:42.310 --> 00:01:42.520
+one.
+
+4b95c3ad-77c8-491e-9617-9ee5e0331443-0
+00:01:42.800 --> 00:01:45.120
+And so we're going to use the
+project tool.
+
+02813124-0914-4fb9-8991-ee4d5c617532-0
+00:01:48.120 --> 00:01:54.040
+So click on the project tool to
+open up the tool window.
+
+ab71698d-b981-47a7-910e-fac1400ba241-0
+00:01:55.400 --> 00:01:59.162
+So what this tool is going to do
+is it's going to create a new
+
+ab71698d-b981-47a7-910e-fac1400ba241-1
+00:01:59.162 --> 00:02:02.207
+layer which is our sighting
+points, but in the new
+
+ab71698d-b981-47a7-910e-fac1400ba241-2
+00:02:02.207 --> 00:02:03.880
+coordinate reference system.
+
+5b809f9c-632b-4030-8f38-5c9d7266d567-0
+00:02:07.480 --> 00:02:10.320
+So let's put in our parameters
+for this tool.
+
+5754d548-7e7c-4982-a4d0-c388317cd682-0
+00:02:10.320 --> 00:02:13.080
+The first thing we have is our
+input data set.
+
+b19c1582-e9af-4367-8ee4-a064949db0e0-0
+00:02:13.240 --> 00:02:15.400
+This is going to be our sighting
+points.
+
+394274e0-21bf-4047-8092-a74c843f2b63-0
+00:02:15.400 --> 00:02:18.960
+So drag these across and put
+them in there.
+
+d9a9719e-4dad-47fd-b2cc-47538a795bb8-0
+00:02:19.440 --> 00:02:22.969
+And we can see that underneath
+it's telling us what is the
+
+d9a9719e-4dad-47fd-b2cc-47538a795bb8-1
+00:02:22.969 --> 00:02:26.320
+current coordinate reference
+system of that data layer.
+
+1fed503c-f2c1-4ef8-af59-a00da9e9e9ff-0
+00:02:28.600 --> 00:02:31.469
+And then the next thing we need
+to do is set a output data set
+
+1fed503c-f2c1-4ef8-af59-a00da9e9e9ff-1
+00:02:31.469 --> 00:02:33.200
+as this is creating a new data
+layer.
+
+676ad743-781d-4a31-af2a-4850b60505f3-0
+00:02:33.200 --> 00:02:35.360
+
+
+60469c8d-76e7-43db-8dc7-a3df4f2ab9ef-0
+00:02:35.360 --> 00:02:37.720
+So we need to say where we're
+going to save it to and what
+
+60469c8d-76e7-43db-8dc7-a3df4f2ab9ef-1
+00:02:37.720 --> 00:02:38.640
+we're going to name it.
+
+c0e1f5fb-68e2-43eb-8192-5d6ce67c0795-0
+00:02:39.160 --> 00:02:45.263
+So let's click on the folder
+icon to the right of this
+
+c0e1f5fb-68e2-43eb-8192-5d6ce67c0795-1
+00:02:45.263 --> 00:02:50.480
+section and let's save it in our
+Geo database.
+
+b952947e-f4b3-4cbc-b60d-bf513feff489-0
+00:02:51.440 --> 00:02:57.070
+So navigate to where that Geo
+database is, open it up, and now
+
+b952947e-f4b3-4cbc-b60d-bf513feff489-1
+00:02:57.070 --> 00:03:02.343
+we can name the new data layer
+so we can call it projected
+
+b952947e-f4b3-4cbc-b60d-bf513feff489-2
+00:03:02.343 --> 00:03:02.880
+points
+
+3b3041e9-3fe6-4676-a078-53d33fe2530b-0
+00:03:04.400 --> 00:03:08.502
+so it's nice and clear that
+these are the points with the
+
+3b3041e9-3fe6-4676-a078-53d33fe2530b-1
+00:03:08.502 --> 00:03:11.120
+new UTM Coordinate Reference
+System.
+
+7268a6d8-03a9-4931-a481-c7106067fd75-0
+00:03:11.120 --> 00:03:15.575
+Our output coordinate system is
+the one that we want to change
+
+7268a6d8-03a9-4931-a481-c7106067fd75-1
+00:03:15.575 --> 00:03:16.000
+it to.
+
+ebef18c2-3325-4b39-8337-a911144ee967-0
+00:03:17.160 --> 00:03:22.395
+So we can click on the globe
+icon to the right of this and we
+
+ebef18c2-3325-4b39-8337-a911144ee967-1
+00:03:22.395 --> 00:03:27.462
+can search in the UTM projected
+coordinate system or search
+
+ebef18c2-3325-4b39-8337-a911144ee967-2
+00:03:27.462 --> 00:03:30.840
+through the relevant tabs to get
+there.
+
+7acd403f-0b98-4b60-ba1e-d159a4bcf22a-0
+00:03:31.560 --> 00:03:35.860
+But a quick way to do this is we
+can click on the drop down box
+
+7acd403f-0b98-4b60-ba1e-d159a4bcf22a-1
+00:03:35.860 --> 00:03:40.027
+and choose the data layer that
+has the coordinate system that
+
+7acd403f-0b98-4b60-ba1e-d159a4bcf22a-2
+00:03:40.027 --> 00:03:41.640
+we want to change it to.
+
+fd962a72-1cda-4bac-b48e-dfddfdf50156-0
+00:03:41.960 --> 00:03:46.690
+So we know Ziama protected area
+is already in the UTM coordinate
+
+fd962a72-1cda-4bac-b48e-dfddfdf50156-1
+00:03:46.690 --> 00:03:47.200
+system.
+
+49047c20-35b8-4002-9627-3114949d1a29-0
+00:03:47.200 --> 00:03:50.098
+So we can choose this, and now
+we can see that it's
+
+49047c20-35b8-4002-9627-3114949d1a29-1
+00:03:50.098 --> 00:03:53.331
+automatically put in the
+coordinate reference system that
+
+49047c20-35b8-4002-9627-3114949d1a29-2
+00:03:53.331 --> 00:03:54.000
+we're after.
+
+eeff5559-1796-4b43-ab64-58330fd7b86e-0
+00:03:55.120 --> 00:03:57.000
+So we don't need to worry about
+the next section.
+
+aa24073a-de53-4350-8fb3-222b7f1eeab5-0
+00:03:57.000 --> 00:04:01.280
+We can just hit run and this is
+going to project our data.
+
+0d26a45b-1556-4cc9-812c-118f8921e4ff-0
+00:04:05.360 --> 00:04:08.960
+And now we can see our projected
+points layer in our contents.
+
+38d8c33f-52a2-49f0-8349-b0ed7a4cec2f-0
+00:04:08.960 --> 00:04:11.945
+So we can delete the other
+points layer with the wrong
+
+38d8c33f-52a2-49f0-8349-b0ed7a4cec2f-1
+00:04:11.945 --> 00:04:15.420
+coordinate reference system just
+by right clicking and clicking
+
+38d8c33f-52a2-49f0-8349-b0ed7a4cec2f-2
+00:04:15.420 --> 00:04:15.800
+remove.
+
+a7d084ff-ce7d-4135-aecd-a2b9b81555fa-0
+00:04:16.960 --> 00:04:20.679
+And now we're going to project
+the two protected areas that are
+
+a7d084ff-ce7d-4135-aecd-a2b9b81555fa-1
+00:04:20.679 --> 00:04:23.120
+in the wrong coordinate
+reference system.
+
+80638383-e37e-4178-956b-738bfbafc287-0
+00:04:23.320 --> 00:04:25.720
+So that's Wonegizi and Wologizi.
+
+506aa50d-37de-4710-976b-c7642ae563dd-0
+00:04:26.280 --> 00:04:30.884
+So if we start with Wonegizi, we
+can drag this across into the
+
+506aa50d-37de-4710-976b-c7642ae563dd-1
+00:04:30.884 --> 00:04:34.320
+Input data Set section of our
+projection tool.
+
+182741b6-5915-4780-ae35-7f40aa23236c-0
+00:04:36.080 --> 00:04:40.030
+And again, we can see that it's
+showing us what the current
+
+182741b6-5915-4780-ae35-7f40aa23236c-1
+00:04:40.030 --> 00:04:42.400
+coordinate system of that layer
+is.
+
+71086fac-b664-42a0-8d65-795aa38a7ef2-0
+00:04:43.320 --> 00:04:46.615
+And now let's go and choose
+where we want to save the new
+
+71086fac-b664-42a0-8d65-795aa38a7ef2-1
+00:04:46.615 --> 00:04:47.240
+layer into.
+
+51606d20-176f-4971-b409-23e65e4a6078-0
+00:04:47.880 --> 00:04:52.467
+So that's going to be our
+Geodatabase and we'll call this
+
+51606d20-176f-4971-b409-23e65e4a6078-1
+00:04:52.467 --> 00:04:54.920
+projected Wonegizi, Click save.
+
+77642ae6-8cf5-4ecc-b405-d6e6998ae0d2-0
+00:04:55.920 --> 00:04:58.680
+And now we've got our output
+coordinate system already there.
+
+ed9f6ee9-def3-4341-936f-377ab4735765-0
+00:04:58.680 --> 00:04:59.640
+So we can run it.
+
+39723bae-0754-4c4a-a5ac-081b866c5b87-0
+00:05:04.440 --> 00:05:08.611
+And once that comes up in our
+contents, we can delete the old
+
+39723bae-0754-4c4a-a5ac-081b866c5b87-1
+00:05:08.611 --> 00:05:11.640
+layer and just leave the
+projected Wonegizi.
+
+4d3e7c7c-dcdc-48f9-892b-a91dfe4b15e5-0
+00:05:14.880 --> 00:05:17.800
+And now we'll do the same for
+Wologizi as well.
+
+b4d74c3e-e2b1-45e0-8429-6a4d63e99c36-0
+00:05:17.800 --> 00:05:21.640
+So we'll drag this across as our
+input.
+
+e0af09d9-0216-4bf4-8af0-aa0f6a0ffeac-0
+00:05:23.600 --> 00:05:28.990
+We can see the current
+coordinate system, let's save it
+
+e0af09d9-0216-4bf4-8af0-aa0f6a0ffeac-1
+00:05:28.990 --> 00:05:34.574
+into our Geodatabase, name it
+projected Wologizi, and the
+
+e0af09d9-0216-4bf4-8af0-aa0f6a0ffeac-2
+00:05:34.574 --> 00:05:38.040
+coordinate system is there
+already.
+
+9a86739e-8b68-42b1-8813-89ed1a631f25-0
+00:05:38.040 --> 00:05:46.869
+So we just need to hit run and
+then delete the original
+
+9a86739e-8b68-42b1-8813-89ed1a631f25-1
+00:05:46.869 --> 00:05:51.600
+Wologizi protected area layer.
+
+dbec115a-97fe-402c-8f93-094543a4ddf5-0
+00:05:58.330 --> 00:06:01.871
+So now all of our data layers
+are in the same projected
+
+dbec115a-97fe-402c-8f93-094543a4ddf5-1
+00:06:01.871 --> 00:06:03.010
+coordinate system.
+
+6d9a3b1f-f4e0-401b-864d-424d6231a83e-0
+00:06:03.170 --> 00:06:06.690
+We need to make sure that our
+map is also in the same system.
+
+0b0b5562-2fe0-447d-9bfa-3558171365bf-0
+00:06:07.210 --> 00:06:14.439
+So we can right click on the map
+in the contents pane, go into
+
+0b0b5562-2fe0-447d-9bfa-3558171365bf-1
+00:06:14.439 --> 00:06:21.440
+its properties, and we'll go
+into the Coordinate System tab.
+
+dbaf1b6b-f580-413e-a473-23ff4b9bb63a-0
+00:06:23.120 --> 00:06:27.393
+In the box under where it says
+Current XY, we can see it's
+
+dbaf1b6b-f580-413e-a473-23ff4b9bb63a-1
+00:06:27.393 --> 00:06:31.738
+current coordinate system, so
+it's not in the UTM zone 29 N
+
+dbaf1b6b-f580-413e-a473-23ff4b9bb63a-2
+00:06:31.738 --> 00:06:32.680
+that we want.
+
+1f854680-bf55-4f97-a9a8-bca9c4012fd9-0
+00:06:33.160 --> 00:06:37.052
+So what we can do is we could
+either look through all the
+
+1f854680-bf55-4f97-a9a8-bca9c4012fd9-1
+00:06:37.052 --> 00:06:41.011
+different coordinate systems
+here, looking in the relevant
+
+1f854680-bf55-4f97-a9a8-bca9c4012fd9-2
+00:06:41.011 --> 00:06:44.836
+tabs, or we can search in our
+some of the words from our
+
+1f854680-bf55-4f97-a9a8-bca9c4012fd9-3
+00:06:44.836 --> 00:06:47.320
+coordinate system to narrow it
+down.
+
+ce5c38b7-d472-4b09-9c7b-1a246e6b8932-0
+00:06:47.880 --> 00:06:53.108
+So we'll type in UTM zone 29 N
+and then we know that we need to
+
+ce5c38b7-d472-4b09-9c7b-1a246e6b8932-1
+00:06:53.108 --> 00:06:58.337
+go in the Projected Coordinate
+System tab, we need to go in the
+
+ce5c38b7-d472-4b09-9c7b-1a246e6b8932-2
+00:06:58.337 --> 00:07:01.360
+UTM tab, and then it's the WGS
+1984.
+
+6a9cf906-5df6-47ea-96e7-f3f3014a20b0-0
+00:07:02.000 --> 00:07:06.563
+So we go in here and it's 29 N
+so we know it's in the northern
+
+6a9cf906-5df6-47ea-96e7-f3f3014a20b0-1
+00:07:06.563 --> 00:07:07.360
+hemisphere.
+
+8f35b672-c6b5-47e1-9be4-1e34fb766646-0
+00:07:07.880 --> 00:07:09.280
+And we've got two options here.
+
+5c31aaed-094f-4987-a1e3-2b366d6daaf8-0
+00:07:09.320 --> 00:07:15.501
+It's not the complex 1, so we
+need to choose the bottom one
+
+5c31aaed-094f-4987-a1e3-2b366d6daaf8-1
+00:07:15.501 --> 00:07:21.475
+which is just the WGS 1984 UTM
+Zone 29 N and click OK and
+
+5c31aaed-094f-4987-a1e3-2b366d6daaf8-2
+00:07:21.475 --> 00:07:27.347
+that's how to project data
+layers and your map in Arcgis
+
+5c31aaed-094f-4987-a1e3-2b366d6daaf8-3
+00:07:27.347 --> 00:07:27.760
+Pro.
+
+60b2c7e5-863e-4bbd-8dd0-22db6ebbc1f2-0
+00:07:27.760 --> 00:07:31.711
+This is really important if you
+want to create accurate maps or
+
+60b2c7e5-863e-4bbd-8dd0-22db6ebbc1f2-1
+00:07:31.711 --> 00:07:34.120
+do accurate analysis in
+geoprocessing.

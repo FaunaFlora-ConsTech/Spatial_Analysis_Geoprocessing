@@ -1,0 +1,377 @@
+WEBVTT
+
+184859df-3fa5-4f3a-84e2-34314e86a8de-0
+00:00:01.360 --> 00:00:05.876
+In this video, we're going to
+edit our Sightings data layer so
+
+184859df-3fa5-4f3a-84e2-34314e86a8de-1
+00:00:05.876 --> 00:00:08.600
+that we can add a new sighting
+point.
+
+5be2d223-deae-4b8d-8d58-cf3cee115b87-0
+00:00:09.440 --> 00:00:17.767
+To edit a data layer you want to
+click on the layer in your
+
+5be2d223-deae-4b8d-8d58-cf3cee115b87-1
+00:00:17.767 --> 00:00:25.400
+contents and then go into the
+Edit tab and look in the
+
+5be2d223-deae-4b8d-8d58-cf3cee115b87-2
+00:00:25.400 --> 00:00:27.759
+Features section.
+
+fa3b0891-71c3-4ab1-8e37-5813be848dc6-0
+00:00:29.120 --> 00:00:35.208
+So in this section we have the
+Create button which lets us add
+
+fa3b0891-71c3-4ab1-8e37-5813be848dc6-1
+00:00:35.208 --> 00:00:41.200
+new features to our layers, so
+new points, lines or polygons.
+
+2811253c-88e6-40b3-b39d-688fb776bc5c-0
+00:00:41.920 --> 00:00:46.848
+The Modify button lets us change
+the existing features, so move
+
+2811253c-88e6-40b3-b39d-688fb776bc5c-1
+00:00:46.848 --> 00:00:51.160
+points or reshape polygons or
+rotate lines for example.
+
+7387441d-0d18-4e58-a0a3-0f027d5999ab-0
+00:00:51.720 --> 00:00:56.578
+And the Delete button allows us
+to delete features, so we could
+
+7387441d-0d18-4e58-a0a3-0f027d5999ab-1
+00:00:56.578 --> 00:01:00.982
+delete one of our sighting
+points if we wanted to. But we
+
+7387441d-0d18-4e58-a0a3-0f027d5999ab-2
+00:01:00.982 --> 00:01:05.688
+want to create a new sighting,
+so we're going to click on the
+
+7387441d-0d18-4e58-a0a3-0f027d5999ab-3
+00:01:05.688 --> 00:01:10.320
+Create button which will bring
+up this Create Features pane.
+
+363c0857-db67-43ee-bd2f-8107c8210094-0
+00:01:10.600 --> 00:01:15.042
+So we can just shut the catalog
+pane and we'll click on where we
+
+363c0857-db67-43ee-bd2f-8107c8210094-1
+00:01:15.042 --> 00:01:19.280
+can see the point symbol for our
+sighting environment points.
+
+d910a553-970a-4f11-9209-74af06d7b92e-0
+00:01:20.520 --> 00:01:23.946
+And now we have some buttons
+here for different options of
+
+d910a553-970a-4f11-9209-74af06d7b92e-1
+00:01:23.946 --> 00:01:24.760
+adding points.
+
+16cd6926-9e43-43c0-9854-1e8d10b4e9c3-0
+00:01:24.760 --> 00:01:29.954
+We just want to click on the
+first button which is create a
+
+16cd6926-9e43-43c0-9854-1e8d10b4e9c3-1
+00:01:29.954 --> 00:01:35.063
+points feature and then we want
+to click on the blue arrow
+
+16cd6926-9e43-43c0-9854-1e8d10b4e9c3-2
+00:01:35.063 --> 00:01:38.440
+that's to the right of our layer
+name.
+
+8b61e7d6-0a1e-4056-b788-2ce9822a6acd-0
+00:01:39.360 --> 00:01:43.447
+This is going to let us add in
+the information for our data
+
+8b61e7d6-0a1e-4056-b788-2ce9822a6acd-1
+00:01:43.447 --> 00:01:47.671
+point that we're going to add
+onto our map, so it'll bring up
+
+8b61e7d6-0a1e-4056-b788-2ce9822a6acd-2
+00:01:47.671 --> 00:01:51.418
+this window where we have the
+different columns in our
+
+8b61e7d6-0a1e-4056-b788-2ce9822a6acd-3
+00:01:51.418 --> 00:01:52.440
+sightings data.
+
+c4f14c77-3781-4efc-b52c-2a446f9a2b77-0
+00:01:52.960 --> 00:01:58.169
+So let's add in the attributes
+that we know so the date is the
+
+c4f14c77-3781-4efc-b52c-2a446f9a2b77-1
+00:01:58.169 --> 00:02:03.131
+same as for the other nest
+sighting in the secondary forest
+
+c4f14c77-3781-4efc-b52c-2a446f9a2b77-2
+00:02:03.131 --> 00:02:07.680
+in Wonegizi and that was on the
+25th of November 2022.
+
+5c27c3c9-5dca-4eea-b590-4ec6fe57623c-0
+00:02:08.360 --> 00:02:14.765
+So we can click on the calendar
+button and click on the top to
+
+5c27c3c9-5dca-4eea-b590-4ec6fe57623c-1
+00:02:14.765 --> 00:02:21.171
+change the date 2022 and then
+choose November and click on the
+
+5c27c3c9-5dca-4eea-b590-4ec6fe57623c-2
+00:02:21.171 --> 00:02:21.679
+25th.
+
+7c4ba659-bc47-4c28-b80d-2ce52c274231-0
+00:02:25.440 --> 00:02:27.960
+As we're going to add the point
+to the map.
+
+7034b112-6da7-4010-bb0d-022ce48244ce-0
+00:02:28.280 --> 00:02:32.312
+We don't know what to put in the
+longitude and latitude yet so
+
+7034b112-6da7-4010-bb0d-022ce48244ce-1
+00:02:32.312 --> 00:02:34.360
+we're going to leave that empty.
+
+44930ecd-71a5-45f6-89e7-8ef80a408fd4-0
+00:02:34.600 --> 00:02:38.973
+But for sighting we can put in
+nest and for environment we can
+
+44930ecd-71a5-45f6-89e7-8ef80a408fd4-1
+00:02:38.973 --> 00:02:40.640
+put in secondary forest.
+
+4f127784-2312-4e44-932a-ee6da7abd032-0
+00:02:41.640 --> 00:02:45.251
+And now if we bring our mouse
+onto the map we can see that we
+
+4f127784-2312-4e44-932a-ee6da7abd032-1
+00:02:45.251 --> 00:02:48.280
+have a tool to drop a sighting
+point where we want.
+
+14290770-0af6-4276-b629-d2822d5171fa-0
+00:02:48.680 --> 00:02:52.389
+So we're going to drop it in the
+same place as the other nest
+
+14290770-0af6-4276-b629-d2822d5171fa-1
+00:02:52.389 --> 00:02:55.920
+sighting in Wonegizi as this is
+where our missing data is.
+
+a184aff8-292b-4718-bdac-1c996618c16f-0
+00:02:56.440 --> 00:03:02.215
+So drop that in and if you put
+it in the slightly wrong place
+
+a184aff8-292b-4718-bdac-1c996618c16f-1
+00:03:02.215 --> 00:03:08.176
+like I have, you can go into the
+tools, click the move tool and
+
+a184aff8-292b-4718-bdac-1c996618c16f-2
+00:03:08.176 --> 00:03:14.138
+once the point is selected and
+it's highlighted yellow, you can
+
+a184aff8-292b-4718-bdac-1c996618c16f-3
+00:03:14.138 --> 00:03:19.448
+drag it to move it where you
+want and then click on this
+
+a184aff8-292b-4718-bdac-1c996618c16f-4
+00:03:19.448 --> 00:03:23.639
+green tick finish button to
+finish the move.
+
+a754a387-9c2d-46fe-ab19-981980a9cca7-0
+00:03:25.160 --> 00:03:30.480
+And once you're happy with where
+your point is, you can click the
+
+a754a387-9c2d-46fe-ab19-981980a9cca7-1
+00:03:30.480 --> 00:03:35.800
+Save Edits button which is up in
+the Edit tab here and click Yes.
+
+e61e16c6-19f2-41fa-a22e-61f4552f3201-0
+00:03:37.720 --> 00:03:42.351
+So now let's open our attribute
+table to see our new sighting
+
+e61e16c6-19f2-41fa-a22e-61f4552f3201-1
+00:03:42.351 --> 00:03:42.800
+point.
+
+955e6b45-f960-4276-8571-2d1a004dbd4a-0
+00:03:46.040 --> 00:03:48.760
+So we still have the definition
+query on our data.
+
+206bcf8b-021e-4b09-b24c-70e036226a53-0
+00:03:48.760 --> 00:03:53.143
+So we've only got 7 rows in our
+table, but we can see at the
+
+206bcf8b-021e-4b09-b24c-70e036226a53-1
+00:03:53.143 --> 00:03:56.880
+bottom we've got the new row
+that we've just added.
+
+533498a3-d92b-453c-803e-3ab39626c220-0
+00:03:57.520 --> 00:04:00.911
+But even though we've plotted
+this point, we still don't have
+
+533498a3-d92b-453c-803e-3ab39626c220-1
+00:04:00.911 --> 00:04:02.880
+the the longitude and the
+latitude.
+
+df46111a-fd87-4388-8214-8f9e1a22f75b-0
+00:04:03.280 --> 00:04:07.317
+We need to calculate this
+manually, so to do that we can
+
+df46111a-fd87-4388-8214-8f9e1a22f75b-1
+00:04:07.317 --> 00:04:11.922
+click on the column heading for
+longitude, right click and click
+
+df46111a-fd87-4388-8214-8f9e1a22f75b-2
+00:04:11.922 --> 00:04:16.455
+calculate geometry and we've got
+the rows selected that we want
+
+df46111a-fd87-4388-8214-8f9e1a22f75b-3
+00:04:16.455 --> 00:04:19.360
+to calculate geometry for in our
+tables.
+
+f86bd82d-b2c4-489d-bfe0-a5b65ea81167-0
+00:04:19.360 --> 00:04:22.080
+So we're only going to be doing
+it on that row.
+
+1f4002a0-7df6-48c0-acb7-1443dd18e74f-0
+00:04:22.920 --> 00:04:26.626
+And in the input features we
+want it to be our sighting
+
+1f4002a0-7df6-48c0-acb7-1443dd18e74f-1
+00:04:26.626 --> 00:04:30.200
+environment points, which should
+already be in there.
+
+f84a75e5-e5f0-4fbb-b9d6-2c07a16fd593-0
+00:04:32.640 --> 00:04:35.720
+And then for field that's going
+to be our longitude.
+
+1ff358b8-6d6e-496e-8f2f-811a94d2246f-0
+00:04:36.560 --> 00:04:41.063
+And for property we want to
+click X coordinate as we go
+
+1ff358b8-6d6e-496e-8f2f-811a94d2246f-1
+00:04:41.063 --> 00:04:44.120
+along the corridor and up the
+stairs.
+
+043463e0-b845-4132-a711-b4450f014949-0
+00:04:45.240 --> 00:04:50.360
+The coordinate format can be the
+same as our input data and the
+
+043463e0-b845-4132-a711-b4450f014949-1
+00:04:50.360 --> 00:04:51.800
+coordinate system.
+
+eb4159a8-8dd4-4735-ac8f-cefbd522b5c0-0
+00:04:51.920 --> 00:04:55.240
+We want it to be the same as our
+sighting points.
+
+40b83405-15cb-42ab-b470-44f20436a071-0
+00:04:55.240 --> 00:05:04.498
+So we'll click on this and then
+we'll click OK and now we can
+
+40b83405-15cb-42ab-b470-44f20436a071-1
+00:05:04.498 --> 00:05:10.920
+see the calculated longitude for
+that row.
+
+b609e8ab-6836-4894-8667-840394d061db-0
+00:05:11.320 --> 00:05:15.120
+So we'll just do the same for
+the latitude column as well.
+
+2db6f947-9cf9-4958-8a89-f74e87a9b34e-0
+00:05:15.600 --> 00:05:18.640
+Click on it, right click,
+calculate geometry.
+
+4424d1ae-1690-405c-a638-a920e72fe0e8-0
+00:05:20.520 --> 00:05:24.987
+The input features are our
+sighting points, The field is
+
+4424d1ae-1690-405c-a638-a920e72fe0e8-1
+00:05:24.987 --> 00:05:29.532
+latitude this time and the
+property is point Y coordinate
+
+4424d1ae-1690-405c-a638-a920e72fe0e8-2
+00:05:29.532 --> 00:05:34.234
+and then the coordinate format
+is same as our input and the
+
+4424d1ae-1690-405c-a638-a920e72fe0e8-3
+00:05:34.234 --> 00:05:37.840
+coordinate system is for our
+sighting points.
+
+44b2b43a-5db0-49b9-8422-e18216570262-0
+00:05:38.480 --> 00:05:48.371
+So just click OK and that's how
+to edit a data layer in Arcgis
+
+44b2b43a-5db0-49b9-8422-e18216570262-1
+00:05:48.371 --> 00:05:49.000
+Pro.
+
+2e3b0489-4f1a-4b1b-a555-bb1fb78221a5-0
+00:05:49.320 --> 00:05:53.680
+Just remember to hit save now to
+save our changes.

@@ -1,0 +1,261 @@
+WEBVTT
+
+ffb78801-3f38-4e6f-874f-fbbc973ae4c0-0
+00:00:01.520 --> 00:00:05.428
+In this video we're going to be
+using the Dissolve tool, but
+
+ffb78801-3f38-4e6f-874f-fbbc973ae4c0-1
+00:00:05.428 --> 00:00:09.080
+first of all, let's just clean
+up our layers list again.
+
+e206949d-735c-46fe-93da-b4877bb3e187-0
+00:00:09.080 --> 00:00:09.760
+
+
+1fc32b3b-523a-4453-9d7e-c2d155e02179-0
+00:00:10.920 --> 00:00:20.288
+We can get rid of the MPA no
+Take Zone layer and also the
+
+1fc32b3b-523a-4453-9d7e-c2d155e02179-1
+00:00:20.288 --> 00:00:23.680
+Spawning Clips layer.
+
+358728e9-9ade-4469-8dbe-8536e2426313-0
+00:00:30.580 --> 00:00:34.260
+And so in this video we're going
+to be using the Dissolve tool.
+
+bb91b3f8-38d0-4836-a467-84b564694691-0
+00:00:35.160 --> 00:00:38.766
+So the dissolve tool can
+dissolve the boundaries between
+
+bb91b3f8-38d0-4836-a467-84b564694691-1
+00:00:38.766 --> 00:00:42.879
+features within a layer, and it
+can also dissolve the boundaries
+
+bb91b3f8-38d0-4836-a467-84b564694691-2
+00:00:42.879 --> 00:00:45.600
+based on the attributes of those
+features.
+
+07eaa3b3-4569-48bc-8e7e-fbfc2ff444c7-0
+00:00:46.280 --> 00:00:50.878
+So within our merge data set, we
+can see that where the spawning
+
+07eaa3b3-4569-48bc-8e7e-fbfc2ff444c7-1
+00:00:50.878 --> 00:00:55.477
+grounds and the current no take
+MPA zone overlap, we've got some
+
+07eaa3b3-4569-48bc-8e7e-fbfc2ff444c7-2
+00:00:55.477 --> 00:00:57.600
+boundaries or some lines here.
+
+a46b8daf-a46b-407d-9aa8-ad9e725846ac-0
+00:00:58.160 --> 00:01:01.679
+We don't want this as we want it
+to all be merged together so
+
+a46b8daf-a46b-407d-9aa8-ad9e725846ac-1
+00:01:01.679 --> 00:01:04.971
+that we can see where the no
+take zone will be during the
+
+a46b8daf-a46b-407d-9aa8-ad9e725846ac-2
+00:01:04.971 --> 00:01:05.880
+spawning months.
+
+42dd2552-b12f-41df-949d-4b85438e3852-0
+00:01:06.560 --> 00:01:08.600
+So let's open up the dissolve
+tool.
+
+047a328d-a5c8-4050-8b21-60805ecae61e-0
+00:01:09.200 --> 00:01:15.012
+We'll go into the processing
+toolbox, type in Dissolve and
+
+047a328d-a5c8-4050-8b21-60805ecae61e-1
+00:01:15.012 --> 00:01:21.120
+it's this tool here under vector
+geometry, the dissolve tool.
+
+c820e5ab-bdcf-467c-86b4-ff3403098854-0
+00:01:21.120 --> 00:01:26.325
+So we'll open this up and now
+our input layer is what layer
+
+c820e5ab-bdcf-467c-86b4-ff3403098854-1
+00:01:26.325 --> 00:01:27.800
+we're dissolving.
+
+da2ee27f-a95d-43c7-aee5-3bf05e5823b3-0
+00:01:27.800 --> 00:01:33.132
+And so that's the no take
+spawning season layer, our
+
+da2ee27f-a95d-43c7-aee5-3bf05e5823b3-1
+00:01:33.132 --> 00:01:34.440
+merged layer.
+
+d2807439-8930-408c-b689-a933db6a16a6-0
+00:01:34.840 --> 00:01:39.211
+So we'll choose this in the drop
+down box and then the next thing
+
+d2807439-8930-408c-b689-a933db6a16a6-1
+00:01:39.211 --> 00:01:41.000
+we have is dissolve fields.
+
+2cc71dd7-5d55-40e8-9010-2fba7c7ec505-0
+00:01:41.440 --> 00:01:45.205
+So using when you use the
+dissolve tool, you can also set
+
+2cc71dd7-5d55-40e8-9010-2fba7c7ec505-1
+00:01:45.205 --> 00:01:48.970
+dissolve fields and these are
+the columns within a layers
+
+2cc71dd7-5d55-40e8-9010-2fba7c7ec505-2
+00:01:48.970 --> 00:01:52.800
+table that tell the tool where
+to dissolve the boundaries.
+
+c1861288-1ac0-4ad3-afc9-dd8a572c61fc-0
+00:01:53.520 --> 00:01:56.879
+It's not relevant for our layer
+because we just want to dissolve
+
+c1861288-1ac0-4ad3-afc9-dd8a572c61fc-1
+00:01:56.879 --> 00:01:59.824
+all the boundaries or any
+boundary that's in between the
+
+c1861288-1ac0-4ad3-afc9-dd8a572c61fc-2
+00:01:59.824 --> 00:02:01.840
+no take zone and the spawning
+grounds.
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-0
+00:02:02.320 --> 00:02:05.876
+But if you had a layer for
+example, that was a continent
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-1
+00:02:05.876 --> 00:02:09.557
+and you had the boundaries for
+the countries, but also the
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-2
+00:02:09.557 --> 00:02:13.113
+boundaries for the regions
+within the countries, and you
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-3
+00:02:13.113 --> 00:02:16.794
+didn't want these regional
+boundaries anymore, then within
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-4
+00:02:16.794 --> 00:02:20.413
+the dissolve field you could
+choose the column within the
+
+eb6bd732-efac-4f01-a8f2-dbcba7aed596-5
+00:02:20.413 --> 00:02:23.720
+table that tells you what
+country each region is in.
+
+cf2bccc2-41e1-4883-80ed-2b2af2b5c2fd-0
+00:02:24.200 --> 00:02:28.367
+And so this would tell the tool
+to dissolve the regional
+
+cf2bccc2-41e1-4883-80ed-2b2af2b5c2fd-1
+00:02:28.367 --> 00:02:33.120
+boundaries but keep the country
+boundaries within the continent.
+
+8991aebf-14d7-4229-bf22-49844f62f2f5-0
+00:02:34.400 --> 00:02:37.816
+But we can leave this blank as
+we can just dissolve any
+
+8991aebf-14d7-4229-bf22-49844f62f2f5-1
+00:02:37.816 --> 00:02:40.440
+boundary that was that's within
+our layer.
+
+ea9da220-369b-4e71-a247-749b0f90360d-0
+00:02:42.160 --> 00:02:45.440
+And then the next thing or the
+last thing we need to do is
+
+ea9da220-369b-4e71-a247-749b0f90360d-1
+00:02:45.440 --> 00:02:49.054
+choose where we're going to save
+the new layer to and what we're
+
+ea9da220-369b-4e71-a247-749b0f90360d-2
+00:02:49.054 --> 00:02:50.000
+going to name it.
+
+325de50d-8884-4b3c-9e35-c5afaabf5dc5-0
+00:02:50.480 --> 00:02:55.223
+So we're going to click on the
+three dots next to the dissolved
+
+325de50d-8884-4b3c-9e35-c5afaabf5dc5-1
+00:02:55.223 --> 00:02:59.892
+section here and we're going to
+choose Save to Geo package and
+
+325de50d-8884-4b3c-9e35-c5afaabf5dc5-2
+00:02:59.892 --> 00:03:04.339
+make sure we go into that Geo
+package that we've set up and
+
+325de50d-8884-4b3c-9e35-c5afaabf5dc5-3
+00:03:04.339 --> 00:03:07.600
+now we can choose a name for our
+new layer.
+
+3a73932d-3083-4402-aa4a-233d7c90b307-0
+00:03:08.840 --> 00:03:14.760
+So we'll name it New no Take,
+click OK and then run the tool.
+
+bd68bd6d-7759-4ebc-92b1-0a11f3af611c-0
+00:03:19.000 --> 00:03:21.120
+And now we've got our new layer.
+
+23b42c84-7414-4711-827d-9e348f75e8ad-0
+00:03:21.440 --> 00:03:26.180
+So if we toggle off the original
+layer, we can see that in our
+
+23b42c84-7414-4711-827d-9e348f75e8ad-1
+00:03:26.180 --> 00:03:30.846
+new layer the boundaries between
+the spawning grounds and the
+
+23b42c84-7414-4711-827d-9e348f75e8ad-2
+00:03:30.846 --> 00:03:35.587
+current MPA no take zone have
+been dissolved and so that's how
+
+23b42c84-7414-4711-827d-9e348f75e8ad-3
+00:03:35.587 --> 00:03:37.920
+to run a dissolve tool in QGIS.
+
+585f2081-a00f-4a30-9219-3954020ef2ef-0
+00:03:38.360 --> 00:03:42.160
+So just remember to hit save to
+save your changes.

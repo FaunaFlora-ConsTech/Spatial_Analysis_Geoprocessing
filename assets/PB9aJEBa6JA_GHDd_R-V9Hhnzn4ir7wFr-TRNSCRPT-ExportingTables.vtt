@@ -1,0 +1,224 @@
+WEBVTT
+
+b8a390df-fdca-4981-a48f-0179b3486dbb-0
+00:00:01.480 --> 00:00:05.062
+So the protected area
+authorities also requested for
+
+b8a390df-fdca-4981-a48f-0179b3486dbb-1
+00:00:05.062 --> 00:00:07.360
+the data to be shared as a
+table.
+
+45b02b80-57e9-4a6c-857a-ac6d64c70ae3-0
+00:00:07.680 --> 00:00:13.361
+And so in this video we're going
+to see how to export a layer as
+
+45b02b80-57e9-4a6c-857a-ac6d64c70ae3-1
+00:00:13.361 --> 00:00:14.760
+a table in QGIS.
+
+ce6df43a-e1a7-4792-8843-01d94b81be3f-0
+00:00:14.840 --> 00:00:18.720
+So it's going to be a very
+similar process to before.
+
+4b9628f7-f278-4a7a-81ef-e7e6f2681faf-0
+00:00:20.040 --> 00:00:24.672
+We'll make sure we're in our
+Hippogriffs Ziama Sightings
+
+4b9628f7-f278-4a7a-81ef-e7e6f2681faf-1
+00:00:24.672 --> 00:00:25.160
+layer.
+
+dbd0adfd-03d8-4f7a-856f-2288f43a4dad-0
+00:00:25.480 --> 00:00:30.315
+We're going to right click on
+this, click Export and go Save
+
+dbd0adfd-03d8-4f7a-856f-2288f43a4dad-1
+00:00:30.315 --> 00:00:34.992
+Features as and now the way to
+change this to save it as a
+
+dbd0adfd-03d8-4f7a-856f-2288f43a4dad-2
+00:00:34.992 --> 00:00:39.511
+table is by changing the format
+and so these are all the
+
+dbd0adfd-03d8-4f7a-856f-2288f43a4dad-3
+00:00:39.511 --> 00:00:42.920
+different things that we could
+save it as.
+
+c72b5f7e-6e7d-44b2-b231-59a8447eabfb-0
+00:00:42.920 --> 00:00:48.120
+So there's lots of options for
+exporting your layers in QGIS.
+
+f53f98f6-4be7-440e-b692-eb126f5940db-0
+00:00:48.920 --> 00:00:53.351
+We're going to choose CSV as
+this is going to export it as a
+
+f53f98f6-4be7-440e-b692-eb126f5940db-1
+00:00:53.351 --> 00:00:57.711
+table and now we're going to
+click on these three dots here
+
+f53f98f6-4be7-440e-b692-eb126f5940db-2
+00:00:57.711 --> 00:01:02.215
+and we're going to save it in
+the Ziama protected area folder
+
+f53f98f6-4be7-440e-b692-eb126f5940db-3
+00:01:02.215 --> 00:01:03.160
+that we have.
+
+a92f9703-215e-41b2-9df2-1dddf2589098-0
+00:01:03.160 --> 00:01:12.897
+So we'll click and go into this
+and we can name it Hippogriff or
+
+a92f9703-215e-41b2-9df2-1dddf2589098-1
+00:01:12.897 --> 00:01:18.440
+we'll name it Sightings Ziama
+table.
+
+2e20c8dd-79c0-4532-8739-9efefcdb64a4-0
+00:01:18.440 --> 00:01:23.811
+So it's nice and clear what it
+is and hit OK, so we can see
+
+2e20c8dd-79c0-4532-8739-9efefcdb64a4-1
+00:01:23.811 --> 00:01:29.182
+that's come up in our layers
+list here, but it's also going
+
+2e20c8dd-79c0-4532-8739-9efefcdb64a4-2
+00:01:29.182 --> 00:01:33.480
+to be saved within that folder
+that we created.
+
+2f572bf8-c571-4635-9e45-b9b9cf6de59c-0
+00:01:33.880 --> 00:01:40.021
+So now we're going to open up
+our computers File Explorer or
+
+2f572bf8-c571-4635-9e45-b9b9cf6de59c-1
+00:01:40.021 --> 00:01:46.364
+the the Finder application and
+we're going to navigate to this
+
+2f572bf8-c571-4635-9e45-b9b9cf6de59c-2
+00:01:46.364 --> 00:01:48.680
+folder that we created.
+
+7d2f4f31-9754-43c3-8e9c-6447edaaeec8-0
+00:01:55.120 --> 00:02:00.302
+So here is Ziama PA. So if we
+open it up, we've got our
+
+7d2f4f31-9754-43c3-8e9c-6447edaaeec8-1
+00:02:00.302 --> 00:02:04.560
+sightings table and we've got
+our shape file.
+
+87380470-f6da-4022-8878-d5a3bd5716ea-0
+00:02:05.240 --> 00:02:10.366
+Hopefully you can remember that
+shapefiles are actually multiple
+
+87380470-f6da-4022-8878-d5a3bd5716ea-1
+00:02:10.366 --> 00:02:10.840
+files.
+
+f9cdb30d-503b-4196-9f1b-270bfd34174f-0
+00:02:11.720 --> 00:02:16.320
+So here we've got five different
+files for our shape file.
+
+2adada0a-06fc-410c-93bb-262714bf6c2b-0
+00:02:16.560 --> 00:02:21.773
+And so this is why it's really
+good practice to put all of your
+
+2adada0a-06fc-410c-93bb-262714bf6c2b-1
+00:02:21.773 --> 00:02:26.987
+materials for one project into a
+folder and then you can zip up
+
+2adada0a-06fc-410c-93bb-262714bf6c2b-2
+00:02:26.987 --> 00:02:29.919
+that folder and send it to
+someone.
+
+b0e03b6e-5658-4371-a90f-db7af5000e7e-0
+00:02:30.760 --> 00:02:33.120
+So for this Ziama protected area
+
+bbc3db8a-f3eb-43d5-aa9f-083bcce70454-0
+00:02:33.120 --> 00:02:37.175
+we can zip up these materials in
+a folder, e-mail it to someone,
+
+bbc3db8a-f3eb-43d5-aa9f-083bcce70454-1
+00:02:37.175 --> 00:02:39.920
+and then they have all the
+materials there.
+
+c279e612-35c2-4b44-9928-591497cc0691-0
+00:02:39.920 --> 00:02:44.680
+They can unzip it and work with
+it within their GIS software.
+
+e427f05d-0a8b-442c-aad3-35e82f2fd0db-0
+00:02:45.400 --> 00:02:49.762
+So to do that, we're going to
+just go back one stage so we can
+
+e427f05d-0a8b-442c-aad3-35e82f2fd0db-1
+00:02:49.762 --> 00:02:51.840
+see our protected area folder.
+
+94e81976-0818-4e6c-92d9-836ab9f9c6f6-0
+00:02:53.080 --> 00:02:58.794
+We're going to right click on it
+and we're going to hover over
+
+94e81976-0818-4e6c-92d9-836ab9f9c6f6-1
+00:02:58.794 --> 00:03:04.418
+where it says send to and we'll
+choose a compressed or zipped
+
+94e81976-0818-4e6c-92d9-836ab9f9c6f6-2
+00:03:04.418 --> 00:03:09.680
+folder and there we go, that's
+created our zipped folder.
+
+c109cad7-c1ed-456b-ae8f-e5a95a546223-0
+00:03:09.680 --> 00:03:13.194
+So now we could send that to
+Ziama protected area and they
+
+c109cad7-c1ed-456b-ae8f-e5a95a546223-1
+00:03:13.194 --> 00:03:15.280
+can access the materials in
+there.
+
+1d47e0dd-e258-415f-b712-7aa9a5fd95a5-0
+00:03:16.200 --> 00:03:20.511
+So now have a go at doing the
+same for Wonegizi and Wologizi,
+
+1d47e0dd-e258-415f-b712-7aa9a5fd95a5-1
+00:03:20.511 --> 00:03:24.613
+putting the table within the
+folders you created for those
+
+1d47e0dd-e258-415f-b712-7aa9a5fd95a5-2
+00:03:24.613 --> 00:03:28.160
+protected areas and then zipping
+up those folders.

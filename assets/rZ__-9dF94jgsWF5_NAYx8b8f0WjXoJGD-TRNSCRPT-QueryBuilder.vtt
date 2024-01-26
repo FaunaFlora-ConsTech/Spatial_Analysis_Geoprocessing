@@ -1,0 +1,265 @@
+WEBVTT
+
+1a388624-8e44-438c-9610-08a3a399d504-0
+00:00:01.000 --> 00:00:06.400
+In this video we're going to be
+using the query builder in QGIS.
+
+a88815ac-2305-478d-911a-e7a5c5d2cc70-0
+00:00:06.840 --> 00:00:11.221
+But first of all, let's organise
+our layers list and delete some
+
+a88815ac-2305-478d-911a-e7a5c5d2cc70-1
+00:00:11.221 --> 00:00:14.120
+of the layers that we don't need
+any more.
+
+17f6c506-1f6c-4dc2-a61a-b58ad22a754c-0
+00:00:14.680 --> 00:00:18.577
+So the first layer we can delete
+are our sighting points that
+
+17f6c506-1f6c-4dc2-a61a-b58ad22a754c-1
+00:00:18.577 --> 00:00:21.720
+don't have the environment data
+attached to them.
+
+cb87c7de-cab9-4093-8e35-9eacde352909-0
+00:00:22.920 --> 00:00:29.668
+So right click on this data
+layer and click remove layer and
+
+cb87c7de-cab9-4093-8e35-9eacde352909-1
+00:00:29.668 --> 00:00:30.000
+OK.
+
+ddfbbc27-cc7d-41eb-a1a5-71c33769ac01-0
+00:00:30.720 --> 00:00:35.294
+And just a point to make here,
+if we wanted to add this layer
+
+ddfbbc27-cc7d-41eb-a1a5-71c33769ac01-1
+00:00:35.294 --> 00:00:39.795
+back into our layers list as
+we'd saved it previously in the
+
+ddfbbc27-cc7d-41eb-a1a5-71c33769ac01-2
+00:00:39.795 --> 00:00:41.640
+Geo package that we made.
+
+760cb565-6edf-4777-b0a4-0fa2619875de-0
+00:00:41.840 --> 00:00:47.966
+We can access this Geo package
+in our browser panel by going
+
+760cb565-6edf-4777-b0a4-0fa2619875de-1
+00:00:47.966 --> 00:00:53.490
+into our Hippogriffs folder and
+then we should see our
+
+760cb565-6edf-4777-b0a4-0fa2619875de-2
+00:00:53.490 --> 00:00:55.800
+Hippogriff Geo package.
+
+fb109a82-8385-4e82-acf7-87d37dc3e46d-0
+00:00:55.800 --> 00:01:00.112
+So we can open this up and we
+can see our two point data
+
+fb109a82-8385-4e82-acf7-87d37dc3e46d-1
+00:01:00.112 --> 00:01:02.080
+layers in this Geopackage.
+
+6374d385-863d-4b53-89fc-a40bb83fe683-0
+00:01:02.080 --> 00:01:05.546
+So if we wanted to add it back
+in, we could add it in from
+
+6374d385-863d-4b53-89fc-a40bb83fe683-1
+00:01:05.546 --> 00:01:05.840
+here.
+
+092a4a01-fd66-4682-ad39-c57f6a733c64-0
+00:01:07.760 --> 00:01:12.235
+And then the other two things we
+can remove are our two tables in
+
+092a4a01-fd66-4682-ad39-c57f6a733c64-1
+00:01:12.235 --> 00:01:13.320
+our layers list.
+
+62723a3f-90e9-4f13-8cf8-bef255bd041f-0
+00:01:13.720 --> 00:01:17.320
+So we'll right click on these
+and remove them as well.
+
+d1ee11fa-3dcc-42ba-ab0a-5f32b392f06e-0
+00:01:25.490 --> 00:01:30.042
+And now let's run the query
+builder to select the data that
+
+d1ee11fa-3dcc-42ba-ab0a-5f32b392f06e-1
+00:01:30.042 --> 00:01:30.650
+we want.
+
+a8ee1a4a-0bf2-431e-9ea9-776322176ead-0
+00:01:31.120 --> 00:01:36.287
+So we're going to right click on
+our Hippogriff Sightings and go
+
+a8ee1a4a-0bf2-431e-9ea9-776322176ead-1
+00:01:36.287 --> 00:01:37.560
+into properties.
+
+640159ef-0a4f-4df4-a2e6-f9d8fc8fdf9a-0
+00:01:38.280 --> 00:01:44.763
+And then we want to go into the
+Source tab and look just under
+
+640159ef-0a4f-4df4-a2e6-f9d8fc8fdf9a-1
+00:01:44.763 --> 00:01:49.600
+the section that says Provider
+Feature Filter.
+
+3439aa54-1f65-40db-9786-146e603288f7-0
+00:01:50.400 --> 00:01:55.712
+There's a button called Query
+Builder and we're going to click
+
+3439aa54-1f65-40db-9786-146e603288f7-1
+00:01:55.712 --> 00:02:00.941
+on this and now in this window
+we can select what criteria we
+
+3439aa54-1f65-40db-9786-146e603288f7-2
+00:02:00.941 --> 00:02:03.639
+want our data to be filtered by.
+
+4fb18fe9-330f-48ac-a5a3-8d30c5a10123-0
+00:02:04.400 --> 00:02:08.141
+We're trying to find the
+sighting of a nest that occurred
+
+4fb18fe9-330f-48ac-a5a3-8d30c5a10123-1
+00:02:08.141 --> 00:02:09.560
+in a secondary forest.
+
+b61132f5-8dfe-494b-b16c-f39c2aad380f-0
+00:02:10.000 --> 00:02:13.986
+So the first clause that we're
+going to set is where sighting
+
+b61132f5-8dfe-494b-b16c-f39c2aad380f-1
+00:02:13.986 --> 00:02:15.080
+is equal to nest.
+
+e2cbc0a4-bdae-481d-a7b7-31f7b2dd868f-0
+00:02:15.800 --> 00:02:19.920
+So let's click the sighting
+field in the fields lists.
+
+18ed321c-a18c-4124-9266-d3ad0bc4573e-0
+00:02:20.240 --> 00:02:26.567
+Double click on this and then we
+can click on the equals sign and
+
+18ed321c-a18c-4124-9266-d3ad0bc4573e-1
+00:02:26.567 --> 00:02:32.415
+then to see the values within
+this field we need to click on
+
+18ed321c-a18c-4124-9266-d3ad0bc4573e-2
+00:02:32.415 --> 00:02:37.880
+the all button here and now we
+can double click on nest.
+
+c7af69a9-21d5-4c85-8a48-5c00943e0a44-0
+00:02:39.120 --> 00:02:41.840
+So that's our first clause set.
+
+91cb39bf-a6da-491c-abe8-4a6095b29e47-0
+00:02:42.640 --> 00:02:47.480
+But the sighting was a nest and
+it was in a secondary forest.
+
+048c05c5-455f-4b16-9836-585116825222-0
+00:02:47.880 --> 00:02:54.115
+So we need to click the and
+button and then our environments
+
+048c05c5-455f-4b16-9836-585116825222-1
+00:02:54.115 --> 00:02:57.080
+are in the field environment.
+
+f70315a3-e7a2-4f1b-a946-761bbd7639b9-0
+00:02:57.760 --> 00:03:07.126
+So we can double click on this
+and then equals to click on all
+
+f70315a3-e7a2-4f1b-a946-761bbd7639b9-1
+00:03:07.126 --> 00:03:15.897
+to get our values and double
+click on secondary forest and
+
+f70315a3-e7a2-4f1b-a946-761bbd7639b9-2
+00:03:15.897 --> 00:03:24.520
+now we can hit OK we'll click
+apply and OK again I agree.
+
+8d65bd96-404d-49f8-8551-f123fd1bb5de-0
+00:03:24.520 --> 00:03:28.803
+We can see that our points on
+our map have been filtered for
+
+8d65bd96-404d-49f8-8551-f123fd1bb5de-1
+00:03:28.803 --> 00:03:33.437
+our criteria and we can only see
+the points that fit the criteria
+
+8d65bd96-404d-49f8-8551-f123fd1bb5de-2
+00:03:33.437 --> 00:03:34.280
+that we set.
+
+a4f727b0-7cd5-4c6b-b11b-9c95e310e69f-0
+00:03:34.880 --> 00:03:38.830
+So we know that the sighting
+occurred in Wonegizi protected
+
+a4f727b0-7cd5-4c6b-b11b-9c95e310e69f-1
+00:03:38.830 --> 00:03:39.160
+area.
+
+0aa95856-f672-41c9-9119-1c0de1d7e70d-0
+00:03:39.600 --> 00:03:44.477
+This is the red Polygon for me
+on my map and we can see that we
+
+0aa95856-f672-41c9-9119-1c0de1d7e70d-1
+00:03:44.477 --> 00:03:49.203
+only have one data point here
+where there was a nest sighting
+
+0aa95856-f672-41c9-9119-1c0de1d7e70d-2
+00:03:49.203 --> 00:03:50.880
+in a secondary forest.
+
+154eb404-1adb-4044-885f-e2cd3b84bad1-0
+00:03:51.400 --> 00:03:55.758
+So this must be where we have
+our missing data point because
+
+154eb404-1adb-4044-885f-e2cd3b84bad1-1
+00:03:55.758 --> 00:03:58.760
+two nests were actually at this
+location.
+
+50d6173d-8f27-4579-b41a-15d3588376c1-0
+00:03:59.120 --> 00:04:03.075
+So in the next video we'll be
+adding another point to this
+
+50d6173d-8f27-4579-b41a-15d3588376c1-1
+00:04:03.075 --> 00:04:06.360
+location, so just hit save to
+save our progress.

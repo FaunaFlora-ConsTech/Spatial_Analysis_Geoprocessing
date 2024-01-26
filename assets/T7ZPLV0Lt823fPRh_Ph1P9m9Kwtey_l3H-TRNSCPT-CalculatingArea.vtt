@@ -1,0 +1,284 @@
+WEBVTT
+
+f327ac18-e54d-4592-8e7a-df18704b6f71-0
+00:00:01.600 --> 00:00:05.949
+So when we calculate the
+geometry of a data layer, for
+
+f327ac18-e54d-4592-8e7a-df18704b6f71-1
+00:00:05.949 --> 00:00:10.773
+example the length or the area,
+we use that layers attribute
+
+f327ac18-e54d-4592-8e7a-df18704b6f71-2
+00:00:10.773 --> 00:00:11.959
+table to do so.
+
+1cb0b203-e916-4142-837a-3a41b382f15c-0
+00:00:12.840 --> 00:00:16.350
+So we're going to start off by
+calculating the area of the
+
+1cb0b203-e916-4142-837a-3a41b382f15c-1
+00:00:16.350 --> 00:00:17.600
+Ziama protected area.
+
+4b82e9b3-a988-4666-91f7-6242209fe15e-0
+00:00:17.960 --> 00:00:21.680
+So let's open up the attribute
+table for this layer.
+
+c478727e-9c6c-4649-8abe-6d8a042eca8b-0
+00:00:27.290 --> 00:00:31.546
+And we need to create a new
+column for Area so that we can
+
+c478727e-9c6c-4649-8abe-6d8a042eca8b-1
+00:00:31.546 --> 00:00:34.000
+perform the geometry
+calculation.
+
+ac0840ee-f0c2-4d89-af8d-b670479c73da-0
+00:00:34.760 --> 00:00:41.110
+So to do that we need to click
+Add at the top of the table and
+
+ac0840ee-f0c2-4d89-af8d-b670479c73da-1
+00:00:41.110 --> 00:00:47.359
+this will bring up another table
+window, which can look a bit
+
+ac0840ee-f0c2-4d89-af8d-b670479c73da-2
+00:00:47.359 --> 00:00:53.810
+confusing, but we're going to go
+over what each section is for.
+
+a94822cc-efe4-4466-bbb7-14c17f36fd8d-0
+00:00:54.730 --> 00:01:00.277
+So the new column that we've
+just added is on the bottom row
+
+a94822cc-efe4-4466-bbb7-14c17f36fd8d-1
+00:01:00.277 --> 00:01:05.280
+here, and now we can set the
+options for this new row.
+
+98d4b5fd-5152-47d6-a90a-e1994cf211cb-0
+00:01:05.800 --> 00:01:09.749
+So we're going to leave the
+visible toggle box ticked on so
+
+98d4b5fd-5152-47d6-a90a-e1994cf211cb-1
+00:01:09.749 --> 00:01:11.000
+that we can see it.
+
+e876892c-8464-4b81-80c8-f3582010cf2d-0
+00:01:15.640 --> 00:01:21.568
+We don't need to turn read only
+on so we'll leave this how it is
+
+e876892c-8464-4b81-80c8-f3582010cf2d-1
+00:01:21.568 --> 00:01:27.041
+and then in field name we can
+set the name of the column in
+
+e876892c-8464-4b81-80c8-f3582010cf2d-2
+00:01:27.041 --> 00:01:32.696
+here so we can just call it area
+by double clicking on it and
+
+e876892c-8464-4b81-80c8-f3582010cf2d-3
+00:01:32.696 --> 00:01:38.443
+typing area and then the alias
+is an optional section and it's
+
+e876892c-8464-4b81-80c8-f3582010cf2d-4
+00:01:38.443 --> 00:01:43.642
+just if you want to set a more
+easy to understand column
+
+e876892c-8464-4b81-80c8-f3582010cf2d-5
+00:01:43.642 --> 00:01:49.480
+heading for that field so we can
+just put area in this as well.
+
+b39a74d8-60cf-4fba-995d-b4165817fa51-0
+00:01:51.080 --> 00:01:54.895
+And then for data type, if we
+click on this, we can see the
+
+b39a74d8-60cf-4fba-995d-b4165817fa51-1
+00:01:54.895 --> 00:01:56.040
+different options.
+
+d2310ef3-41b3-4faa-8621-05035ec8c955-0
+00:01:56.680 --> 00:02:00.197
+So we're going to choose double
+as this allows for numbers with
+
+d2310ef3-41b3-4faa-8621-05035ec8c955-1
+00:02:00.197 --> 00:02:03.660
+decimal points and we want an
+accurate number for the area, so
+
+d2310ef3-41b3-4faa-8621-05035ec8c955-2
+00:02:03.660 --> 00:02:04.759
+we'll choose double.
+
+6852c865-f9ac-4b32-8562-2a25b0fabaaf-0
+00:02:10.350 --> 00:02:13.950
+And now the only other thing
+that we need to worry about is
+
+6852c865-f9ac-4b32-8562-2a25b0fabaaf-1
+00:02:13.950 --> 00:02:15.030
+the number format.
+
+527a31a6-9c3c-46cd-b2d1-c85ca4b2f169-0
+00:02:15.510 --> 00:02:20.049
+So we'll go to this column here
+and we're going to make sure
+
+527a31a6-9c3c-46cd-b2d1-c85ca4b2f169-1
+00:02:20.049 --> 00:02:21.910
+that it's set to numeric.
+
+299d7573-3185-4014-92a3-9a45488bf601-0
+00:02:25.950 --> 00:02:31.196
+And once we put this in, it's
+going to give us some other
+
+299d7573-3185-4014-92a3-9a45488bf601-1
+00:02:31.196 --> 00:02:31.920
+options.
+
+d97c3cc5-c002-43da-a4f6-42ba178fe49c-0
+00:02:32.600 --> 00:02:36.397
+And so we can change how many
+decimal places our numbers going
+
+d97c3cc5-c002-43da-a4f6-42ba178fe49c-1
+00:02:36.397 --> 00:02:36.880
+to have.
+
+84d4969c-14dd-41ab-b246-98ce463f9bcd-0
+00:02:37.240 --> 00:02:40.400
+And we'll just put this down to
+two because we don't need 6.
+
+35b1023b-5706-4557-bd3f-3f2ece6dfcc0-0
+00:02:44.520 --> 00:02:51.768
+And then we'll click OK and now
+we can shut this other table
+
+35b1023b-5706-4557-bd3f-3f2ece6dfcc0-1
+00:02:51.768 --> 00:02:52.600
+window.
+
+3748d5e4-9816-4e78-a0bf-0c035f68ce6e-0
+00:02:54.720 --> 00:03:00.024
+Make sure to save all of our
+changes and now if we look in
+
+3748d5e4-9816-4e78-a0bf-0c035f68ce6e-1
+00:03:00.024 --> 00:03:05.599
+our table for Ziama protected
+area, we can see that we have a
+
+3748d5e4-9816-4e78-a0bf-0c035f68ce6e-2
+00:03:05.599 --> 00:03:11.263
+new column for the area but we
+don't have a number in here yet
+
+3748d5e4-9816-4e78-a0bf-0c035f68ce6e-3
+00:03:11.263 --> 00:03:14.680
+as we need to calculate the
+geometry.
+
+2c7f523f-2c8d-4c82-82bd-073fed8a6763-0
+00:03:16.480 --> 00:03:21.808
+So we right click on the Area
+column heading and then we can
+
+2c7f523f-2c8d-4c82-82bd-073fed8a6763-1
+00:03:21.808 --> 00:03:27.400
+click on Calculate Geometry and
+this will bring up this window.
+
+400f743c-2dae-401e-ad24-46156ee3a70c-0
+00:03:27.400 --> 00:03:34.743
+Here our input feature is going
+to be Ziama protected Area, so
+
+400f743c-2dae-401e-ad24-46156ee3a70c-1
+00:03:34.743 --> 00:03:42.087
+we've already got that there. In
+the field box we want to make
+
+400f743c-2dae-401e-ad24-46156ee3a70c-2
+00:03:42.087 --> 00:03:46.400
+sure that the area column is
+chosen.
+
+2a2af909-6585-4ffe-9581-ff770b4b864c-0
+00:03:49.080 --> 00:03:52.878
+And then for property, if we
+click on the drop down arrow, we
+
+2a2af909-6585-4ffe-9581-ff770b4b864c-1
+00:03:52.878 --> 00:03:56.798
+can see all the options of the
+different types of geometry that
+
+2a2af909-6585-4ffe-9581-ff770b4b864c-2
+00:03:56.798 --> 00:03:57.840
+we can calculate.
+
+f7916c66-0074-4058-bff3-794156a41403-0
+00:03:58.440 --> 00:04:03.704
+We just want area, so we can
+click on the first option and
+
+f7916c66-0074-4058-bff3-794156a41403-1
+00:04:03.704 --> 00:04:08.880
+then for area units we're going
+to use square kilometers.
+
+d7f835bc-5ca2-4fc9-8bef-f747031fb976-0
+00:04:10.960 --> 00:04:13.840
+So again, that's just the first
+option that we have.
+
+f01607a4-8555-4508-bf67-74cac709e13b-0
+00:04:15.320 --> 00:04:19.608
+And then our coordinate system
+is UTM zone 29 N, so that's what
+
+f01607a4-8555-4508-bf67-74cac709e13b-1
+00:04:19.608 --> 00:04:20.480
+it should be.
+
+576707cf-8043-4d21-9026-422ebd6d142c-0
+00:04:20.600 --> 00:04:24.280
+So we can keep that how it is
+and just hit OK.
+
+90d8953d-297d-43f6-9062-8386197dd8f7-0
+00:04:28.880 --> 00:04:34.581
+And now under the area column
+heading we can see that we have
+
+90d8953d-297d-43f6-9062-8386197dd8f7-1
+00:04:34.581 --> 00:04:39.640
+the area of Ziama, so it's
+1221.01 kilometres squared.
+
+ab0d8c93-42c6-4bda-aca8-ea551972a28f-0
+00:04:40.880 --> 00:04:44.717
+So now have a go at calculating
+the areas of the other two
+
+ab0d8c93-42c6-4bda-aca8-ea551972a28f-1
+00:04:44.717 --> 00:04:47.320
+protected areas, Wonegizi and
+Wologizi.

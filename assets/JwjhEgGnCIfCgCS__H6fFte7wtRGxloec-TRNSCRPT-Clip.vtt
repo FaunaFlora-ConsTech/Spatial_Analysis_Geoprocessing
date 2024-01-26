@@ -1,0 +1,203 @@
+WEBVTT
+
+91f704d6-a13e-4ea8-928e-74fe1ffb7007-0
+00:00:01.640 --> 00:00:06.145
+Hopefully now you've been able
+to set up this new project in
+
+91f704d6-a13e-4ea8-928e-74fe1ffb7007-1
+00:00:06.145 --> 00:00:10.429
+Arc GIS Pro and you've set up a
+folder connection to your
+
+91f704d6-a13e-4ea8-928e-74fe1ffb7007-2
+00:00:10.429 --> 00:00:14.935
+downloaded materials and you've
+added these four layers into
+
+91f704d6-a13e-4ea8-928e-74fe1ffb7007-3
+00:00:14.935 --> 00:00:15.600
+your map.
+
+efb65d2f-f4d5-4d57-a3e5-03d266f8e62d-0
+00:00:16.080 --> 00:00:19.080
+So in our contents we can see
+these four layers.
+
+342bcd25-4f5c-422a-be59-b9bc034cfecf-0
+00:00:19.520 --> 00:00:24.018
+The green polygons are the
+spawning grounds of the grouper
+
+342bcd25-4f5c-422a-be59-b9bc034cfecf-1
+00:00:24.018 --> 00:00:24.400
+fish.
+
+ae1d6a89-de03-4153-bb75-78d78132eda0-0
+00:00:25.280 --> 00:00:30.384
+We've got a pink Polygon
+representing Tristina Island,
+
+ae1d6a89-de03-4153-bb75-78d78132eda0-1
+00:00:30.384 --> 00:00:35.674
+and then we've got a blue
+Polygon to show the current no
+
+ae1d6a89-de03-4153-bb75-78d78132eda0-2
+00:00:35.674 --> 00:00:39.480
+take MPA zone that is around the
+island.
+
+0e53a24b-6ba6-409d-b5da-5797b9914f35-0
+00:00:40.000 --> 00:00:44.365
+And we've also got a Polygon
+that shows us the seas that are
+
+0e53a24b-6ba6-409d-b5da-5797b9914f35-1
+00:00:44.365 --> 00:00:47.800
+owned by Tristina Island, the
+territorial seas.
+
+cf686103-013c-4294-ad3d-e99e0eb90454-0
+00:00:48.440 --> 00:00:52.941
+So in this video, we're going to
+be using the Clip geoprocessing
+
+cf686103-013c-4294-ad3d-e99e0eb90454-1
+00:00:52.941 --> 00:00:57.235
+tool so that we can clip the
+spawning grounds layer as we are
+
+cf686103-013c-4294-ad3d-e99e0eb90454-2
+00:00:57.235 --> 00:01:01.391
+only interested in the spawning
+grounds that are within the
+
+cf686103-013c-4294-ad3d-e99e0eb90454-3
+00:01:01.391 --> 00:01:03.400
+territorial seas of Tristina.
+
+859686ce-445f-4ca5-b903-cb26fc973fd6-0
+00:01:04.440 --> 00:01:08.400
+So now we can open up our
+geoprocessing toolbox.
+
+1790aa21-bc04-4be6-a319-d39ca0b56cc0-0
+00:01:08.400 --> 00:01:15.368
+So we'll go into the Analysis
+tab, click on Tools, and now we
+
+1790aa21-bc04-4be6-a319-d39ca0b56cc0-1
+00:01:15.368 --> 00:01:22.336
+can search in Clip and it's the
+first one that comes up so we
+
+1790aa21-bc04-4be6-a319-d39ca0b56cc0-2
+00:01:22.336 --> 00:01:24.360
+can click on this.
+
+bd25322f-27fd-4f46-8961-69e25cf52071-0
+00:01:30.130 --> 00:01:33.210
+So the first thing we need to
+put in is our input feature.
+
+99247e3c-7ae6-4b9d-bdc6-3445285b2194-0
+00:01:33.330 --> 00:01:40.325
+This is going to be the spawning
+grounds as this is the feature
+
+99247e3c-7ae6-4b9d-bdc6-3445285b2194-1
+00:01:40.325 --> 00:01:42.730
+that we want to clip. 
+
+720a0e92-6105-4e41-8639-aeb62ee4772f-0
+00:01:42.730 --> 00:01:46.991
+And then the clip features, this
+is going to be what layer we're
+
+720a0e92-6105-4e41-8639-aeb62ee4772f-1
+00:01:46.991 --> 00:01:50.925
+using to show Arcgis Pro where
+we want to clip the spawning
+
+720a0e92-6105-4e41-8639-aeb62ee4772f-2
+00:01:50.925 --> 00:01:51.450
+data to.
+
+02255451-1496-4652-9262-84fbf0f83f68-0
+00:01:52.080 --> 00:01:55.880
+And so that's going to be the
+territorial sea layer.
+
+1a77c0d1-f9c6-4938-aca1-db2ce9726f3f-0
+00:01:57.040 --> 00:02:00.320
+So we can drag this into the box
+there.
+
+be1220f0-cead-46c1-b55c-3cf563bfdbeb-0
+00:02:02.360 --> 00:02:05.244
+And the last thing we need to
+fill in is just where we want to
+
+be1220f0-cead-46c1-b55c-3cf563bfdbeb-1
+00:02:05.244 --> 00:02:06.160
+save this new layer.
+
+84dbc176-acb5-4cfb-ae36-46bd6e6685e0-0
+00:02:06.160 --> 00:02:12.351
+Because as we know, a
+Geoprocessing tool creates a new
+
+84dbc176-acb5-4cfb-ae36-46bd6e6685e0-1
+00:02:12.351 --> 00:02:17.080
+layer with the manipulated data
+in in it.
+
+19c61c94-fce2-4acf-862c-a90603584480-0
+00:02:17.080 --> 00:02:19.881
+ So we can save it in our
+Geodatabase that was
+
+19c61c94-fce2-4acf-862c-a90603584480-1
+00:02:19.881 --> 00:02:23.756
+automatically set up when we set
+up this project and we can name
+
+19c61c94-fce2-4acf-862c-a90603584480-2
+00:02:23.756 --> 00:02:26.200
+it something like Spawning
+Grounds clip.
+
+4b27cff4-8076-4fe2-9e33-dd0a49a45839-0
+00:02:29.360 --> 00:02:33.120
+So we know it's the clipped data
+set and then we can hit run.
+
+a9d615fe-9df6-4fa7-a05f-463da59ac258-0
+00:02:39.150 --> 00:02:44.075
+And now if we turn off the
+original spawning grounds data
+
+a9d615fe-9df6-4fa7-a05f-463da59ac258-1
+00:02:44.075 --> 00:02:49.426
+set, in the contents we can see
+that our new layer is just the
+
+a9d615fe-9df6-4fa7-a05f-463da59ac258-2
+00:02:49.426 --> 00:02:54.351
+spawning grounds that are
+overlapping or occurring within
+
+a9d615fe-9df6-4fa7-a05f-463da59ac258-3
+00:02:54.351 --> 00:02:56.560
+the territorial sea layer.
+
+8610a706-7fdc-4198-9eb1-5fb9551a8e70-0
+00:02:57.200 --> 00:03:01.200
+And so that's how to use the
+Clip tool in Arcgis Pro.
+
+d43a0f52-9295-4697-93e6-3b457ffa09ed-0
+00:03:01.480 --> 00:03:04.400
+So just remember to hit save to
+save your changes.

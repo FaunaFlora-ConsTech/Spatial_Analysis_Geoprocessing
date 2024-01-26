@@ -1,0 +1,468 @@
+WEBVTT
+
+1cffe3e2-583d-4b1f-ad24-7aa6541c0ffa-0
+00:00:02.240 --> 00:00:06.040
+Hopefully you've got something
+that looks a bit like this now.
+
+a1d77c35-6846-4e9d-8ae3-ba6f53124ea5-0
+00:00:06.720 --> 00:00:13.086
+So if we look in our layers list
+you should have your sighting
+
+a1d77c35-6846-4e9d-8ae3-ba6f53124ea5-1
+00:00:13.086 --> 00:00:19.251
+points, the three polygons for
+the protected areas, the Esri
+
+a1d77c35-6846-4e9d-8ae3-ba6f53124ea5-2
+00:00:19.251 --> 00:00:24.809
+standard base map, the
+Hippogriff sightings table that
+
+a1d77c35-6846-4e9d-8ae3-ba6f53124ea5-3
+00:00:24.809 --> 00:00:30.671
+we plotted our points from and
+hopefully you've added the
+
+a1d77c35-6846-4e9d-8ae3-ba6f53124ea5-4
+00:00:30.671 --> 00:00:33.400
+environments table as well.
+
+850bf7c6-598f-47d8-b1b6-a1c64c9e7e51-0
+00:00:35.920 --> 00:00:39.280
+Let's open up this environments
+table to have a look at it.
+
+ef799ab8-9137-42c2-972a-251f1cbc628b-0
+00:00:41.040 --> 00:00:46.211
+So we can see in this table
+we've got 3 columns, the first
+
+ef799ab8-9137-42c2-972a-251f1cbc628b-1
+00:00:46.211 --> 00:00:51.207
+one being our object ID and at
+the moment our rows on in
+
+ef799ab8-9137-42c2-972a-251f1cbc628b-2
+00:00:51.207 --> 00:00:52.960
+chronological order.
+
+a6a730c3-b690-4611-bf62-d0f1fc4e64cb-0
+00:00:52.960 --> 00:00:57.765
+So we can just click on the
+heading for OID a few times just
+
+a6a730c3-b690-4611-bf62-d0f1fc4e64cb-1
+00:00:57.765 --> 00:01:00.680
+to get these in chronological
+order.
+
+084f7615-bd1d-4fc9-a7fc-5d7d8cc0d6cd-0
+00:01:01.600 --> 00:01:07.226
+And now if we Scroll down we can
+see all of our rows and we've
+
+084f7615-bd1d-4fc9-a7fc-5d7d8cc0d6cd-1
+00:01:07.226 --> 00:01:09.280
+got 108 different rows.
+
+0aadd17c-db9f-4d52-9ccb-5c50c7f7dbe0-0
+00:01:10.840 --> 00:01:13.920
+The next column we have is the
+unique key.
+
+55ec8717-2181-421b-b4a4-9dd29da5c9af-0
+00:01:14.600 --> 00:01:18.895
+So if you can remember this is
+the same column that we had for
+
+55ec8717-2181-421b-b4a4-9dd29da5c9af-1
+00:01:18.895 --> 00:01:20.600
+our sighting points data.
+
+454969b3-d122-4f60-9dd5-451ff5081845-0
+00:01:21.160 --> 00:01:26.684
+We've got a GPS point for each
+row, so each sighting has a
+
+454969b3-d122-4f60-9dd5-451ff5081845-1
+00:01:26.684 --> 00:01:29.400
+unique key for its GPS point.
+
+155f1e84-3bf3-4269-8248-0f97c79123e5-0
+00:01:30.280 --> 00:01:33.080
+And the third column we have is
+the environment.
+
+a15f25fd-6e09-44d4-8d79-61a2377b7847-0
+00:01:34.160 --> 00:01:38.570
+So we have the different
+environments that the sightings
+
+a15f25fd-6e09-44d4-8d79-61a2377b7847-1
+00:01:38.570 --> 00:01:42.825
+occurred in, like grassland,
+secondary forest, primary
+
+a15f25fd-6e09-44d4-8d79-61a2377b7847-2
+00:01:42.825 --> 00:01:44.760
+forest, village and farm.
+
+99366d14-ed4f-4101-8e5a-91f53be9d539-0
+00:01:46.720 --> 00:01:51.160
+So now let's take a look at the
+table for our sighting points.
+
+0611ae75-5d1e-4c1a-a33d-54ea41241768-0
+00:01:52.000 --> 00:01:56.866
+So right click and open
+Attribute table and we can use
+
+0611ae75-5d1e-4c1a-a33d-54ea41241768-1
+00:01:56.866 --> 00:02:02.086
+the QGIS tabs at the bottom of
+our computer to open up the
+
+0611ae75-5d1e-4c1a-a33d-54ea41241768-2
+00:02:02.086 --> 00:02:05.360
+environments table at the same
+time.
+
+26dc527f-88f1-453c-bd9e-d70f9de79e26-0
+00:02:06.600 --> 00:02:11.538
+So looking in the points table
+we can just organise these again
+
+26dc527f-88f1-453c-bd9e-d70f9de79e26-1
+00:02:11.538 --> 00:02:14.240
+so they're in chronological
+order.
+
+ea2a0b51-ac70-48fd-9738-d34962bc43bf-0
+00:02:14.440 --> 00:02:19.706
+Just by clicking on the Object
+ID column we can see we've got
+
+ea2a0b51-ac70-48fd-9738-d34962bc43bf-1
+00:02:19.706 --> 00:02:22.000
+these null rows at the top.
+
+4fe108ba-85d9-448c-88ed-f7a96d265567-0
+00:02:22.520 --> 00:02:23.760
+So let's get rid of these.
+
+8bab73af-409e-4222-9e0d-1799b1ae68d1-0
+00:02:23.760 --> 00:02:28.880
+Now to do that we need to toggle
+editing onto our tables.
+
+6611ec23-ba62-438f-8767-ab4bc4f31e10-0
+00:02:28.880 --> 00:02:34.496
+So click the little pencil icon
+and then we can select the first
+
+6611ec23-ba62-438f-8767-ab4bc4f31e10-1
+00:02:34.496 --> 00:02:37.520
+row by clicking on the row
+number.
+
+bc807ebc-279c-423d-b98f-f687e9aaaba3-0
+00:02:37.880 --> 00:02:43.013
+Hold down our shift button and
+select row number 7 and now this
+
+bc807ebc-279c-423d-b98f-f687e9aaaba3-1
+00:02:43.013 --> 00:02:48.146
+will highlight all of these null
+rows and then we can click the
+
+bc807ebc-279c-423d-b98f-f687e9aaaba3-2
+00:02:48.146 --> 00:02:53.120
+bin button at the top of the
+table to delete these null rows.
+
+5bfdffac-95bf-44f9-80be-3009b5c4bffe-0
+00:02:54.920 --> 00:02:57.760
+And now we just need to save our
+edits.
+
+e140424a-c0db-4906-a57c-21751e29ada3-0
+00:02:57.800 --> 00:03:02.349
+So click on the save edits
+button in the table and toggle
+
+e140424a-c0db-4906-a57c-21751e29ada3-1
+00:03:02.349 --> 00:03:05.800
+editing off by clicking on the
+pencil icon.
+
+45752bb9-2a7b-4b06-aa9f-2b776db7babc-0
+00:03:06.840 --> 00:03:11.473
+So in this table we as we
+remembered we can see the unique
+
+45752bb9-2a7b-4b06-aa9f-2b776db7babc-1
+00:03:11.473 --> 00:03:16.420
+key column so we have the GPS
+points for each sighting in this
+
+45752bb9-2a7b-4b06-aa9f-2b776db7babc-2
+00:03:16.420 --> 00:03:17.520
+table as well.
+
+6a0d31c4-b156-4f27-8bda-905f1162c86d-0
+00:03:18.520 --> 00:03:23.560
+So GPS point one in this table
+is the same as GPS point one in
+
+6a0d31c4-b156-4f27-8bda-905f1162c86d-1
+00:03:23.560 --> 00:03:25.400
+the environments table.
+
+fb28d687-ac34-4359-b402-f333bca8de42-0
+00:03:26.680 --> 00:03:31.425
+So for GPS point one we can see
+where it occurred and we can see
+
+fb28d687-ac34-4359-b402-f333bca8de42-1
+00:03:31.425 --> 00:03:35.952
+that it was attracts sighting
+and now we can also see that it
+
+fb28d687-ac34-4359-b402-f333bca8de42-2
+00:03:35.952 --> 00:03:38.800
+occurred in the environment
+grassland.
+
+6ce1a112-be9f-47ed-96e7-3346ae314b4c-0
+00:03:40.000 --> 00:03:44.400
+So as this data is related, this
+means we can join our
+
+6ce1a112-be9f-47ed-96e7-3346ae314b4c-1
+00:03:44.400 --> 00:03:49.680
+environment data to our sighting
+points so that we have it all in
+
+6ce1a112-be9f-47ed-96e7-3346ae314b4c-2
+00:03:49.680 --> 00:03:50.880
+the same place.
+
+fc9ad6cc-1db6-40c4-9be8-e1d0246102fe-0
+00:03:51.800 --> 00:03:54.040
+To do that we're going to add a
+join.
+
+a74f4c59-1b2a-4bbc-94b7-47d2e4c9014d-0
+00:03:54.840 --> 00:04:02.089
+So close the tables, right click
+on the sighting points layer and
+
+a74f4c59-1b2a-4bbc-94b7-47d2e4c9014d-1
+00:04:02.089 --> 00:04:09.008
+go into its properties and now
+we can go down to the joins tab
+
+a74f4c59-1b2a-4bbc-94b7-47d2e4c9014d-2
+00:04:09.008 --> 00:04:14.720
+and we'll use this green plus
+button to add a join.
+
+439be705-c03f-4e01-820c-42b1594b06ac-0
+00:04:14.720 --> 00:04:19.101
+So click on this and this will
+bring up the window to put in
+
+439be705-c03f-4e01-820c-42b1594b06ac-1
+00:04:19.101 --> 00:04:21.400
+our parameters to run this join.
+
+1fb3003e-d9f2-4915-8001-9b771a147047-0
+00:04:22.440 --> 00:04:26.766
+So our join layer is what table
+we want to join to our sighting
+
+1fb3003e-d9f2-4915-8001-9b771a147047-1
+00:04:26.766 --> 00:04:27.240
+points.
+
+194f55da-2fcd-4e74-b2f2-03a576605489-0
+00:04:27.680 --> 00:04:31.782
+So this is going to be our
+environments table which we've
+
+194f55da-2fcd-4e74-b2f2-03a576605489-1
+00:04:31.782 --> 00:04:33.480
+already got in this box.
+
+74862b1c-e96a-4ace-a02b-ba41398d137a-0
+00:04:35.960 --> 00:04:40.000
+And then for the join field and
+the Target Field
+
+e1d35d5f-5037-4e39-a1cb-510895233f65-0
+00:04:41.480 --> 00:04:46.120
+in here we want to put in the
+columns which link our data
+
+e1d35d5f-5037-4e39-a1cb-510895233f65-1
+00:04:46.120 --> 00:04:50.600
+together so we can use the
+unique ID column as both our
+
+e1d35d5f-5037-4e39-a1cb-510895233f65-2
+00:04:50.600 --> 00:04:54.120
+point data and environment table
+have this.
+
+8208c629-b5f5-4f35-bb57-5b60ce625664-0
+00:04:55.120 --> 00:05:02.886
+So in these two boxes, we want
+to put in the unique key column
+
+8208c629-b5f5-4f35-bb57-5b60ce625664-1
+00:05:02.886 --> 00:05:10.160
+and we've got some other boxes
+that we can tick on and off
+
+8208c629-b5f5-4f35-bb57-5b60ce625664-2
+00:05:10.160 --> 00:05:17.803
+here, but we're not going to
+worry about these apart from the
+
+8208c629-b5f5-4f35-bb57-5b60ce625664-3
+00:05:17.803 --> 00:05:19.160
+bottom one.
+
+ab2846c8-f103-47d5-bc46-a370b19ef7b9-0
+00:05:19.880 --> 00:05:26.505
+We can toggle it on to change
+the name of the data that we're
+
+ab2846c8-f103-47d5-bc46-a370b19ef7b9-1
+00:05:26.505 --> 00:05:27.360
+joining.
+
+932d4edf-1d8c-4cd7-bb97-6bf246d23881-0
+00:05:27.600 --> 00:05:33.714
+So we can just call it
+environment, we'll click OK,
+
+932d4edf-1d8c-4cd7-bb97-6bf246d23881-1
+00:05:33.714 --> 00:05:37.360
+we'll click Apply and OK again.
+
+2647f023-0d2e-49d9-a10d-7ce548aa6822-0
+00:05:38.920 --> 00:05:44.695
+And now if we open up the
+attribute table for our sighting
+
+2647f023-0d2e-49d9-a10d-7ce548aa6822-1
+00:05:44.695 --> 00:05:50.666
+points and scroll along to the
+right, we can see that we now
+
+2647f023-0d2e-49d9-a10d-7ce548aa6822-2
+00:05:50.666 --> 00:05:54.679
+have our environments within
+this table.
+
+dffa91b1-cd92-453c-b16a-d365b24761e6-0
+00:05:56.240 --> 00:06:00.861
+So we've got our GPS point
+number one for example, which
+
+dffa91b1-cd92-453c-b16a-d365b24761e6-1
+00:06:00.861 --> 00:06:05.320
+was the sighting of tracks
+occurring in the grassland.
+
+35a522e9-8795-46c1-94c5-9b1386d6335f-0
+00:06:10.440 --> 00:06:15.955
+So to actually save this data
+into the layer, we need to
+
+35a522e9-8795-46c1-94c5-9b1386d6335f-1
+00:06:15.955 --> 00:06:17.600
+export the layer.
+
+10152393-0735-4766-a3e4-f3cccf0ff91d-0
+00:06:17.840 --> 00:06:22.641
+So we need to right click, go
+into export and click save
+
+10152393-0735-4766-a3e4-f3cccf0ff91d-1
+00:06:22.641 --> 00:06:23.400
+features.
+
+70b8169d-9c32-42dd-9293-8f25db7c6db7-0
+00:06:23.400 --> 00:06:28.940
+As for the format, we're going
+to choose Geo package as this is
+
+70b8169d-9c32-42dd-9293-8f25db7c6db7-1
+00:06:28.940 --> 00:06:34.135
+going to let us save our layer
+into the Geo package that we
+
+70b8169d-9c32-42dd-9293-8f25db7c6db7-2
+00:06:34.135 --> 00:06:39.502
+created and then we'll choose
+where to save it by clicking on
+
+70b8169d-9c32-42dd-9293-8f25db7c6db7-3
+00:06:39.502 --> 00:06:41.840
+the three little dots icon.
+
+d75f132c-7bc6-454f-ac91-faf77a42c1c5-0
+00:06:42.440 --> 00:06:45.360
+And in this window we can see
+our Geo package.
+
+c1070c83-70ab-45bd-87f9-3bec3bd39862-0
+00:06:45.360 --> 00:06:53.046
+So click on that and below we
+can choose the name for our
+
+c1070c83-70ab-45bd-87f9-3bec3bd39862-1
+00:06:53.046 --> 00:07:01.660
+layer so we can just call it Our
+sighting environment points and
+
+c1070c83-70ab-45bd-87f9-3bec3bd39862-2
+00:07:01.660 --> 00:07:10.009
+our coordinate reference system
+is the same as what our points
+
+c1070c83-70ab-45bd-87f9-3bec3bd39862-3
+00:07:10.009 --> 00:07:11.599
+were before.
+
+48e3d41a-4f3a-44f9-8088-dfbb2e8f98ea-0
+00:07:11.600 --> 00:07:16.001
+So we can leave that how it is
+and we don't need to worry about
+
+48e3d41a-4f3a-44f9-8088-dfbb2e8f98ea-1
+00:07:16.001 --> 00:07:17.240
+the other options.
+
+4ecaa49f-d05a-4663-aeed-a2f6ef03e5f3-0
+00:07:17.680 --> 00:07:22.286
+So we'll just click OK and now
+in our layers list we can see
+
+4ecaa49f-d05a-4663-aeed-a2f6ef03e5f3-1
+00:07:22.286 --> 00:07:26.818
+that we have a new layer and
+this will have the joined data
+
+4ecaa49f-d05a-4663-aeed-a2f6ef03e5f3-2
+00:07:26.818 --> 00:07:28.480
+saved into this layer.
+
+fbf4011b-da7a-49e7-b2d8-d30d1aac22af-0
+00:07:29.480 --> 00:07:32.800
+So just remember to hit save to
+save your progress.

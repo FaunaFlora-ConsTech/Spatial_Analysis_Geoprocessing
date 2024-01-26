@@ -1,0 +1,275 @@
+WEBVTT
+
+6524a7b0-e0fb-4a15-b55b-757932e570b8-0
+00:00:01.920 --> 00:00:06.957
+Hopefully now you've been able
+to set up this new project in
+
+6524a7b0-e0fb-4a15-b55b-757932e570b8-1
+00:00:06.957 --> 00:00:11.994
+QGIS and you've navigated in
+your browser window so that you
+
+6524a7b0-e0fb-4a15-b55b-757932e570b8-2
+00:00:11.994 --> 00:00:17.280
+can add your materials from the
+Geoprocessing Materials folder.
+
+622c2ac5-9a4f-46af-9b28-6d7e371c4f53-0
+00:00:18.560 --> 00:00:22.607
+So you should have added in
+these four layers into your map
+
+622c2ac5-9a4f-46af-9b28-6d7e371c4f53-1
+00:00:22.607 --> 00:00:25.440
+and you can see them on your
+layers list.
+
+3e597bb6-dbdc-4657-b7f0-1bb236b38882-0
+00:00:26.720 --> 00:00:32.092
+So we've got these bluey grey
+polygons that are representing
+
+3e597bb6-dbdc-4657-b7f0-1bb236b38882-1
+00:00:32.092 --> 00:00:35.880
+the spawning grounds of the
+group of fish.
+
+33d2fe4a-152d-4556-80cc-910840ac9577-0
+00:00:41.000 --> 00:00:47.978
+We've got a pink Polygon that
+represents Tristina Island and
+
+33d2fe4a-152d-4556-80cc-910840ac9577-1
+00:00:47.978 --> 00:00:54.271
+we've got a purple Polygon
+around Tristina Island that
+
+33d2fe4a-152d-4556-80cc-910840ac9577-2
+00:00:54.271 --> 00:01:01.021
+shows us the current no take
+zone of the MPA that's around
+
+33d2fe4a-152d-4556-80cc-910840ac9577-3
+00:01:01.021 --> 00:01:02.279
+the island.
+
+365f50f2-ae6c-4f6f-bf00-0ba52a3f8ece-0
+00:01:02.800 --> 00:01:06.831
+And we've also got a Polygon
+that's in blue showing us the
+
+365f50f2-ae6c-4f6f-bf00-0ba52a3f8ece-1
+00:01:06.831 --> 00:01:09.360
+territorial seas of Tristina
+Island.
+
+cee4c6f0-27a4-401c-a1a3-46e8cb09d2c6-0
+00:01:10.400 --> 00:01:15.242
+So in this video we're going to
+be using the Clip geoprocessing
+
+cee4c6f0-27a4-401c-a1a3-46e8cb09d2c6-1
+00:01:15.242 --> 00:01:19.858
+tool so that we can clip the
+spawning grounds layer as we're
+
+cee4c6f0-27a4-401c-a1a3-46e8cb09d2c6-2
+00:01:19.858 --> 00:01:24.323
+only interested in the spawning
+grounds that are within or
+
+cee4c6f0-27a4-401c-a1a3-46e8cb09d2c6-3
+00:01:24.323 --> 00:01:27.879
+intersecting the territorial
+seas of Tristina.
+
+a66b78d4-0919-44a2-9a94-bbae6696b3d6-0
+00:01:29.280 --> 00:01:35.556
+So now let's open up the
+Geoprocessing toolbox, go into
+
+a66b78d4-0919-44a2-9a94-bbae6696b3d6-1
+00:01:35.556 --> 00:01:42.392
+the Processing tab and click on
+Toolbox and then within this
+
+a66b78d4-0919-44a2-9a94-bbae6696b3d6-2
+00:01:42.392 --> 00:01:48.781
+window search clip into the
+search bar and then it's the
+
+a66b78d4-0919-44a2-9a94-bbae6696b3d6-3
+00:01:48.781 --> 00:01:53.040
+first tool at the top, the Clip
+tool.
+
+e4dd7a4b-0c19-41e1-9e07-e2c6bd36c4c7-0
+00:01:53.040 --> 00:01:58.512
+So click on this to open it and
+the clip tool is really simple
+
+e4dd7a4b-0c19-41e1-9e07-e2c6bd36c4c7-1
+00:01:58.512 --> 00:01:59.120
+to run.
+
+b718f4df-0206-4141-98ee-30e02d9fbe36-0
+00:01:59.240 --> 00:02:02.520
+We just need our input layer and
+an overlay layer.
+
+486c3bcf-9756-4d9c-bb1d-bbaab4d3dd4e-0
+00:02:03.440 --> 00:02:07.371
+So the input layer is which
+layer we are clipping and so
+
+486c3bcf-9756-4d9c-bb1d-bbaab4d3dd4e-1
+00:02:07.371 --> 00:02:10.200
+that's going to be the spawning
+grounds.
+
+b92b2f4a-1e0b-4ad0-83d1-4642df0b4bd0-0
+00:02:11.840 --> 00:02:16.501
+So you can click on the drop
+down box and choose the spawning
+
+b92b2f4a-1e0b-4ad0-83d1-4642df0b4bd0-1
+00:02:16.501 --> 00:02:19.960
+grounds layer and then for the
+overlay layer.
+
+69ba76bf-e104-4732-9535-c2386b921479-0
+00:02:20.200 --> 00:02:24.925
+This is what layer we're going
+to use to tell QGIS where to
+
+69ba76bf-e104-4732-9535-c2386b921479-1
+00:02:24.925 --> 00:02:27.760
+clip the spawning grounds layer
+to.
+
+fca7f8a0-aebe-44c9-8a17-9223e4d99ead-0
+00:02:28.640 --> 00:02:32.992
+So this is going to be the
+territorial seas Polygon layer
+
+fca7f8a0-aebe-44c9-8a17-9223e4d99ead-1
+00:02:32.992 --> 00:02:37.719
+as we're only interested in the
+spawnings that are within this
+
+fca7f8a0-aebe-44c9-8a17-9223e4d99ead-2
+00:02:37.719 --> 00:02:39.520
+territorial sea Polygon.
+
+f03b0cfa-13fb-4f8e-becb-a559ce91a437-0
+00:02:40.120 --> 00:02:44.064
+And now we just need to choose
+where to save the new layer that
+
+f03b0cfa-13fb-4f8e-becb-a559ce91a437-1
+00:02:44.064 --> 00:02:46.160
+this tool is going to create
+too.
+
+2a7751a0-16e0-466d-b17c-e55be71b8c71-0
+00:02:46.880 --> 00:02:50.376
+We'll choose, we'll click on the
+three dots and click save to Geo
+
+2a7751a0-16e0-466d-b17c-e55be71b8c71-1
+00:02:50.376 --> 00:02:50.800
+package.
+
+1aca6211-7816-40bb-b1cc-d71e006dc2ed-0
+00:02:52.720 --> 00:02:57.385
+And now we want to go into the
+folder Tristina Island MPA that
+
+1aca6211-7816-40bb-b1cc-d71e006dc2ed-1
+00:02:57.385 --> 00:02:58.200
+we created.
+
+face1944-3181-4769-b7e1-f50fb8790b2e-0
+00:02:58.760 --> 00:03:01.757
+And now we're going to choose
+what to name the Geo package
+
+face1944-3181-4769-b7e1-f50fb8790b2e-1
+00:03:01.757 --> 00:03:04.400
+that we're setting up as we
+haven't set one up yet.
+
+4b8be535-932e-422f-87f0-78b9bb1826f4-0
+00:03:05.080 --> 00:03:08.595
+So we'll just call it the same
+name as the project Tristina
+
+4b8be535-932e-422f-87f0-78b9bb1826f4-1
+00:03:08.595 --> 00:03:09.240
+Island MPA.
+
+5efb9422-8d8f-4d82-949c-af2dd33b1e03-0
+00:03:09.760 --> 00:03:14.195
+Click save and now we can choose
+the name of the new layer that
+
+5efb9422-8d8f-4d82-949c-af2dd33b1e03-1
+00:03:14.195 --> 00:03:15.720
+we're going to create.
+
+c3bc5341-f673-4612-ab40-56f89376566c-0
+00:03:16.520 --> 00:03:32.540
+So we can call this spawning
+clipped and click OK and then
+
+c3bc5341-f673-4612-ab40-56f89376566c-1
+00:03:32.540 --> 00:03:36.070
+run the tool.
+
+6c9b6afe-4d17-4f7f-a18e-125e9642d1d5-0
+00:03:38.910 --> 00:03:42.713
+And so now we see that this
+layer has come up in our layers
+
+6c9b6afe-4d17-4f7f-a18e-125e9642d1d5-1
+00:03:42.713 --> 00:03:43.030
+list.
+
+6dfbec0f-0edf-47ec-b8de-f90042abf40a-0
+00:03:43.270 --> 00:03:48.273
+Let's toggle off the original
+spawning grounds layer and there
+
+6dfbec0f-0edf-47ec-b8de-f90042abf40a-1
+00:03:48.273 --> 00:03:48.750
+we go.
+
+eb14a208-b086-4487-96c2-ebc2f9d538c7-0
+00:03:48.750 --> 00:03:54.211
+We can see that QGIS has clipped
+the spawning grounds layer,
+
+eb14a208-b086-4487-96c2-ebc2f9d538c7-1
+00:03:54.211 --> 00:03:59.940
+created the new layer with this
+clip data in it and we can just
+
+eb14a208-b086-4487-96c2-ebc2f9d538c7-2
+00:03:59.940 --> 00:04:04.954
+right click on Tristina
+territorial seas layer and zoom
+
+eb14a208-b086-4487-96c2-ebc2f9d538c7-3
+00:04:04.954 --> 00:04:05.760
+to layer.
+
+b5136287-232f-4203-954a-dcbacecce6b4-0
+00:04:08.520 --> 00:04:11.960
+And that's how to run the clip
+tool in QGIS.
+
+2c783d58-0a7a-4a03-982b-fbf3b6c0e73b-0
+00:04:12.160 --> 00:04:15.640
+So just remember to hit save to
+save your progress.

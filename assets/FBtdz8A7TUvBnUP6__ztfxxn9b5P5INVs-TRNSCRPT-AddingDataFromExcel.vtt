@@ -1,0 +1,319 @@
+WEBVTT
+
+706f1eb8-81bd-48b1-8488-d7c49ec1d008-0
+00:00:01.320 --> 00:00:05.768
+Now you should have opened up a
+project within QGIS and be
+
+706f1eb8-81bd-48b1-8488-d7c49ec1d008-1
+00:00:05.768 --> 00:00:08.860
+looking at a blank map canvas
+like this.
+
+4d604a61-4893-431e-8e81-11652ba447b1-0
+00:00:09.990 --> 00:00:14.200
+The first thing we're going to
+do is add a basemap onto our
+
+4d604a61-4893-431e-8e81-11652ba447b1-1
+00:00:14.200 --> 00:00:18.552
+canvas so that when we add in
+our data we have a reference to
+
+4d604a61-4893-431e-8e81-11652ba447b1-2
+00:00:18.552 --> 00:00:21.570
+see where the sightings actually
+happened.
+
+7a05ba6c-dd11-4fce-ae21-7e743a738acb-0
+00:00:22.630 --> 00:00:26.192
+I'm going to add in a base map
+using a plugin called
+
+7a05ba6c-dd11-4fce-ae21-7e743a738acb-1
+00:00:26.192 --> 00:00:29.890
+QuickMapServices that you can
+see in the web tab here.
+
+00441c53-69ad-4874-8329-0446a321cc9a-0
+00:00:31.040 --> 00:00:35.153
+If you don't already have this
+plugin, what you need to do is
+
+00441c53-69ad-4874-8329-0446a321cc9a-1
+00:00:35.153 --> 00:00:36.680
+go into the Plugins tab
+
+c5318386-3e02-425e-b086-5394bf31c882-0
+00:00:38.020 --> 00:00:41.640
+and go into Manage and Install
+Plugins.
+
+74fedc79-bc75-4e3d-9d43-f0a108918f75-0
+00:00:46.280 --> 00:00:51.395
+Once you have this window appear
+in the search bar, type in
+
+74fedc79-bc75-4e3d-9d43-f0a108918f75-1
+00:00:51.395 --> 00:00:52.760
+QuickMapServices
+
+fe163224-296c-4306-a6c8-ab316ab2bd6c-0
+00:00:58.300 --> 00:01:00.390
+and once you see it you can
+click on it
+
+10f28c68-9a72-4930-897a-3273a9b1f66b-0
+00:01:02.270 --> 00:01:07.406
+and where my button says upgrade
+plugin yours will say install
+
+10f28c68-9a72-4930-897a-3273a9b1f66b-1
+00:01:07.406 --> 00:01:11.483
+plugin so click on that and that
+will install the
+
+10f28c68-9a72-4930-897a-3273a9b1f66b-2
+00:01:11.483 --> 00:01:12.870
+QuickMapServices.
+
+94810999-272c-4df6-a6d1-2d4733c4f82e-0
+00:01:13.640 --> 00:01:15.300
+So once you have that installed,
+
+64af7b86-99f1-45be-8367-4b9dc11073cc-0
+00:01:15.980 --> 00:01:17.710
+you can go into the web tab
+
+65964660-044f-4aa1-9510-b4769102ef02-0
+00:01:21.010 --> 00:01:25.573
+and you'll see it here. But you
+probably won't have as many base
+
+65964660-044f-4aa1-9510-b4769102ef02-1
+00:01:25.573 --> 00:01:30.136
+maps as I do, and that's because
+you need to add the contributed
+
+65964660-044f-4aa1-9510-b4769102ef02-2
+00:01:30.136 --> 00:01:34.208
+pack. To do that, hover over
+QuickMapServices and go into
+
+65964660-044f-4aa1-9510-b4769102ef02-3
+00:01:34.208 --> 00:01:34.840
+Settings.
+
+09e7ec22-ab30-4e1e-828c-a4be6cad1663-0
+00:01:37.630 --> 00:01:42.592
+Once you're in the settings, go
+into More Services and click Get
+
+09e7ec22-ab30-4e1e-828c-a4be6cad1663-1
+00:01:42.592 --> 00:01:43.890
+Contributed Pack.
+
+40c5c611-5f0d-4753-bf7b-2219da7eec0c-0
+00:01:49.290 --> 00:01:53.976
+So now you'll have all these
+different providers of different
+
+40c5c611-5f0d-4753-bf7b-2219da7eec0c-1
+00:01:53.976 --> 00:01:58.511
+spatial data. We're going to go
+into ESRI and click on ESRI
+
+40c5c611-5f0d-4753-bf7b-2219da7eec0c-2
+00:01:58.511 --> 00:02:00.930
+Standard to add in this basemap.
+
+fbe19e85-30ce-49cd-94cb-db983d75d741-0
+00:02:02.940 --> 00:02:06.220
+So now we've got our basemap,
+let's add in our data.
+
+4cb75d68-9a68-4796-822a-5c8292f305cb-0
+00:02:07.150 --> 00:02:10.520
+To do that, we're going to use
+the browser window on the left.
+
+95b8d7bd-3513-4ae1-82bb-2e1957a709e9-0
+00:02:12.310 --> 00:02:16.057
+And we're going to navigate to
+where we created our materials
+
+95b8d7bd-3513-4ae1-82bb-2e1957a709e9-1
+00:02:16.057 --> 00:02:16.420
+folder
+
+40210b21-3211-484a-badd-3f68e9b44c29-0
+00:02:17.720 --> 00:02:21.132
+So to do that, you can, if you
+saved it in your computer, you
+
+40210b21-3211-484a-badd-3f68e9b44c29-1
+00:02:21.132 --> 00:02:24.324
+can go into home, or if you
+saved it in your C drive, you
+
+40210b21-3211-484a-badd-3f68e9b44c29-2
+00:02:24.324 --> 00:02:25.370
+could go into that.
+
+42a7c56b-1a5f-4e4f-a812-0321a314a6ff-0
+00:02:26.210 --> 00:02:29.050
+For me, it's in my Computer and
+my OneDrive,
+
+743d6fee-8920-4c1b-8bf5-bfb72aaf62bf-0
+00:02:32.150 --> 00:02:37.537
+so just expand the folders that
+you need to expand to get to the
+
+743d6fee-8920-4c1b-8bf5-bfb72aaf62bf-1
+00:02:37.537 --> 00:02:39.030
+Hippogriffs folder
+
+ab04cdcb-0ce2-4280-96b5-1b76eb0a6aee-0
+00:02:40.520 --> 00:02:42.460
+and then the Materials folder.
+
+aa316e50-e29f-4659-82db-6c3160c0042f-0
+00:02:43.470 --> 00:02:45.050
+So now we can expand this
+
+2621ad73-deff-4702-b6ea-6b9374cf7b90-0
+00:02:45.730 --> 00:02:49.260
+and we can see we have our
+hippogriff sightings table in
+
+2621ad73-deff-4702-b6ea-6b9374cf7b90-1
+00:02:49.260 --> 00:02:49.570
+here.
+
+569d11f5-8963-4cf4-bf69-83110e01c9d9-0
+00:02:50.500 --> 00:02:55.245
+So to put it within our project
+we just need to click hold and
+
+569d11f5-8963-4cf4-bf69-83110e01c9d9-1
+00:02:55.245 --> 00:02:59.690
+drag it into our layers list
+that's underneath our browser
+
+b5d5d2d5-bdf0-4649-a4ea-af4a075c3b92-0
+00:03:02.200 --> 00:03:03.550
+and drop it in here.
+
+2eadda7b-8d6f-4467-8884-efdff9a8a1a2-0
+00:03:05.570 --> 00:03:09.021
+And now if we click on this
+within our layers and right
+
+2eadda7b-8d6f-4467-8884-efdff9a8a1a2-1
+00:03:09.021 --> 00:03:09.330
+click
+
+7a883a9d-8c6f-4730-b830-060938267ba9-0
+00:03:10.320 --> 00:03:12.850
+we can choose open attribute
+table
+
+54ab2f93-463e-4c4c-9380-3f58b83ce604-0
+00:03:13.730 --> 00:03:16.210
+to see our table of data.
+
+7c6301b7-5e83-4ca6-9c9e-ec1cdc1858ff-0
+00:03:20.140 --> 00:03:24.972
+So the first column we can see
+is the OID or the object ID and
+
+7c6301b7-5e83-4ca6-9c9e-ec1cdc1858ff-1
+00:03:24.972 --> 00:03:27.810
+we have a different ID for each
+row.
+
+b6fea5a8-708e-47ca-991e-ec12503085be-0
+00:03:28.680 --> 00:03:32.040
+We can see that these are
+organised in a bit of a weird
+
+b6fea5a8-708e-47ca-991e-ec12503085be-1
+00:03:32.040 --> 00:03:35.460
+way, so just click on the
+heading of the row to get them
+
+b6fea5a8-708e-47ca-991e-ec12503085be-2
+00:03:35.460 --> 00:03:36.840
+in chronological order.
+
+e5c4b73a-9004-4dd6-8ec6-49e46fa5ce83-0
+00:03:37.840 --> 00:03:42.320
+We have some null rows at the
+top but we can just not worry
+
+e5c4b73a-9004-4dd6-8ec6-49e46fa5ce83-1
+00:03:42.320 --> 00:03:43.590
+about those ones.
+
+e42360eb-9b1c-48e9-9983-8b4ecfe17e71-0
+00:03:46.240 --> 00:03:50.350
+And then the next column we have
+is the unique key.
+
+87e2e5fb-0404-4896-923c-f9ec46af242b-0
+00:03:51.190 --> 00:03:55.836
+So we have a different number
+for each GPS point of each
+
+87e2e5fb-0404-4896-923c-f9ec46af242b-1
+00:03:55.836 --> 00:04:00.810
+sighting, and we have one GPS
+point per row or per sighting.
+
+d64e71e7-aeb8-4ec4-8dda-ad3dc811d697-0
+00:04:03.330 --> 00:04:06.440
+We then have the date that the
+sighting happened
+
+82b3cf27-b273-4c66-b1d3-3f4aefedab19-0
+00:04:09.460 --> 00:04:13.709
+and we have the longitude and
+latitude of the sighting. And so
+
+82b3cf27-b273-4c66-b1d3-3f4aefedab19-1
+00:04:13.709 --> 00:04:17.824
+this is what's going to enable
+us to put our data on the map
+
+82b3cf27-b273-4c66-b1d3-3f4aefedab19-2
+00:04:17.824 --> 00:04:20.590
+and to see where the sightings
+happened.
+
+0d3dc703-a59c-4a8a-a5fb-f81b06442f95-0
+00:04:21.460 --> 00:04:25.258
+We've also got the type of
+sighting, so footprint or
+
+0d3dc703-a59c-4a8a-a5fb-f81b06442f95-1
+00:04:25.258 --> 00:04:27.050
+remaining food or tracks.
+
+3366e776-bff0-4773-ba54-5584c45fc835-0
+00:04:28.630 --> 00:04:32.116
+And then we've got some
+unnecessary columns here on the
+
+3366e776-bff0-4773-ba54-5584c45fc835-1
+00:04:32.116 --> 00:04:32.490
+right,
+
+b3898258-2a35-4e6c-b913-9eedc201fefa-0
+00:04:33.280 --> 00:04:35.260
+so you can just right click on
+these
+
+845bbdda-198b-437d-ba30-ddfbdc72107c-0
+00:04:36.050 --> 00:04:37.870
+and click Hide column.

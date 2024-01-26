@@ -1,0 +1,541 @@
+WEBVTT
+
+d2fe2c89-13e1-44ef-9388-cf5739f5ef76-0
+00:00:01.240 --> 00:00:06.218
+In this video we're going to be
+running the Union tool and we're
+
+d2fe2c89-13e1-44ef-9388-cf5739f5ef76-1
+00:00:06.218 --> 00:00:10.814
+going to be creating the union
+between the spawning grounds
+
+d2fe2c89-13e1-44ef-9388-cf5739f5ef76-2
+00:00:10.814 --> 00:00:15.640
+layer (the proposed no take zone
+layer) and the fishing ground
+
+d2fe2c89-13e1-44ef-9388-cf5739f5ef76-3
+00:00:15.640 --> 00:00:19.240
+layer that hopefully you have in
+your map now.
+
+4d4de8cf-b6df-4c70-b84a-25d182dd2aa4-0
+00:00:20.360 --> 00:00:25.727
+So the reason why we're running
+the Union tool is because Union
+
+4d4de8cf-b6df-4c70-b84a-25d182dd2aa4-1
+00:00:25.727 --> 00:00:31.011
+tool, unlike the Merge tool, it
+will join the layers together,
+
+4d4de8cf-b6df-4c70-b84a-25d182dd2aa4-2
+00:00:31.011 --> 00:00:35.875
+but it will also create new
+polygons for where the layers
+
+4d4de8cf-b6df-4c70-b84a-25d182dd2aa4-3
+00:00:35.875 --> 00:00:41.326
+overlap and we're interested in
+where these overlaps are and how
+
+4d4de8cf-b6df-4c70-b84a-25d182dd2aa4-4
+00:00:41.326 --> 00:00:45.520
+much the fishing ground is going
+to be reduced by
+
+0b68e2e1-6a0a-48af-b601-ce67991da1c2-0
+00:00:45.520 --> 00:00:50.338
+with this no take zone as we can
+only reduce it by a maximum of
+
+0b68e2e1-6a0a-48af-b601-ce67991da1c2-1
+00:00:50.338 --> 00:00:50.640
+25%.
+
+a4d3b13e-e013-4499-89e0-4e6b9e2bc58f-0
+00:00:56.260 --> 00:01:00.700
+So first of all, let's just
+clean up our contents and remove
+
+a4d3b13e-e013-4499-89e0-4e6b9e2bc58f-1
+00:01:00.700 --> 00:01:02.520
+any layers we don't need.
+
+73d2db0c-79b7-4346-a65b-cc0d913821c1-0
+00:01:03.240 --> 00:01:07.656
+We don't need this previous
+spawning months layer, so we can
+
+73d2db0c-79b7-4346-a65b-cc0d913821c1-1
+00:01:07.656 --> 00:01:12.000
+remove that and just have the
+spawning months erased layer.
+
+abf9842a-4bcf-4d41-ac36-b018aa81f811-0
+00:01:13.720 --> 00:01:19.660
+And now let's go ahead and open
+up the geoprocessing toolbox and
+
+abf9842a-4bcf-4d41-ac36-b018aa81f811-1
+00:01:19.660 --> 00:01:25.144
+we want to type in Union in the
+search bar and click on the
+
+abf9842a-4bcf-4d41-ac36-b018aa81f811-2
+00:01:25.144 --> 00:01:29.440
+first tool that comes up that
+just says Union.
+
+9d72c237-29fa-4e30-963e-2ece865ed12a-0
+00:01:30.400 --> 00:01:33.859
+So our input features are going
+to be the layers that we're
+
+9d72c237-29fa-4e30-963e-2ece865ed12a-1
+00:01:33.859 --> 00:01:34.840
+joining together.
+
+edf21008-7b95-4cd7-9d0f-fcc176dfb3b6-0
+00:01:35.160 --> 00:01:38.116
+And so that's the spawning
+grounds layer and the fishing
+
+edf21008-7b95-4cd7-9d0f-fcc176dfb3b6-1
+00:01:38.116 --> 00:01:38.480
+ground.
+
+789f95f5-b3ac-4659-8497-674ca3498772-0
+00:01:39.440 --> 00:01:43.341
+And so we can drag these into
+this section here. You can click
+
+789f95f5-b3ac-4659-8497-674ca3498772-1
+00:01:43.341 --> 00:01:46.995
+on the fishing ground layer,
+hold control and click on the
+
+789f95f5-b3ac-4659-8497-674ca3498772-2
+00:01:46.995 --> 00:01:50.958
+spawning months erase layer at
+the same time and then drag them
+
+789f95f5-b3ac-4659-8497-674ca3498772-3
+00:01:50.958 --> 00:01:53.559
+across into where it says input
+features.
+
+449691bc-fcd3-4f1a-ac11-9600807d1f86-0
+00:01:53.880 --> 00:01:56.760
+So now we can see we've got them
+both here.
+
+9da0da96-6eb7-4029-ace1-a6a6f9108205-0
+00:01:58.480 --> 00:02:01.532
+The next thing we need to do is
+choose where to save this and
+
+9da0da96-6eb7-4029-ace1-a6a6f9108205-1
+00:02:01.532 --> 00:02:02.320
+what to name it.
+
+2da7de77-2666-49ba-be7d-3a3b85efcf2f-0
+00:02:02.800 --> 00:02:12.670
+So like usual, we're going to go
+into our Geodatabase and we'll
+
+2da7de77-2666-49ba-be7d-3a3b85efcf2f-1
+00:02:12.670 --> 00:02:19.920
+name it Fishing, spawning Union,
+and hit save.
+
+f624203d-4a06-48f3-8077-91de5940163d-0
+00:02:21.840 --> 00:02:26.327
+And now this section here we can
+choose what information in the
+
+f624203d-4a06-48f3-8077-91de5940163d-1
+00:02:26.327 --> 00:02:30.603
+layers' attribute tables we want
+in the new layer, that it's
+
+f624203d-4a06-48f3-8077-91de5940163d-2
+00:02:30.603 --> 00:02:34.600
+going to create in the attribute
+table of the new layer.
+
+a3a657fe-ba9d-421e-bf58-e85fcc3dc858-0
+00:02:35.120 --> 00:02:38.786
+And so we're going to choose all
+attributes just to keep all of
+
+a3a657fe-ba9d-421e-bf58-e85fcc3dc858-1
+00:02:38.786 --> 00:02:39.760
+that information.
+
+b353fe62-d4b7-40e1-a531-33608779d8cc-0
+00:02:40.240 --> 00:02:48.123
+And then we'll hit run and now
+we can see it's loaded in our
+
+b353fe62-d4b7-40e1-a531-33608779d8cc-1
+00:02:48.123 --> 00:02:48.640
+map.
+
+bea351a2-bf8d-4d7b-8bd4-368ae99dc403-0
+00:02:48.640 --> 00:02:53.014
+So let's just turn off the
+original 2 layers, toggle them
+
+bea351a2-bf8d-4d7b-8bd4-368ae99dc403-1
+00:02:53.014 --> 00:02:57.766
+off and just take a look at this
+new layer we've created so we
+
+bea351a2-bf8d-4d7b-8bd4-368ae99dc403-2
+00:02:57.766 --> 00:03:02.217
+can see that it's merged these
+or it's joined these layers
+
+bea351a2-bf8d-4d7b-8bd4-368ae99dc403-3
+00:03:02.217 --> 00:03:06.667
+together and we can also see the
+boundaries in between the
+
+bea351a2-bf8d-4d7b-8bd4-368ae99dc403-4
+00:03:06.667 --> 00:03:09.759
+fishing ground and the spawning
+grounds.
+
+a5762a8a-1e6c-419a-84a9-cde5a920f7f5-0
+00:03:10.680 --> 00:03:13.880
+Let's open up the attribute
+table for this new layer.
+
+e3550b59-08f6-4a80-b867-94a6434805b7-0
+00:03:15.640 --> 00:03:21.970
+And here in the attribute table
+we can see that we've got rows
+
+e3550b59-08f6-4a80-b867-94a6434805b7-1
+00:03:21.970 --> 00:03:23.880
+for three polygons.
+
+89ca8aec-ad86-4f47-a322-8db4e030397a-0
+00:03:28.280 --> 00:03:32.482
+So if we highlight each row, we
+can take a look at what polygons
+
+89ca8aec-ad86-4f47-a322-8db4e030397a-1
+00:03:32.482 --> 00:03:33.840
+they're representing.
+
+ea63f7fe-63da-49fe-9ca3-33da2500a9f9-0
+00:03:38.120 --> 00:03:43.991
+So we can see this first Polygon
+is the fishing ground but minus
+
+ea63f7fe-63da-49fe-9ca3-33da2500a9f9-1
+00:03:43.991 --> 00:03:46.160
+the overlapping section.
+
+3cf590fa-bb2a-4d66-8a0f-f068b2087085-0
+00:03:47.120 --> 00:03:52.656
+The 2nd Polygon is the proposed
+no take zone but again minus the
+
+3cf590fa-bb2a-4d66-8a0f-f068b2087085-1
+00:03:52.656 --> 00:03:57.256
+overlapping section and the
+third Polygon is just the
+
+3cf590fa-bb2a-4d66-8a0f-f068b2087085-2
+00:03:57.256 --> 00:03:58.959
+overlapping section.
+
+dea079d9-f2f3-495e-800a-567b63275a92-0
+00:04:02.200 --> 00:04:05.932
+So what we want to do is
+calculate the area of this
+
+dea079d9-f2f3-495e-800a-567b63275a92-1
+00:04:05.932 --> 00:04:10.525
+overlap so that we can see how
+much the fishing ground would be
+
+dea079d9-f2f3-495e-800a-567b63275a92-2
+00:04:10.525 --> 00:04:14.760
+reduced by if we kept the
+proposed no take zone like this.
+
+42c2a9ba-789a-4788-a0f0-74bc680b5c46-0
+00:04:15.720 --> 00:04:18.400
+So we need to calculate area to
+be able to do this.
+
+bbb84da1-8a7c-43a7-b4c4-9ae032eb87f2-0
+00:04:19.120 --> 00:04:23.251
+We already have a column for
+area, but we don't know what
+
+bbb84da1-8a7c-43a7-b4c4-9ae032eb87f2-1
+00:04:23.251 --> 00:04:27.240
+units it's in and we don't know
+when it was calculated.
+
+611e3c5a-006d-42a6-ac0d-f982a3f035eb-0
+00:04:27.240 --> 00:04:30.448
+So we'll just calculate a new
+field so we know that we're
+
+611e3c5a-006d-42a6-ac0d-f982a3f035eb-1
+00:04:30.448 --> 00:04:32.440
+getting the right area
+calculation.
+
+4fe0473c-3be2-4a09-8161-d7059b739cf6-0
+00:04:33.480 --> 00:04:37.547
+So we'll do this how we did it
+in the previous lessons For
+
+4fe0473c-3be2-4a09-8161-d7059b739cf6-1
+00:04:37.547 --> 00:04:38.720
+spatial analysis.
+
+58cdb3ef-1a3c-4489-9e91-4c4d0f4a09fe-0
+00:04:39.200 --> 00:04:45.304
+We're going to add a new field
+by using this button here, which
+
+58cdb3ef-1a3c-4489-9e91-4c4d0f4a09fe-1
+00:04:45.304 --> 00:04:49.120
+is going to bring up this table
+window.
+
+6f6c518d-ae5f-425f-93c0-1e61cc833c38-0
+00:04:51.280 --> 00:04:57.862
+So our new column is this row at
+the bottom, so we can name it,
+
+6f6c518d-ae5f-425f-93c0-1e61cc833c38-1
+00:04:57.862 --> 00:05:03.520
+so we'll name it area and give
+the alias area as well.
+
+5e9b5b1c-1508-4fcd-aa79-87fdc97df5b6-0
+00:05:03.880 --> 00:05:07.989
+The data type is going to be
+double as we want a number with
+
+5e9b5b1c-1508-4fcd-aa79-87fdc97df5b6-1
+00:05:07.989 --> 00:05:09.000
+decimal places.
+
+1688a70d-54d5-4d0f-ad3a-380a3b9ffa12-0
+00:05:09.640 --> 00:05:15.589
+The number format we're going to
+have as numeric and we'll reduce
+
+1688a70d-54d5-4d0f-ad3a-380a3b9ffa12-1
+00:05:15.589 --> 00:05:21.177
+these decimal places down to two
+and click OK and then we can
+
+1688a70d-54d5-4d0f-ad3a-380a3b9ffa12-2
+00:05:21.177 --> 00:05:26.585
+save our changes using this
+button at the top here as we're
+
+1688a70d-54d5-4d0f-ad3a-380a3b9ffa12-3
+00:05:26.585 --> 00:05:29.199
+in the fields tab at the top.
+
+61679c7a-9241-4124-b8db-34a0f9e1a147-0
+00:05:29.240 --> 00:05:32.810
+This is what happened when we
+opened up the table, it put us
+
+61679c7a-9241-4124-b8db-34a0f9e1a147-1
+00:05:32.810 --> 00:05:34.800
+in this Fields tab
+automatically.
+
+a6c11fa0-bcb1-416b-acd2-fdb7f75e92a6-0
+00:05:35.120 --> 00:05:38.680
+Now we can shut this and we've
+got our column for Area.
+
+206e5da7-2557-4a46-b709-b8069de0c98b-0
+00:05:38.680 --> 00:05:40.880
+So let's calculate the geometry.
+
+5c95a738-c915-4847-9166-f85599a2d05d-0
+00:05:41.360 --> 00:05:45.548
+So right click on the heading,
+the column heading, choose
+
+5c95a738-c915-4847-9166-f85599a2d05d-1
+00:05:45.548 --> 00:05:46.920
+Calculate geometry.
+
+ebbbb785-a60c-41d7-ac3a-7d2fc94b37c9-0
+00:05:47.560 --> 00:05:51.720
+Our input feature is already put
+there, so that's fine.
+
+89b4c16f-6b58-4b24-a62a-4e59a07d7f56-0
+00:05:52.560 --> 00:05:56.110
+We just need to put in the
+property as area and the field
+
+89b4c16f-6b58-4b24-a62a-4e59a07d7f56-1
+00:05:56.110 --> 00:05:56.600
+as area.
+
+940aee10-f7fc-4b94-a863-4c27d0f8e1ff-0
+00:05:57.560 --> 00:06:01.773
+The area unit is square
+kilometers and the coordinate
+
+940aee10-f7fc-4b94-a863-4c27d0f8e1ff-1
+00:06:01.773 --> 00:06:02.320
+system,
+
+c62ac9ec-fe4f-4001-b0b9-784f2cb6e5dd-0
+00:06:02.320 --> 00:06:05.687
+we can put this as the current
+layer, although our layers and
+
+c62ac9ec-fe4f-4001-b0b9-784f2cb6e5dd-1
+00:06:05.687 --> 00:06:08.999
+our map are all in the same
+coordinate system, so it doesn't
+
+c62ac9ec-fe4f-4001-b0b9-784f2cb6e5dd-2
+00:06:08.999 --> 00:06:09.760
+really matter.
+
+b513b416-eb7d-47e8-9e96-e6f4235adf79-0
+00:06:10.320 --> 00:06:18.035
+And then hit run and now we've
+calculated the area, so for the
+
+b513b416-eb7d-47e8-9e96-e6f4235adf79-1
+00:06:18.035 --> 00:06:22.200
+overlapping area it's 14.48km
+^2.
+
+3269c313-3c50-4d57-9313-16f655c7aa37-0
+00:06:23.560 --> 00:06:27.412
+Now we need to know the area of
+the fishing ground, so we're
+
+3269c313-3c50-4d57-9313-16f655c7aa37-1
+00:06:27.412 --> 00:06:30.760
+going to open up the attribute
+table for this layer.
+
+a198ff46-47be-4faf-a01a-47d6cebbea00-0
+00:06:35.040 --> 00:06:38.080
+We're going to add a new field
+like we just did.
+
+205dde84-a0d3-43dd-90b8-f4752ce220c1-0
+00:06:40.000 --> 00:06:47.572
+Again, we'll put in the field
+name and the alias area, the
+
+205dde84-a0d3-43dd-90b8-f4752ce220c1-1
+00:06:47.572 --> 00:06:55.144
+data type as double, and the
+number format as numeric with
+
+205dde84-a0d3-43dd-90b8-f4752ce220c1-2
+00:06:55.144 --> 00:07:00.919
+two decimal places, and then
+we'll hit save.
+
+f67a1d10-c64c-421c-9086-cc54ade5a650-0
+00:07:02.120 --> 00:07:06.840
+Shut this box and now we can
+calculate the area in here.
+
+d341dbad-58d6-4467-9c23-e1db724d5546-0
+00:07:09.800 --> 00:07:12.320
+So we'll bring up the Calculate
+Geometry window.
+
+b91bd124-c8ee-4754-b168-1d410d73af3d-0
+00:07:13.120 --> 00:07:14.680
+We've got the fishing ground
+here.
+
+f325a537-4faa-466a-9427-e1bab1a7d31a-0
+00:07:15.960 --> 00:07:21.147
+The field is area, the property
+is area, area units, square
+
+f325a537-4faa-466a-9427-e1bab1a7d31a-1
+00:07:21.147 --> 00:07:24.520
+kilometers, and the coordinate
+system,
+
+006f2da8-67bc-4dc6-a246-469a0ac66118-0
+00:07:25.040 --> 00:07:32.224
+again, we can choose our layer
+for this and we'll click, OK, so
+
+006f2da8-67bc-4dc6-a246-469a0ac66118-1
+00:07:32.224 --> 00:07:38.511
+now we've got our area
+calculation and so now we can do
+
+006f2da8-67bc-4dc6-a246-469a0ac66118-2
+00:07:38.511 --> 00:07:45.247
+the calculation to see what
+percentage of the total fishing
+
+006f2da8-67bc-4dc6-a246-469a0ac66118-3
+00:07:45.247 --> 00:07:52.320
+ground area would be taken away
+by this proposed no take zone.
+
+6d87531b-98ab-462a-9e98-bdb62f404c8f-0
+00:07:53.120 --> 00:08:01.717
+So let's bring up the calculator
+and now we can just do our
+
+6d87531b-98ab-462a-9e98-bdb62f404c8f-1
+00:08:01.717 --> 00:08:04.440
+simple calculation.
+
+b2faade8-c429-4b36-98bc-ff3b28ed420b-0
+00:08:04.440 --> 00:08:11.697
+So the area of the intersecting
+areas divided by the total
+
+b2faade8-c429-4b36-98bc-ff3b28ed420b-1
+00:08:11.697 --> 00:08:15.880
+fishing ground area times by
+100.
+
+39f98e87-b7af-410b-99d2-1cd963ff19af-0
+00:08:20.120 --> 00:08:25.160
+And so we know that the fishing
+ground would be reduced by 21%.
+
+a7fe783d-d0cb-4439-a1a8-73a01a9fee0c-0
+00:08:25.360 --> 00:08:30.510
+This is below the 25% maximum
+and so we can go ahead with this
+
+a7fe783d-d0cb-4439-a1a8-73a01a9fee0c-1
+00:08:30.510 --> 00:08:35.497
+proposed no take zone for the
+spawning season and that's how
+
+a7fe783d-d0cb-4439-a1a8-73a01a9fee0c-2
+00:08:35.497 --> 00:08:38.440
+to run a Union tool in Arc GIS
+Pro.

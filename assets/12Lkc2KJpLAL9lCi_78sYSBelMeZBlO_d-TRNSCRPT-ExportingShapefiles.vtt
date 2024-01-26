@@ -1,0 +1,165 @@
+WEBVTT
+
+60d51c34-7c66-4401-b618-18d63b7c77a9-0
+00:00:01.160 --> 00:00:05.295
+The Protected area authorities
+have a question for you to share
+
+60d51c34-7c66-4401-b618-18d63b7c77a9-1
+00:00:05.295 --> 00:00:07.880
+the data as a shapefile and as a
+table.
+
+4cce7e94-c749-462a-8694-358f0b446701-0
+00:00:08.280 --> 00:00:12.000
+In this video we'll go over how
+to export as a shapefile.
+
+ece25cea-f5dd-4ffe-adca-d02efc5ffe23-0
+00:00:12.520 --> 00:00:16.254
+We'll be using the exported
+layer for just the Ziama
+
+ece25cea-f5dd-4ffe-adca-d02efc5ffe23-1
+00:00:16.254 --> 00:00:20.552
+sightings as Ziama Protected
+area will only be interested in
+
+ece25cea-f5dd-4ffe-adca-d02efc5ffe23-2
+00:00:20.552 --> 00:00:21.679
+these sightings.
+
+9aedadea-1a99-4afc-9a00-b5f362adbe29-0
+00:00:22.120 --> 00:00:24.972
+And this is going to be a very
+similar process to what we've
+
+9aedadea-1a99-4afc-9a00-b5f362adbe29-1
+00:00:24.972 --> 00:00:25.440
+just done.
+
+1dfb8c9c-2fac-4977-8f54-6f80bf92ddb2-0
+00:00:25.880 --> 00:00:31.194
+So we'll right click on this
+layer, we'll go down to the data
+
+1dfb8c9c-2fac-4977-8f54-6f80bf92ddb2-1
+00:00:31.194 --> 00:00:36.422
+section here and click export
+features which will bring this
+
+1dfb8c9c-2fac-4977-8f54-6f80bf92ddb2-2
+00:00:36.422 --> 00:00:36.680
+up.
+
+5423988c-f50b-43d8-aadb-0eadba7d616a-0
+00:00:37.080 --> 00:00:41.862
+So our input features are our
+Ziama sightings and now we just
+
+5423988c-f50b-43d8-aadb-0eadba7d616a-1
+00:00:41.862 --> 00:00:44.640
+need to choose where to save it
+to.
+
+7b32a6ae-b0a5-4917-8d69-00cf11ba15c1-0
+00:00:45.040 --> 00:00:50.421
+So we'll go into here and we're
+going to create a new folder to
+
+7b32a6ae-b0a5-4917-8d69-00cf11ba15c1-1
+00:00:50.421 --> 00:00:55.634
+save it into so that we can send
+this folder with the data to
+
+7b32a6ae-b0a5-4917-8d69-00cf11ba15c1-2
+00:00:55.634 --> 00:00:57.400
+Ziama protected area.
+
+49bc08b9-d294-40f8-bf53-f3d2df3bb819-0
+00:00:59.120 --> 00:01:05.117
+So go into your Hippogriffs
+folder for this project and in
+
+49bc08b9-d294-40f8-bf53-f3d2df3bb819-1
+00:01:05.117 --> 00:01:11.521
+the Hippogriffs project folder,
+I'm going to right click add a
+
+49bc08b9-d294-40f8-bf53-f3d2df3bb819-2
+00:01:11.521 --> 00:01:17.824
+new folder, I'm going to name
+this Ziama PA click in here and
+
+49bc08b9-d294-40f8-bf53-f3d2df3bb819-3
+00:01:17.824 --> 00:01:23.720
+now we can name the shapefile
+that we're going to create.
+
+d600c390-cfe0-426c-b8a5-39326e62b0b3-0
+00:01:24.480 --> 00:01:26.760
+So let's make it nice and clear
+what it is.
+
+b8058a4f-650a-4139-a0c6-047aa062d54e-0
+00:01:27.400 --> 00:01:33.040
+We'll call it Hippogriff
+sightings Ziama and hit save.
+
+425f5fde-ed33-4bee-b5a6-178ecbc3b224-0
+00:01:34.280 --> 00:01:39.401
+And now to save as a shapefile,
+we need to make sure that at the
+
+425f5fde-ed33-4bee-b5a6-178ecbc3b224-1
+00:01:39.401 --> 00:01:42.080
+end of the file name it says
+dot.
+
+4e2eff33-bf2e-448b-bc28-f00044774c9b-0
+00:01:42.360 --> 00:01:45.440
+It has the suffix dot SHP.
+
+14005ceb-31b7-479a-8be0-569f64de2387-0
+00:01:45.840 --> 00:01:47.520
+This will save it as a
+shapefile.
+
+03f06ce9-4c60-41d5-92c3-c1c2ea211406-0
+00:01:47.520 --> 00:01:51.488
+So let's hit OK, and this is
+going to export our layer so we
+
+03f06ce9-4c60-41d5-92c3-c1c2ea211406-1
+00:01:51.488 --> 00:01:53.960
+can see it's come up in our
+contents.
+
+a221eaa5-5039-48bc-9171-e5fd5dad3f5d-0
+00:01:54.440 --> 00:01:58.483
+But it would have also exported
+the layer to the folder that we
+
+a221eaa5-5039-48bc-9171-e5fd5dad3f5d-1
+00:01:58.483 --> 00:02:02.400
+created and so that's how to
+export as a shapefile in ArcPro.
+
+51bec526-5f4b-4046-8add-b1a33799f9c6-0
+00:02:02.640 --> 00:02:06.360
+So now do the same process but
+for Wonegizi and Wologizi.
+
+fbbb25c2-ec98-4aa1-8b86-bd9ce83c668c-0
+00:02:06.600 --> 00:02:11.425
+Create separate folders for the
+two protected areas and then
+
+fbbb25c2-ec98-4aa1-8b86-bd9ce83c668c-1
+00:02:11.425 --> 00:02:16.250
+save the associated shapefile
+for that protected area within
+
+fbbb25c2-ec98-4aa1-8b86-bd9ce83c668c-2
+00:02:16.250 --> 00:02:17.199
+that folder.

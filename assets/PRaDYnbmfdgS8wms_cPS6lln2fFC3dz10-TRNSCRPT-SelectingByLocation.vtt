@@ -1,0 +1,304 @@
+WEBVTT
+
+777c2c31-849c-4591-9470-5dcb621fa812-0
+00:00:00.920 --> 00:00:05.231
+In this video we're going to
+learn how to select by location
+
+777c2c31-849c-4591-9470-5dcb621fa812-1
+00:00:05.231 --> 00:00:09.189
+to work out how many sighting
+points are in each of the
+
+777c2c31-849c-4591-9470-5dcb621fa812-2
+00:00:09.189 --> 00:00:10.320
+protected areas.
+
+63285d31-768f-4665-8d89-dd581e601fbf-0
+00:00:10.880 --> 00:00:14.633
+To begin with, we want to make
+sure that we clear any selection
+
+63285d31-768f-4665-8d89-dd581e601fbf-1
+00:00:14.633 --> 00:00:17.800
+or definition query that we have
+on our data already.
+
+acb1654b-f7a0-41c0-baa9-3057f6382b41-0
+00:00:18.360 --> 00:00:23.950
+To clear a definition query you
+want to go into the Sighting
+
+acb1654b-f7a0-41c0-baa9-3057f6382b41-1
+00:00:23.950 --> 00:00:25.600
+points properties.
+
+2a67a034-2932-430d-80e0-539acebe5de7-0
+00:00:25.880 --> 00:00:28.800
+So right click and go into
+properties.
+
+783d1226-e070-4c41-bc2b-6e57184329ff-0
+00:00:29.440 --> 00:00:33.840
+Then in the definition query tab
+and here is the definition query
+
+783d1226-e070-4c41-bc2b-6e57184329ff-1
+00:00:33.840 --> 00:00:34.640
+that we set.
+
+fa13096f-2ccf-494e-a7b8-278dca3509b5-0
+00:00:34.960 --> 00:00:39.323
+So if we hover our mouse over
+this we can click on the red X
+
+fa13096f-2ccf-494e-a7b8-278dca3509b5-1
+00:00:39.323 --> 00:00:41.040
+button to get rid of it.
+
+008f15d4-c6d2-4a37-a5ee-781cab7a84a8-0
+00:00:41.680 --> 00:00:46.874
+So click on this, click yes and
+OK and if we just let this load
+
+008f15d4-c6d2-4a37-a5ee-781cab7a84a8-1
+00:00:46.874 --> 00:00:51.988
+then we can see we've got all of
+our sighting points that have
+
+008f15d4-c6d2-4a37-a5ee-781cab7a84a8-2
+00:00:51.988 --> 00:00:52.799
+come back.
+
+ff7b1d2e-15f9-4c3e-a7a7-7aeded6f7260-0
+00:00:54.120 --> 00:00:58.934
+If you have any of the data
+points selected on your map, you
+
+ff7b1d2e-15f9-4c3e-a7a7-7aeded6f7260-1
+00:00:58.934 --> 00:01:03.827
+can go into the Map tab, into
+the Selection section and click
+
+ff7b1d2e-15f9-4c3e-a7a7-7aeded6f7260-2
+00:01:03.827 --> 00:01:08.800
+on the Clear button to get rid
+of any selection that you have.
+
+168504f1-70c8-49e1-b4b4-4674c90c0bff-0
+00:01:13.080 --> 00:01:17.761
+And the Select by Location
+button that we're going to use
+
+168504f1-70c8-49e1-b4b4-4674c90c0bff-1
+00:01:17.761 --> 00:01:22.120
+in this video is also in this
+section of the map tab.
+
+63214b2b-cae3-4166-9dc3-790f2c3cbad8-0
+00:01:22.480 --> 00:01:30.555
+So click on the Select by
+Location button and now we can
+
+63214b2b-cae3-4166-9dc3-790f2c3cbad8-1
+00:01:30.555 --> 00:01:36.930
+add in the parameters to run
+this selection.
+
+8b19c7b6-3fdb-42dd-ba8e-64d96c2e8b4e-0
+00:01:37.410 --> 00:01:41.170
+So our input features are going
+to be our sighting points.
+
+32f69c98-19f2-4611-847d-f686f73db19c-0
+00:01:41.170 --> 00:01:42.730
+So we've already got this here.
+
+c8bb7e37-60ac-4031-8e20-43743231c439-0
+00:01:42.730 --> 00:01:46.803
+That's great if you don't have
+it, just drag it across from
+
+c8bb7e37-60ac-4031-8e20-43743231c439-1
+00:01:46.803 --> 00:01:50.810
+your contents and then we need
+to choose the relationship.
+
+3fcd1dae-7ba1-4b93-a3ef-d42f0e66aedf-0
+00:01:52.010 --> 00:01:56.893
+So if we click on the drop down
+box for this section, we can see
+
+3fcd1dae-7ba1-4b93-a3ef-d42f0e66aedf-1
+00:01:56.893 --> 00:02:01.627
+that there's lots of different
+types of relationship or how we
+
+3fcd1dae-7ba1-4b93-a3ef-d42f0e66aedf-2
+00:02:01.627 --> 00:02:03.280
+want to run this tool.
+
+84f4aaec-4478-4f87-bf97-24663ac583aa-0
+00:02:04.640 --> 00:02:10.337
+We can hover our mouse over the
+info icon and then this gives us
+
+84f4aaec-4478-4f87-bf97-24663ac583aa-1
+00:02:10.337 --> 00:02:15.946
+some more information about each
+type of relationship and so if
+
+84f4aaec-4478-4f87-bf97-24663ac583aa-2
+00:02:15.946 --> 00:02:21.468
+you wanted to find which type to
+use you can read through this
+
+84f4aaec-4478-4f87-bf97-24663ac583aa-3
+00:02:21.468 --> 00:02:22.520
+information.
+
+5674486a-71ae-43ef-82e2-d608aad2b62e-0
+00:02:24.080 --> 00:02:28.364
+So we're going to choose the
+relationship within as we want
+
+5674486a-71ae-43ef-82e2-d608aad2b62e-1
+00:02:28.364 --> 00:02:32.720
+to know what sighting points are
+within the protected areas.
+
+f30da2d8-0a36-43d1-9e60-78c1b3815b62-0
+00:02:34.360 --> 00:02:39.882
+So for our selecting features,
+we're first of all going to take
+
+f30da2d8-0a36-43d1-9e60-78c1b3815b62-1
+00:02:39.882 --> 00:02:45.233
+a look at Ziama protected area
+so we can click on this in the
+
+f30da2d8-0a36-43d1-9e60-78c1b3815b62-2
+00:02:45.233 --> 00:02:50.928
+contents and then drag it across
+to the section here and the next
+
+f30da2d8-0a36-43d1-9e60-78c1b3815b62-3
+00:02:50.928 --> 00:02:53.000
+section search distance.
+
+4c18f3ba-b69e-4b0f-a5b8-1ec3453d0f58-0
+00:02:53.000 --> 00:02:57.053
+We don't need to worry about for
+this selection and selection
+
+4c18f3ba-b69e-4b0f-a5b8-1ec3453d0f58-1
+00:02:57.053 --> 00:02:59.800
+type, we can leave that as new
+selection.
+
+cd3bd371-e83b-489f-b3af-c47d232bc39d-0
+00:03:00.320 --> 00:03:06.682
+So now we just need to hit apply
+and hit OK and now we can see
+
+cd3bd371-e83b-489f-b3af-c47d232bc39d-1
+00:03:06.682 --> 00:03:13.145
+our selected sighting points for
+the sightings that occurred in
+
+cd3bd371-e83b-489f-b3af-c47d232bc39d-2
+00:03:13.145 --> 00:03:15.670
+the Ziama protected area.
+
+1cd7362c-0231-4b91-94c7-e3e77a334dad-0
+00:03:17.550 --> 00:03:21.447
+To see how many points or how
+many sightings occurred within
+
+1cd7362c-0231-4b91-94c7-e3e77a334dad-1
+00:03:21.447 --> 00:03:25.472
+Ziama, we need to open up the
+attribute table for our sighting
+
+1cd7362c-0231-4b91-94c7-e3e77a334dad-2
+00:03:25.472 --> 00:03:25.920
+points.
+
+79c63f45-5ef6-408b-89ce-60717e42d900-0
+00:03:36.530 --> 00:03:40.632
+And then in the bottom of this
+table it tells us that 32 points
+
+79c63f45-5ef6-408b-89ce-60717e42d900-1
+00:03:40.632 --> 00:03:41.850
+have been selected.
+
+5df1bcda-8adf-4e3d-92db-fceefa5a3122-0
+00:03:41.850 --> 00:03:46.584
+So we know that 32 sightings of
+Hippogriffs occurred in Ziama
+
+5df1bcda-8adf-4e3d-92db-fceefa5a3122-1
+00:03:46.584 --> 00:03:47.730
+protected area.
+
+6fb9e176-c6cf-47d3-8c70-f22e7a550a14-0
+00:03:48.690 --> 00:03:53.319
+If we wanted to just see the
+selected rows, we can click on
+
+6fb9e176-c6cf-47d3-8c70-f22e7a550a14-1
+00:03:53.319 --> 00:03:58.181
+this button in the table at the
+bottom and now we can just see
+
+6fb9e176-c6cf-47d3-8c70-f22e7a550a14-2
+00:03:58.181 --> 00:03:59.570
+the selected rows.
+
+507f8748-7b79-45bb-8578-62cc9f14e1bd-0
+00:04:03.720 --> 00:04:08.610
+And then if you wanted to clear
+this select selection, you can
+
+507f8748-7b79-45bb-8578-62cc9f14e1bd-1
+00:04:08.610 --> 00:04:13.190
+either use the clear that we
+used in the map tab before in
+
+507f8748-7b79-45bb-8578-62cc9f14e1bd-2
+00:04:13.190 --> 00:04:18.003
+the selection section, or if you
+have the table open, you can
+
+507f8748-7b79-45bb-8578-62cc9f14e1bd-3
+00:04:18.003 --> 00:04:22.972
+click on the white corner of the
+table and this will just clear
+
+507f8748-7b79-45bb-8578-62cc9f14e1bd-4
+00:04:22.972 --> 00:04:24.680
+the selection as well.
+
+fa7bf4fe-5cac-489c-ab05-0ff6db0101ff-0
+00:04:27.920 --> 00:04:32.755
+And so that's how to use the
+Select by Location tool in Arc
+
+fa7bf4fe-5cac-489c-ab05-0ff6db0101ff-1
+00:04:32.755 --> 00:04:33.400
+GIS Pro.
+
+80587409-ecd8-426b-ab2d-fc722ca88207-0
+00:04:35.680 --> 00:04:39.547
+Now have a go at selecting by
+location for Wonegizi and
+
+80587409-ecd8-426b-ab2d-fc722ca88207-1
+00:04:39.547 --> 00:04:43.760
+Wologizi as well to see how many
+sighting points occurred in
+
+80587409-ecd8-426b-ab2d-fc722ca88207-2
+00:04:43.760 --> 00:04:45.280
+these protected areas.

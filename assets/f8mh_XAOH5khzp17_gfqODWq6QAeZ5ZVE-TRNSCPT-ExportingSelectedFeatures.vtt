@@ -1,0 +1,159 @@
+WEBVTT
+
+2163c1ce-6d7c-4b27-ad29-9dba1684eace-0
+00:00:01.720 --> 00:00:05.936
+To export selected features, the
+first thing you need to do is
+
+2163c1ce-6d7c-4b27-ad29-9dba1684eace-1
+00:00:05.936 --> 00:00:08.680
+run the required selection on
+your data.
+
+8326e9b0-cda3-4488-8da5-85ec164d17ba-0
+00:00:09.320 --> 00:00:14.159
+In this video, we'll go over how
+to export features selected by
+
+8326e9b0-cda3-4488-8da5-85ec164d17ba-1
+00:00:14.159 --> 00:00:14.840
+location.
+
+375042f4-3892-43c3-8e90-5902a32f8309-0
+00:00:14.840 --> 00:00:19.273
+For Ziama we will run a
+selection like we did previously
+
+375042f4-3892-43c3-8e90-5902a32f8309-1
+00:00:19.273 --> 00:00:20.440
+in this course.
+
+a4412132-39d4-4929-8a90-a70160cc8b33-0
+00:00:20.920 --> 00:00:26.564
+So we can go into the map tab
+and in the selection section we
+
+a4412132-39d4-4929-8a90-a70160cc8b33-1
+00:00:26.564 --> 00:00:31.753
+can choose or click on the
+select by location tool which
+
+a4412132-39d4-4929-8a90-a70160cc8b33-2
+00:00:31.753 --> 00:00:34.120
+will bring up this window.
+
+1f2d6bff-94a4-4955-92c2-f753961cacc4-0
+00:00:37.480 --> 00:00:42.380
+Your input features are your
+sighting points and for the
+
+1f2d6bff-94a4-4955-92c2-f753961cacc4-1
+00:00:42.380 --> 00:00:47.795
+relationship we want the same
+relationship as we had before so
+
+1f2d6bff-94a4-4955-92c2-f753961cacc4-2
+00:00:47.795 --> 00:00:52.953
+that's within and our selecting
+feature we want to be Ziama
+
+1f2d6bff-94a4-4955-92c2-f753961cacc4-3
+00:00:52.953 --> 00:00:57.080
+protected area so it's the
+points within Ziama.
+
+2ad82a09-1ecf-475b-a781-8b1e11fa2ecc-0
+00:00:57.080 --> 00:01:02.970
+And selection type, we want a
+new selection and we can hit
+
+2ad82a09-1ecf-475b-a781-8b1e11fa2ecc-1
+00:01:02.970 --> 00:01:08.960
+apply and OK and now we can
+export these selected features.
+
+c9e53382-0400-4a1b-a41e-d64e586bed2b-0
+00:01:09.960 --> 00:01:16.751
+So we will right click on our
+sighting points and we will go
+
+c9e53382-0400-4a1b-a41e-d64e586bed2b-1
+00:01:16.751 --> 00:01:23.877
+down to hover over where it says
+data and click Export features
+
+c9e53382-0400-4a1b-a41e-d64e586bed2b-2
+00:01:23.877 --> 00:01:27.440
+which will bring up this window.
+
+50b45a13-df24-408c-a465-153dfb8a7252-0
+00:01:28.800 --> 00:01:33.852
+So our input feature are our
+points and we've got this blue
+
+50b45a13-df24-408c-a465-153dfb8a7252-1
+00:01:33.852 --> 00:01:38.400
+text that shows us that this has
+the selection on it.
+
+3b405166-1d99-466e-ad18-99646b7e1b78-0
+00:01:40.320 --> 00:01:43.320
+So now we need to choose where
+to save it to.
+
+87b6e2e5-135e-4549-a6ce-4a78e5ed2df6-0
+00:01:46.120 --> 00:01:55.720
+So we will click on the folder
+icon here and we're going to
+
+87b6e2e5-135e-4549-a6ce-4a78e5ed2df6-1
+00:01:55.720 --> 00:02:05.320
+save it into our Hippogriff
+Project Geodatabase and we will
+
+87b6e2e5-135e-4549-a6ce-4a78e5ed2df6-2
+00:02:05.320 --> 00:02:11.400
+name it Ziama Sightings and hit
+save.
+
+2b7b88af-abf3-4873-97e2-d993b66ba972-0
+00:02:13.800 --> 00:02:21.715
+And now we can click OK and in
+our contents we can see that we
+
+2b7b88af-abf3-4873-97e2-d993b66ba972-1
+00:02:21.715 --> 00:02:24.480
+have this layer in it.
+
+0cdafc89-a156-4752-b79d-60909df312aa-0
+00:02:25.000 --> 00:02:29.047
+So if we turn off the other
+sighting points layer, we can
+
+0cdafc89-a156-4752-b79d-60909df312aa-1
+00:02:29.047 --> 00:02:33.513
+see that our exported layer now
+is just the points within Ziama
+
+0cdafc89-a156-4752-b79d-60909df312aa-2
+00:02:33.513 --> 00:02:34.560
+protected area.
+
+1434f805-3d72-4b5d-a88c-026c7727f8f5-0
+00:02:35.160 --> 00:02:39.772
+So that's how to select export
+selected features in Arc GIS
+
+1434f805-3d72-4b5d-a88c-026c7727f8f5-1
+00:02:39.772 --> 00:02:40.080
+Pro.
+
+bb8d07a9-3157-4372-a0e7-663a8bc09e59-0
+00:02:40.560 --> 00:02:45.172
+So let's hit save on our project
+and now have a go at doing the
+
+bb8d07a9-3157-4372-a0e7-663a8bc09e59-1
+00:02:45.172 --> 00:02:49.640
+same for Wonegizi Protected Area
+and Wologizi Protected Area.

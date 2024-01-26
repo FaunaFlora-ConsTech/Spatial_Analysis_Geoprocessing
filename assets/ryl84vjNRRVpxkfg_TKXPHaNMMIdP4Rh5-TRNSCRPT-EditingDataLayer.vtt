@@ -1,0 +1,310 @@
+WEBVTT
+
+d939741f-d663-4144-bda2-5324315634f5-0
+00:00:00.920 --> 00:00:05.211
+In this video, we're going to
+edit our sightings data layer so
+
+d939741f-d663-4144-bda2-5324315634f5-1
+00:00:05.211 --> 00:00:07.800
+that we can add a new sighting
+point.
+
+0732041d-5ab2-43df-9062-f2b784ca947d-0
+00:00:08.520 --> 00:00:13.174
+To edit a data layer in QGIS,
+you first of all need to put the
+
+0732041d-5ab2-43df-9062-f2b784ca947d-1
+00:00:13.174 --> 00:00:16.720
+data layer that you're editing
+in editing mode.
+
+e3df9b54-d8db-4d3b-b532-96a8688c0827-0
+00:00:17.200 --> 00:00:23.274
+So we'll click on our sighting
+points in our layers list, right
+
+e3df9b54-d8db-4d3b-b532-96a8688c0827-1
+00:00:23.274 --> 00:00:27.640
+click, and then you can click
+Toggle Editing.
+
+6135d187-ab11-4a21-b82f-73ed1e911c24-0
+00:00:27.640 --> 00:00:32.957
+Here you could also do that by
+having your layer selected and
+
+6135d187-ab11-4a21-b82f-73ed1e911c24-1
+00:00:32.957 --> 00:00:38.360
+clicking the pencil icon in the
+digitising toolbar at the top.
+
+08d1e952-3834-4497-94c4-3bccc4ad2e10-0
+00:00:41.200 --> 00:00:44.040
+So now we've got editing toggled
+on.
+
+1ac63e8c-1ff4-4b8b-bd63-12f5dafdaffa-0
+00:00:44.040 --> 00:00:50.989
+We can go into the Edit tab, and
+here we have the buttons to add
+
+1ac63e8c-1ff4-4b8b-bd63-12f5dafdaffa-1
+00:00:50.989 --> 00:00:55.480
+features as well as we can move
+features.
+
+6ef88ea8-1c1e-4676-8fe9-edbf6b9cefc6-0
+00:00:58.120 --> 00:01:03.604
+We can delete features in here,
+and we also have options for
+
+6ef88ea8-1c1e-4676-8fe9-edbf6b9cefc6-1
+00:01:03.604 --> 00:01:08.280
+rotating and reshaping points,
+lines, and polygons.
+
+473ff19b-26a7-4a5c-bf4d-0a6ad30a91c8-0
+00:01:08.280 --> 00:01:12.744
+But we're going to click Add
+Point Feature, which is going to
+
+473ff19b-26a7-4a5c-bf4d-0a6ad30a91c8-1
+00:01:12.744 --> 00:01:16.200
+give our mouse the tool to draw
+on a new point.
+
+f10d50ed-e7b0-4bff-b991-93a2a6a2ba3d-0
+00:01:16.280 --> 00:01:19.768
+So we're going to go on where
+that point is in the Wonegizi
+
+f10d50ed-e7b0-4bff-b991-93a2a6a2ba3d-1
+00:01:19.768 --> 00:01:20.640
+protected area.
+
+949b1cce-baf0-4855-84ad-2c0918c02e18-0
+00:01:20.840 --> 00:01:24.352
+We'll click and it will bring up
+this window where we can put in
+
+949b1cce-baf0-4855-84ad-2c0918c02e18-1
+00:01:24.352 --> 00:01:27.000
+the information for the point
+that we're adding.
+
+b2f8eb9a-83ab-4682-b947-81708897185a-0
+00:01:27.680 --> 00:01:30.080
+So we'll just add in the
+information that we know.
+
+b2dde8ba-6835-44db-9cfd-5ccc5adfa3e8-0
+00:01:30.720 --> 00:01:35.432
+We know the date because it's
+the same date as the other nest
+
+b2dde8ba-6835-44db-9cfd-5ccc5adfa3e8-1
+00:01:35.432 --> 00:01:39.840
+sighting in Wonegizi, which is
+the 25th of November 2022.
+
+34801b88-c301-407d-b38c-f7de14ee9870-0
+00:01:40.680 --> 00:01:48.177
+So we can type it in or we can
+use the drop down arrow to
+
+34801b88-c301-407d-b38c-f7de14ee9870-1
+00:01:48.177 --> 00:01:56.322
+change the date, the month and
+the day, and then we can put in
+
+34801b88-c301-407d-b38c-f7de14ee9870-2
+00:01:56.322 --> 00:02:03.690
+the sighting and the environment
+as we know its nest and
+
+34801b88-c301-407d-b38c-f7de14ee9870-3
+00:02:03.690 --> 00:02:09.120
+secondary forest and then we'll
+click OK.
+
+6cff2de0-f409-41fe-ba42-246876c5cbe3-0
+00:02:11.320 --> 00:02:17.015
+If you weren't happy with where
+you've put your point, what you
+
+6cff2de0-f409-41fe-ba42-246876c5cbe3-1
+00:02:17.015 --> 00:02:22.088
+can do is go into the edit tab
+and now we can click Move
+
+6cff2de0-f409-41fe-ba42-246876c5cbe3-2
+00:02:22.088 --> 00:02:22.800
+feature.
+
+f01ccfc8-4a03-4a7d-abec-0e77bd557002-0
+00:02:23.680 --> 00:02:29.607
+You can click on the point that
+you've added and then you'll be
+
+f01ccfc8-4a03-4a7d-abec-0e77bd557002-1
+00:02:29.607 --> 00:02:35.256
+able to hold your mouse button
+down and drag it to where you
+
+f01ccfc8-4a03-4a7d-abec-0e77bd557002-2
+00:02:35.256 --> 00:02:35.720
+want.
+
+19cc9f2e-0ff3-4729-a951-70bf2201c753-0
+00:02:36.960 --> 00:02:44.205
+So get it to how you want it to
+be, which is in the same place
+
+19cc9f2e-0ff3-4729-a951-70bf2201c753-1
+00:02:44.205 --> 00:02:51.565
+as the other nest sighting, and
+then once you're happy with it,
+
+19cc9f2e-0ff3-4729-a951-70bf2201c753-2
+00:02:51.565 --> 00:02:58.235
+we can save our changes by
+clicking on the save button in
+
+19cc9f2e-0ff3-4729-a951-70bf2201c753-3
+00:02:58.235 --> 00:03:00.880
+the digitizing toolbar.
+
+5bb9f4b8-1bb9-4bab-bc02-a8b6215de524-0
+00:03:00.880 --> 00:03:04.960
+The save layer edits and we're
+going to toggle editing off now.
+
+e85fd9b3-aafc-48bd-95a4-da3d0313b112-0
+00:03:07.960 --> 00:03:14.761
+So let's go into our sightings
+attribute table to see the point
+
+e85fd9b3-aafc-48bd-95a4-da3d0313b112-1
+00:03:14.761 --> 00:03:21.455
+that we've just added, and if we
+Scroll down to the bottom, we
+
+e85fd9b3-aafc-48bd-95a4-da3d0313b112-2
+00:03:21.455 --> 00:03:23.900
+can see our point here.
+
+32bb7337-2268-480a-9499-1d21cdf8f484-0
+00:03:25.220 --> 00:03:29.205
+So even though we've plotted our
+point on our map, we still don't
+
+32bb7337-2268-480a-9499-1d21cdf8f484-1
+00:03:29.205 --> 00:03:31.440
+have a longitude or latitude for
+it.
+
+eb172082-01cf-46da-8276-93b080cd5e53-0
+00:03:31.720 --> 00:03:35.944
+And that's because we need to
+manually calculate this in our
+
+eb172082-01cf-46da-8276-93b080cd5e53-1
+00:03:35.944 --> 00:03:36.360
+table.
+
+a60139d8-2cf2-454a-9f84-443563302beb-0
+00:03:38.000 --> 00:03:42.787
+So to do that, we're going to
+toggle editing on again using
+
+a60139d8-2cf2-454a-9f84-443563302beb-1
+00:03:42.787 --> 00:03:47.973
+the pencil icon in the top left,
+Scroll down to our row and then
+
+a60139d8-2cf2-454a-9f84-443563302beb-2
+00:03:47.973 --> 00:03:52.920
+we can select it by clicking on
+the number to the left of it.
+
+d6b04e62-607b-4c05-ac1e-30b6169f507d-0
+00:03:54.480 --> 00:03:59.698
+And then we'll choose the column
+that we're calculating, which is
+
+d6b04e62-607b-4c05-ac1e-30b6169f507d-1
+00:03:59.698 --> 00:04:04.600
+the longitude in the drop down
+box just above the table here.
+
+295d9fe6-d469-4d5f-9eb6-b6f53264c3d4-0
+00:04:05.480 --> 00:04:08.240
+So I'll click on this and we'll
+choose longitude.
+
+daa473f1-2d64-4831-8712-4b19f5baef0f-0
+00:04:08.800 --> 00:04:12.526
+And then in the box next to it
+is where we can type in the
+
+daa473f1-2d64-4831-8712-4b19f5baef0f-1
+00:04:12.526 --> 00:04:14.800
+formula for what we're
+calculating.
+
+1c11cd0c-87b4-49b5-8142-05b806f2d28f-0
+00:04:15.200 --> 00:04:20.275
+So to calculate longitude we can
+type in $ and X because you go
+
+1c11cd0c-87b4-49b5-8142-05b806f2d28f-1
+00:04:20.275 --> 00:04:24.796
+along the corridor and up the
+stairs so it's X after the
+
+1c11cd0c-87b4-49b5-8142-05b806f2d28f-2
+00:04:24.796 --> 00:04:29.872
+dollar sign and then we'll click
+update selected and now in our
+
+1c11cd0c-87b4-49b5-8142-05b806f2d28f-3
+00:04:29.872 --> 00:04:33.600
+row we can see that's populated
+the longitude.
+
+bafec28b-4b5f-41a4-9eb1-212d8c38efdc-0
+00:04:34.080 --> 00:04:36.160
+So we just need to do the same
+for the latitude.
+
+b5db34e0-eeec-4d38-a607-6066d36defcf-0
+00:04:36.160 --> 00:04:41.828
+We'll change this so it says
+latitude and then we'll change
+
+b5db34e0-eeec-4d38-a607-6066d36defcf-1
+00:04:41.828 --> 00:04:47.120
+the X to a Y and click update
+selected and there we go.
+
+ed4a8f1a-631d-4685-a213-dfe441d8aca4-0
+00:04:47.120 --> 00:04:52.284
+That's how to edit a data layer
+in QGIS and we've made some
+
+ed4a8f1a-631d-4685-a213-dfe441d8aca4-1
+00:04:52.284 --> 00:04:56.760
+changes to our tables, so just
+remember to save it.
+
+b3a423f4-b4af-4782-9648-55791f17f3c1-0
+00:04:57.320 --> 00:05:01.591
+We can toggle the editing off
+and then click save and then
+
+b3a423f4-b4af-4782-9648-55791f17f3c1-1
+00:05:01.591 --> 00:05:06.080
+we'll shut our table and just
+hit save for our whole project.

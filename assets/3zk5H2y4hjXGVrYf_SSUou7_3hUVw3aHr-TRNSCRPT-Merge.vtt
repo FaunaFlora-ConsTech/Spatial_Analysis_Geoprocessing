@@ -1,0 +1,226 @@
+WEBVTT
+
+ba55b8a3-635f-4e85-9a14-714536fbbfeb-0
+00:00:02.640 --> 00:00:09.061
+In this video we're going to be
+going over how to use the merge
+
+ba55b8a3-635f-4e85-9a14-714536fbbfeb-1
+00:00:09.061 --> 00:00:15.382
+tool, but to start with, let's
+just toggle off the territorial
+
+ba55b8a3-635f-4e85-9a14-714536fbbfeb-2
+00:00:15.382 --> 00:00:21.402
+sea layer and we'll zoom in to
+the clipped spawning grounds
+
+ba55b8a3-635f-4e85-9a14-714536fbbfeb-3
+00:00:21.402 --> 00:00:26.720
+layer so we can see clearly what
+we're working with.
+
+814ba50d-0bcb-445a-be27-5befa6f1ef9c-0
+00:00:28.520 --> 00:00:36.326
+So the Blue Zone around the
+island, this is the current MPA
+
+814ba50d-0bcb-445a-be27-5befa6f1ef9c-1
+00:00:36.326 --> 00:00:40.360
+no take zone that is in place. 
+
+e96a938d-3cda-4358-a2be-a2148ed8046e-0
+00:00:40.720 --> 00:00:44.106
+But the spawning grounds here.
+This is where we want to create
+
+e96a938d-3cda-4358-a2be-a2148ed8046e-1
+00:00:44.106 --> 00:00:47.277
+a new No Take zone during the
+spawning season, December to
+
+e96a938d-3cda-4358-a2be-a2148ed8046e-2
+00:00:47.277 --> 00:00:47.600
+March.
+
+c52c8c21-cdf5-4910-a5bd-55633f75a693-0
+00:00:48.080 --> 00:00:52.967
+So we want to merge this current
+No take zone with the spawning
+
+c52c8c21-cdf5-4910-a5bd-55633f75a693-1
+00:00:52.967 --> 00:00:57.930
+grounds so that we can create a
+map that shows the No Take zones
+
+c52c8c21-cdf5-4910-a5bd-55633f75a693-2
+00:00:57.930 --> 00:01:01.520
+that there will be during the
+spawning months.
+
+09105354-e502-4360-8105-afd36ec907d6-0
+00:01:03.280 --> 00:01:05.560
+So let's run this merge tool.
+
+0562b456-412c-47be-81a6-fb837c389987-0
+00:01:05.840 --> 00:01:14.100
+We'll type Merge into the
+geoprocessing window and open up
+
+0562b456-412c-47be-81a6-fb837c389987-1
+00:01:14.100 --> 00:01:15.360
+the tool.
+
+72a91dd4-f66a-4d7b-a41a-b83e23868880-0
+00:01:16.640 --> 00:01:20.773
+And just a quick note to make
+here, the Merge tool is similar
+
+72a91dd4-f66a-4d7b-a41a-b83e23868880-1
+00:01:20.773 --> 00:01:25.040
+to the Union tool which we'll be
+using later on in this course.
+
+f0c17c8f-67c2-4d76-9e6c-000b59f6aaa9-0
+00:01:25.480 --> 00:01:29.038
+But the difference is Merge will
+combine the features of
+
+f0c17c8f-67c2-4d76-9e6c-000b59f6aaa9-1
+00:01:29.038 --> 00:01:33.034
+different layers together into
+one layer, whereas Union will do
+
+f0c17c8f-67c2-4d76-9e6c-000b59f6aaa9-2
+00:01:33.034 --> 00:01:36.592
+the same, but it will also
+create new features for where
+
+f0c17c8f-67c2-4d76-9e6c-000b59f6aaa9-3
+00:01:36.592 --> 00:01:38.840
+the features in the layers
+overlap.
+
+0424ec71-c6c8-4fe4-b484-a978e4ec42e6-0
+00:01:39.920 --> 00:01:43.948
+We only need the Merge tool for
+what we're doing because we're
+
+0424ec71-c6c8-4fe4-b484-a978e4ec42e6-1
+00:01:43.948 --> 00:01:47.657
+not interested in where the
+spawning grounds overlap with
+
+0424ec71-c6c8-4fe4-b484-a978e4ec42e6-2
+00:01:47.657 --> 00:01:49.000
+the current MPA zone.
+
+42bb53d0-a411-43bc-8724-99691242fb75-0
+00:01:50.160 --> 00:01:53.320
+So let's put in our input data
+sets into this tool.
+
+23181fa1-b96b-438a-a947-03d3775c4f5d-0
+00:01:53.920 --> 00:02:01.642
+So we're going to be putting in
+the clipped spawning grounds and
+
+23181fa1-b96b-438a-a947-03d3775c4f5d-1
+00:02:01.642 --> 00:02:05.920
+also the current MPA no take
+layer.
+
+03b1030d-5d57-4c55-a482-c844fa7db43e-0
+00:02:11.280 --> 00:02:14.439
+And then for output data set, we
+just need to decide where we
+
+03b1030d-5d57-4c55-a482-c844fa7db43e-1
+00:02:14.439 --> 00:02:17.751
+want to save the new layer that
+this is going to create and what
+
+03b1030d-5d57-4c55-a482-c844fa7db43e-2
+00:02:17.751 --> 00:02:18.720
+we want to name it.
+
+6a5c9836-b851-40fe-8fb1-798942b0b77e-0
+00:02:19.320 --> 00:02:25.405
+So let's just make sure it's
+going into our Ge database and
+
+6a5c9836-b851-40fe-8fb1-798942b0b77e-1
+00:02:25.405 --> 00:02:30.680
+we'll name it no take spawning
+season and hit Save.
+
+0da89500-d095-4933-ac0b-c0d0aafede73-0
+00:02:31.520 --> 00:02:34.125
+And then we don't need to worry
+about the stuff that's
+
+0da89500-d095-4933-ac0b-c0d0aafede73-1
+00:02:34.125 --> 00:02:35.120
+underneath field map.
+
+55bda262-6127-46c6-82d4-ea77a535cbb7-0
+00:02:35.160 --> 00:02:39.073
+This is just if you want to
+choose what things are going to
+
+55bda262-6127-46c6-82d4-ea77a535cbb7-1
+00:02:39.073 --> 00:02:42.400
+be in the attribute table for
+the merged data set.
+
+cfab5851-4434-4585-8ad9-dd4f04ab09b3-0
+00:02:42.760 --> 00:02:48.756
+So we'll hit run and now if we
+turn off the MPA no take layer
+
+cfab5851-4434-4585-8ad9-dd4f04ab09b3-1
+00:02:48.756 --> 00:02:54.559
+and the clip spawning grounds
+layer, we can see that we now
+
+cfab5851-4434-4585-8ad9-dd4f04ab09b3-2
+00:02:54.559 --> 00:03:00.942
+have a layer that has merged the
+spawning grounds and the current
+
+cfab5851-4434-4585-8ad9-dd4f04ab09b3-3
+00:03:00.942 --> 00:03:02.200
+MPA together.
+
+b2721143-1ca8-4927-99a8-f0eff116194e-0
+00:03:04.440 --> 00:03:10.950
+So we can open up the attribute
+table for this layer and we'll
+
+b2721143-1ca8-4927-99a8-f0eff116194e-1
+00:03:10.950 --> 00:03:15.600
+see that there's four rows for
+each Polygon.
+
+543f0d8f-da3a-4fb3-8620-612f39ada654-0
+00:03:16.080 --> 00:03:20.048
+And on our map there's the four
+different polygons, the three
+
+543f0d8f-da3a-4fb3-8620-612f39ada654-1
+00:03:20.048 --> 00:03:24.016
+spawning grounds, and the MPA
+Polygon, and so it's merged the
+
+543f0d8f-da3a-4fb3-8620-612f39ada654-2
+00:03:24.016 --> 00:03:25.680
+data in the table as well.
+
+d98ef5dc-95fd-4e68-80e3-1eec377d7321-0
+00:03:26.720 --> 00:03:30.880
+So that's how to run the merge
+tool in Arc GIS and just
+
+d98ef5dc-95fd-4e68-80e3-1eec377d7321-1
+00:03:30.880 --> 00:03:32.440
+remember to hit save.

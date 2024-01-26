@@ -1,0 +1,301 @@
+WEBVTT
+
+8fc58360-d5e9-440c-8184-4f098781a771-0
+00:00:01.280 --> 00:00:05.086
+And now we're going to export
+the table information that's
+
+8fc58360-d5e9-440c-8184-4f098781a771-1
+00:00:05.086 --> 00:00:08.312
+attached to the selected
+sighting points for each
+
+8fc58360-d5e9-440c-8184-4f098781a771-2
+00:00:08.312 --> 00:00:09.280
+protected area.
+
+802768fd-fa41-4a5a-9509-f6174660d80f-0
+00:00:09.760 --> 00:00:13.080
+In this video we'll go through
+how to do this for Ziama.
+
+9e730b8a-c379-4559-8c49-51c4780f3ca2-0
+00:00:18.080 --> 00:00:23.304
+So let's open up the attribute
+table for the sighting points
+
+9e730b8a-c379-4559-8c49-51c4780f3ca2-1
+00:00:23.304 --> 00:00:25.360
+occurring in just Ziama.
+
+83630ec9-d15e-4eb9-bcda-dd8c99cdf575-0
+00:00:25.360 --> 00:00:28.400
+So it's our Ziama sightings
+layer.
+
+9b453555-f21b-490f-b911-7a590f6bdb2f-0
+00:00:28.520 --> 00:00:34.209
+We'll right click open up the
+attribute table for this layer
+
+9b453555-f21b-490f-b911-7a590f6bdb2f-1
+00:00:34.209 --> 00:00:39.805
+and we can see that when we
+exported these selected points,
+
+9b453555-f21b-490f-b911-7a590f6bdb2f-2
+00:00:39.805 --> 00:00:45.307
+it also exported all of the
+attribute information attached
+
+9b453555-f21b-490f-b911-7a590f6bdb2f-3
+00:00:45.307 --> 00:00:46.800
+to these points.
+
+a735e3a6-fd6e-48b0-9223-74d610170071-0
+00:00:47.480 --> 00:00:51.423
+And so this is what we want to
+export and give to Ziama
+
+a735e3a6-fd6e-48b0-9223-74d610170071-1
+00:00:51.423 --> 00:00:52.480
+protected area.
+
+3503f970-bfe7-4768-ac4c-72db883e2f88-0
+00:00:53.280 --> 00:00:55.160
+So let's export this table.
+
+339143fb-0621-498b-9525-06c2ac947fc3-0
+00:00:56.240 --> 00:01:01.629
+So to do that, if we have the
+table open, we can go into the
+
+339143fb-0621-498b-9525-06c2ac947fc3-1
+00:01:01.629 --> 00:01:07.371
+Table tab at the top of Arc Pro
+here and we can click the Export
+
+339143fb-0621-498b-9525-06c2ac947fc3-2
+00:01:07.371 --> 00:01:08.519
+Table button.
+
+78598c30-dc24-4bc8-b6a6-0a6eabbb7065-0
+00:01:08.560 --> 00:01:09.520
+That's here.
+
+fc0e5b2a-622e-4443-baab-e12b9d373b6a-0
+00:01:11.480 --> 00:01:15.292
+We could also do this by right
+clicking on the data layer,
+
+fc0e5b2a-622e-4443-baab-e12b9d373b6a-1
+00:01:15.292 --> 00:01:19.492
+going into or hovering over the
+data section that we normally go
+
+fc0e5b2a-622e-4443-baab-e12b9d373b6a-2
+00:01:19.492 --> 00:01:22.400
+into and then click Export Table
+from there.
+
+714129c2-74ee-4394-a9cb-73e9dc3cdcb5-0
+00:01:23.440 --> 00:01:28.709
+So our input table is our Ziama
+sightings and we need to choose
+
+714129c2-74ee-4394-a9cb-73e9dc3cdcb5-1
+00:01:28.709 --> 00:01:31.920
+where to save the exported table
+into.
+
+fd5076a0-8b0d-4370-9c30-cc2ddd59ee65-0
+00:01:34.080 --> 00:01:37.880
+So we're going to save it into
+the folder that we created for
+
+fd5076a0-8b0d-4370-9c30-cc2ddd59ee65-1
+00:01:37.880 --> 00:01:38.800
+the Ziama data.
+
+2ae9999e-0a31-4b2f-80a0-4ef5ff71a58d-0
+00:01:39.120 --> 00:01:48.182
+So it's here, it's the Ziama PA
+folder and we'll name it
+
+2ae9999e-0a31-4b2f-80a0-4ef5ff71a58d-1
+00:01:48.182 --> 00:01:51.680
+Sightings Table Ziama.
+
+0d7cd80a-e2ff-455b-921d-74cd7feb8475-0
+00:01:52.960 --> 00:01:58.113
+And we also need to add the
+suffix dot CSV to the end of
+
+0d7cd80a-e2ff-455b-921d-74cd7feb8475-1
+00:01:58.113 --> 00:02:03.627
+this file name so it saves it as
+a CSV file which is a table
+
+0d7cd80a-e2ff-455b-921d-74cd7feb8475-2
+00:02:03.627 --> 00:02:04.079
+file.
+
+a168126b-4a98-4f99-b6e9-947a70cce912-0
+00:02:04.640 --> 00:02:08.650
+So we need to make sure that we
+write dot CSV then we can click
+
+a168126b-4a98-4f99-b6e9-947a70cce912-1
+00:02:08.650 --> 00:02:12.160
+save and we can see this file
+name in our output table.
+
+8bcb57ef-7416-4106-a556-64de8db091c8-0
+00:02:12.800 --> 00:02:22.751
+So now we can hit OK and we can
+see in our contents now that
+
+8bcb57ef-7416-4106-a556-64de8db091c8-1
+00:02:22.751 --> 00:02:27.320
+this has exported the table.
+
+950f26c3-0e51-4b20-81af-47f3f8d7fa8c-0
+00:02:29.280 --> 00:02:33.522
+So now we want to see into this
+Ziama PA folder because we're
+
+950f26c3-0e51-4b20-81af-47f3f8d7fa8c-1
+00:02:33.522 --> 00:02:37.080
+going to zip it up to send to
+Ziama protected area.
+
+b9d93313-16a1-487b-9b99-8e8a3869ab07-0
+00:02:37.080 --> 00:02:42.842
+So what we're going to do is
+we're going to save our project
+
+b9d93313-16a1-487b-9b99-8e8a3869ab07-1
+00:02:42.842 --> 00:02:48.794
+and we're going to exit it and
+then we're going to go into our
+
+b9d93313-16a1-487b-9b99-8e8a3869ab07-2
+00:02:48.794 --> 00:02:54.084
+computers File Explorer or
+Finder application and we're
+
+b9d93313-16a1-487b-9b99-8e8a3869ab07-3
+00:02:54.084 --> 00:02:59.280
+going to navigate to that Ziama
+protected area folder.
+
+d08772a8-fa6a-4e69-8210-fe4201b094f5-0
+00:03:04.080 --> 00:03:12.251
+So it's here for me and if we go
+inside, we can see that we've
+
+d08772a8-fa6a-4e69-8210-fe4201b094f5-1
+00:03:12.251 --> 00:03:17.440
+got our Hippogriff sightings
+shapefile.
+
+acc69e20-59f2-416d-b35d-155e955abe3e-0
+00:03:18.080 --> 00:03:21.563
+Hopefully you can remember that
+a shape file is actually
+
+acc69e20-59f2-416d-b35d-155e955abe3e-1
+00:03:21.563 --> 00:03:22.480
+multiple files.
+
+61fdfc2c-e34a-4a18-9d7a-c5c487ac758c-0
+00:03:22.480 --> 00:03:28.648
+And so all of these files make
+up the sightings shapefile and
+
+61fdfc2c-e34a-4a18-9d7a-c5c487ac758c-1
+00:03:28.648 --> 00:03:32.428
+we have the
+sightings_table_ziama.csv
+
+61fdfc2c-e34a-4a18-9d7a-c5c487ac758c-2
+00:03:32.428 --> 00:03:34.120
+document as well.
+
+d934f2b1-661a-405a-a0b9-d659c5827d11-0
+00:03:35.480 --> 00:03:39.464
+And so this is why we created a
+new folder for these materials,
+
+d934f2b1-661a-405a-a0b9-d659c5827d11-1
+00:03:39.464 --> 00:03:42.080
+because we've got quite a few
+files here.
+
+d1bff2bf-6835-4a28-b533-e034369adce1-0
+00:03:42.200 --> 00:03:47.461
+And so the best practice for
+sending GIS materials to people
+
+d1bff2bf-6835-4a28-b533-e034369adce1-1
+00:03:47.461 --> 00:03:52.636
+is to put all the associated
+files, material files within a
+
+d1bff2bf-6835-4a28-b533-e034369adce1-2
+00:03:52.636 --> 00:03:53.240
+folder.
+
+5b5f58ca-9996-4f3a-9649-417c2d8f7802-0
+00:03:53.720 --> 00:03:55.760
+And now we can zip these up.
+
+0e2a2174-d3df-45ec-b601-753c2777e625-0
+00:03:56.040 --> 00:04:01.504
+So we'll right click on this
+folder, we're going to choose
+
+0e2a2174-d3df-45ec-b601-753c2777e625-1
+00:04:01.504 --> 00:04:06.320
+send to a compressed zipped
+folder and there we go.
+
+43c6033b-5b20-469b-8542-312ae985fbdf-0
+00:04:06.320 --> 00:04:08.800
+It's going to zip up our
+materials.
+
+f5bb9960-8ca0-4d61-9089-f6bb03f34eb7-0
+00:04:09.000 --> 00:04:13.547
+And now we could, if we wanted
+to, e-mail this to the protected
+
+f5bb9960-8ca0-4d61-9089-f6bb03f34eb7-1
+00:04:13.547 --> 00:04:18.166
+area for example, we can easily
+attach this zipped folder to the
+
+f5bb9960-8ca0-4d61-9089-f6bb03f34eb7-2
+00:04:18.166 --> 00:04:22.713
+e-mail and then the person who
+receives the e-mail can unzip it
+
+f5bb9960-8ca0-4d61-9089-f6bb03f34eb7-3
+00:04:22.713 --> 00:04:25.839
+and work with it within their
+GIS software.
+
+1ffc0c16-5caf-447b-ad3e-c0debfca6c6a-0
+00:04:26.680 --> 00:04:31.227
+So now have a go at doing the
+same process for Wonegizi and
+
+1ffc0c16-5caf-447b-ad3e-c0debfca6c6a-1
+00:04:31.227 --> 00:04:36.077
+Wologizi and make sure that once
+you have the tables within the
+
+1ffc0c16-5caf-447b-ad3e-c0debfca6c6a-2
+00:04:36.077 --> 00:04:39.640
+associated folder that you zip
+up that folder.

@@ -1,0 +1,459 @@
+WEBVTT
+
+69acbf00-c150-4c4c-bc76-d77c70f96d3a-0
+00:00:00.600 --> 00:00:05.174
+In this video we're using the
+Union tool to create a union
+
+69acbf00-c150-4c4c-bc76-d77c70f96d3a-1
+00:00:05.174 --> 00:00:09.748
+between our proposed No Take
+layer and this fishing ground
+
+69acbf00-c150-4c4c-bc76-d77c70f96d3a-2
+00:00:09.748 --> 00:00:13.160
+layer that you should have
+hopefully added.
+
+0b2b3e67-1fb5-4842-8adc-c86ba6058d00-0
+00:00:14.200 --> 00:00:19.386
+So if we toggle this on and off
+in our layers list, we can see
+
+0b2b3e67-1fb5-4842-8adc-c86ba6058d00-1
+00:00:19.386 --> 00:00:24.407
+that it overlaps with the No
+Take zone, and we're interested
+
+0b2b3e67-1fb5-4842-8adc-c86ba6058d00-2
+00:00:24.407 --> 00:00:29.347
+in how much it overlaps by so
+that we can work out how much
+
+0b2b3e67-1fb5-4842-8adc-c86ba6058d00-3
+00:00:29.347 --> 00:00:32.639
+the fishing ground would be
+reduced by.
+
+d8359d8b-043a-4d73-8de9-ea225a438c3f-0
+00:00:34.120 --> 00:00:39.809
+But for now, let's clean up our
+layers list to begin with, so
+
+d8359d8b-043a-4d73-8de9-ea225a438c3f-1
+00:00:39.809 --> 00:00:41.920
+this new no take layer.
+
+abff3df5-92d4-4fae-adf9-4ee689723583-0
+00:00:41.920 --> 00:00:46.624
+This was our old layer before we
+ran the difference tool, so we
+
+abff3df5-92d4-4fae-adf9-4ee689723583-1
+00:00:46.624 --> 00:00:47.800
+can remove this.
+
+360b0a7b-411a-474d-995d-85315a83283f-0
+00:00:47.800 --> 00:00:54.542
+We'll right click and choose
+Remove Layer and now we can run
+
+360b0a7b-411a-474d-995d-85315a83283f-1
+00:00:54.542 --> 00:00:56.200
+the Union tool.
+
+3969cec0-ad10-4385-b5cf-aa2a61014e86-0
+00:00:57.400 --> 00:01:02.152
+So the Union tool is different
+to the Merge tool that we've
+
+3969cec0-ad10-4385-b5cf-aa2a61014e86-1
+00:01:02.152 --> 00:01:07.222
+used before because although it
+will join your layers together,
+
+3969cec0-ad10-4385-b5cf-aa2a61014e86-2
+00:01:07.222 --> 00:01:12.291
+it will also create new polygons
+in the new layer for where the
+
+3969cec0-ad10-4385-b5cf-aa2a61014e86-3
+00:01:12.291 --> 00:01:13.480
+layers overlap.
+
+a5d59949-60b2-48fa-85a2-f32077735d69-0
+00:01:14.200 --> 00:01:18.869
+And we're interested in where
+these two layers overlap because
+
+a5d59949-60b2-48fa-85a2-f32077735d69-1
+00:01:18.869 --> 00:01:23.539
+we want to find out how much the
+fishing ground is going to be
+
+a5d59949-60b2-48fa-85a2-f32077735d69-2
+00:01:23.539 --> 00:01:28.135
+reduced by if we kept this no
+take zone as we can only reduce
+
+a5d59949-60b2-48fa-85a2-f32077735d69-3
+00:01:28.135 --> 00:01:29.839
+it by a maximum of 25%.
+
+37a38518-8630-46b9-9954-23c85f2bb318-0
+00:01:31.840 --> 00:01:36.289
+So let's go ahead, type Union
+into the toolbox and then click
+
+37a38518-8630-46b9-9954-23c85f2bb318-1
+00:01:36.289 --> 00:01:39.160
+on the Union tool under Vector
+Overlay.
+
+df019625-ac9f-4dbe-8771-35bfd35afb38-0
+00:01:40.120 --> 00:01:46.630
+Our input layer is going to be
+the No take zone final and the
+
+df019625-ac9f-4dbe-8771-35bfd35afb38-1
+00:01:46.630 --> 00:01:51.040
+overlay layer will be the
+fishing ground.
+
+b9d7d783-3880-4ae4-ba1f-bfc1bfb8ea9b-0
+00:01:52.560 --> 00:01:55.813
+And now we need to choose where
+to save the new layer that's
+
+b9d7d783-3880-4ae4-ba1f-bfc1bfb8ea9b-1
+00:01:55.813 --> 00:01:56.880
+going to be created.
+
+29d79708-5962-4583-a023-bf7eae37f29d-0
+00:01:57.360 --> 00:02:02.028
+And so as we've been doing,
+we're going to save it to the
+
+29d79708-5962-4583-a023-bf7eae37f29d-1
+00:02:02.028 --> 00:02:03.880
+Geo package we created.
+
+a00b5118-4ac1-4f09-a853-db283ba046c7-0
+00:02:03.880 --> 00:02:08.240
+So we'll double click here and
+then name the new layer.
+
+5df39d01-9a0d-4260-8940-c02f5cb89783-0
+00:02:08.600 --> 00:02:15.931
+So we're going to name it
+Fishing No Take Union, click OK
+
+5df39d01-9a0d-4260-8940-c02f5cb89783-1
+00:02:15.931 --> 00:02:18.080
+and run the tool.
+
+d54d6819-c555-4c69-bf6d-c86b66e3ec9c-0
+00:02:19.600 --> 00:02:24.813
+And now if we toggle off the
+original fishing ground and no
+
+d54d6819-c555-4c69-bf6d-c86b66e3ec9c-1
+00:02:24.813 --> 00:02:30.200
+Take zone final layers, we can
+see this new layer that's been
+
+d54d6819-c555-4c69-bf6d-c86b66e3ec9c-2
+00:02:30.200 --> 00:02:35.501
+created, the Union layer, and it
+has joined these two layers
+
+d54d6819-c555-4c69-bf6d-c86b66e3ec9c-3
+00:02:35.501 --> 00:02:40.714
+together and also kept the
+boundaries between the layers as
+
+d54d6819-c555-4c69-bf6d-c86b66e3ec9c-4
+00:02:40.714 --> 00:02:42.799
+well where they overlap.
+
+8cb028e7-7782-4f16-9705-2c75bfb8c1c9-0
+00:02:43.160 --> 00:02:47.846
+So let's open up the attribute
+table for this union layer and
+
+8cb028e7-7782-4f16-9705-2c75bfb8c1c9-1
+00:02:47.846 --> 00:02:52.683
+we can see there's three rows in
+this table, so this represents
+
+8cb028e7-7782-4f16-9705-2c75bfb8c1c9-2
+00:02:52.683 --> 00:02:54.119
+the three polygons.
+
+a78e8c6e-486a-4da0-9993-c97f94939f56-0
+00:02:54.320 --> 00:03:00.566
+So the first Polygon is the
+proposed no take zone minus the
+
+a78e8c6e-486a-4da0-9993-c97f94939f56-1
+00:03:00.566 --> 00:03:02.440
+overlapping areas.
+
+8001b6b5-3167-4425-8cfd-01d3dbcc53dc-0
+00:03:05.080 --> 00:03:11.689
+The next Polygon is the fishing
+ground and minus the overlapping
+
+8001b6b5-3167-4425-8cfd-01d3dbcc53dc-1
+00:03:11.689 --> 00:03:17.789
+areas as well, and then the last
+Polygon is the overlapping
+
+8001b6b5-3167-4425-8cfd-01d3dbcc53dc-2
+00:03:17.789 --> 00:03:18.400
+areas.
+
+c8ba2de7-96e2-4960-8a73-a9016dd88a42-0
+00:03:18.400 --> 00:03:22.354
+And this is what we're
+interested in because we want to
+
+c8ba2de7-96e2-4960-8a73-a9016dd88a42-1
+00:03:22.354 --> 00:03:26.520
+know what is the total area of
+these overlapping sections.
+
+58645b3b-2d0f-4c9c-9c6d-5d80279c3689-0
+00:03:27.440 --> 00:03:32.143
+So to work out the area, we need
+to do as we did in the spatial
+
+58645b3b-2d0f-4c9c-9c6d-5d80279c3689-1
+00:03:32.143 --> 00:03:36.846
+analysis area lesson, we need to
+toggle the editing mode on our
+
+58645b3b-2d0f-4c9c-9c6d-5d80279c3689-2
+00:03:36.846 --> 00:03:41.476
+table on and we need to create a
+new field by clicking the New
+
+58645b3b-2d0f-4c9c-9c6d-5d80279c3689-3
+00:03:41.476 --> 00:03:43.239
+Field button at the top.
+
+2a6dc3bc-b47b-4f75-912a-467a68a0ad47-0
+00:03:43.720 --> 00:03:47.853
+We're going to name it Area and
+choose the type, it's decimal
+
+2a6dc3bc-b47b-4f75-912a-467a68a0ad47-1
+00:03:47.853 --> 00:03:49.920
+number and then we'll click OK.
+
+de021505-ea37-433d-b1ba-18cb1dc352f2-0
+00:03:50.680 --> 00:03:54.881
+So if we scroll across we'll see
+that we now have this column for
+
+de021505-ea37-433d-b1ba-18cb1dc352f2-1
+00:03:54.881 --> 00:03:55.200
+Area.
+
+04c50d51-efd8-4673-ad14-d5f9d9c74288-0
+00:03:56.600 --> 00:04:01.466
+So what we need to do, and what
+we did before was we need to set
+
+04c50d51-efd8-4673-ad14-d5f9d9c74288-1
+00:04:01.466 --> 00:04:06.333
+the units of our project so that
+we know what units this area is
+
+04c50d51-efd8-4673-ad14-d5f9d9c74288-2
+00:04:06.333 --> 00:04:08.280
+going to be calculated in.
+
+1ccdd814-6e77-45cd-90b1-6277ef1bbe63-0
+00:04:08.480 --> 00:04:13.412
+We'll do that by going into the
+Project tab and going into
+
+1ccdd814-6e77-45cd-90b1-6277ef1bbe63-1
+00:04:13.412 --> 00:04:18.427
+Properties and then in the
+General tab, under Measurements,
+
+1ccdd814-6e77-45cd-90b1-6277ef1bbe63-2
+00:04:18.427 --> 00:04:23.359
+we can choose the unit for area
+and distance measurements.
+
+d113a5f5-a198-4095-b8ff-8085afeea83f-0
+00:04:23.360 --> 00:04:28.316
+So for area measurement we want
+to change this to square
+
+d113a5f5-a198-4095-b8ff-8085afeea83f-1
+00:04:28.316 --> 00:04:33.360
+kilometres and then we'll apply
+our changes and click OK.
+
+2a5816fa-18c0-48e2-84de-23ee55728d46-0
+00:04:35.560 --> 00:04:43.411
+And now if we open our table
+back up the attribute table, we
+
+2a5816fa-18c0-48e2-84de-23ee55728d46-1
+00:04:43.411 --> 00:04:49.590
+can scroll across to see our
+area column again.
+
+cf80f0f3-dc04-455b-b8fe-6bcfb6d220e0-0
+00:04:49.670 --> 00:04:52.190
+And now we're going to do the
+calculation.
+
+aa7e0f19-c00e-4fb5-800b-433d38ba1b29-0
+00:04:52.190 --> 00:04:56.837
+So we'll click on this drop back
+down box, make sure it says area
+
+aa7e0f19-c00e-4fb5-800b-433d38ba1b29-1
+00:04:56.837 --> 00:04:58.950
+and then type in our equation.
+
+e15178af-0a76-4e9e-8763-7e35070154b6-0
+00:04:58.950 --> 00:05:05.187
+So it's $ area, update all and
+now in our area column we can
+
+e15178af-0a76-4e9e-8763-7e35070154b6-1
+00:05:05.187 --> 00:05:11.322
+see the areas of the three
+polygons, the three feature rows
+
+e15178af-0a76-4e9e-8763-7e35070154b6-2
+00:05:11.322 --> 00:05:15.720
+and so the one that we've got
+highlighted.
+
+55ac752d-3b7a-4203-a675-1d0e23363cec-0
+00:05:15.720 --> 00:05:17.920
+This is the overlapping
+sections.
+
+00009eb8-8450-4320-8875-bcb1f75986ef-0
+00:05:17.920 --> 00:05:22.269
+And so this is the area that we
+wanted to know, so we know that
+
+00009eb8-8450-4320-8875-bcb1f75986ef-1
+00:05:22.269 --> 00:05:25.736
+it's around 14 kilometres
+squared, the overlapping
+
+00009eb8-8450-4320-8875-bcb1f75986ef-2
+00:05:25.736 --> 00:05:26.280
+regions.
+
+776bb0d1-6772-44dc-ac5d-19622e0e5f27-0
+00:05:26.760 --> 00:05:32.044
+So we're going to save our edits
+and toggle editing mode off now
+
+776bb0d1-6772-44dc-ac5d-19622e0e5f27-1
+00:05:32.044 --> 00:05:36.760
+and we need to know the area of
+the total fishing ground.
+
+c7b39ed8-bba6-400f-9d8d-661835fd9429-0
+00:05:37.160 --> 00:05:40.800
+So let's open up the attribute
+table for the fishing ground.
+
+d55f206b-0d28-4118-b710-6a395f64fc25-0
+00:05:41.600 --> 00:05:43.920
+And we're going to do the same
+process here.
+
+c9b50109-76e6-4ec2-8a8b-a86e58be2ffd-0
+00:05:43.920 --> 00:05:46.000
+So we'll toggle editing mode on.
+
+c21cf622-801c-46c0-84cc-d6d266052a29-0
+00:05:46.560 --> 00:05:53.413
+We're going to create a new
+field, we'll name it Area and
+
+c21cf622-801c-46c0-84cc-d6d266052a29-1
+00:05:53.413 --> 00:06:00.739
+again choose Decimal number and
+click OK and now we'll choose
+
+c21cf622-801c-46c0-84cc-d6d266052a29-2
+00:06:00.739 --> 00:06:08.419
+the column in this box and we'll
+type in the equation, so $ area
+
+c21cf622-801c-46c0-84cc-d6d266052a29-3
+00:06:08.419 --> 00:06:15.627
+and click update all and that
+gives us the area of the total
+
+c21cf622-801c-46c0-84cc-d6d266052a29-4
+00:06:15.627 --> 00:06:17.400
+fishing ground.
+
+9533688e-bb0f-4f94-adb8-c3ed39c3904b-0
+00:06:18.400 --> 00:06:23.120
+So now we just need to divide
+the overlapping area by this
+
+9533688e-bb0f-4f94-adb8-c3ed39c3904b-1
+00:06:23.120 --> 00:06:24.000
+total area.
+
+694bc58a-ab14-459c-8cfa-9b319710a7ef-0
+00:06:24.400 --> 00:06:31.852
+So we'll get up the table for
+the overlapping area, and if we
+
+694bc58a-ab14-459c-8cfa-9b319710a7ef-1
+00:06:31.852 --> 00:06:39.546
+get up a calculator, we can type
+in the area of the overlapping
+
+694bc58a-ab14-459c-8cfa-9b319710a7ef-2
+00:06:39.546 --> 00:06:46.518
+areas divided by the total
+fishing ground area times that
+
+694bc58a-ab14-459c-8cfa-9b319710a7ef-3
+00:06:46.518 --> 00:06:47.360
+by 100.
+
+d5ba7af8-9c8b-486b-8ae3-282d7340bfee-0
+00:06:49.240 --> 00:06:53.440
+And we can see we've got 21% as
+the answer.
+
+7098eaa1-082a-4e30-a58b-c092b0f8b5a0-0
+00:06:53.440 --> 00:06:58.981
+So the fishing ground would be
+reduced by 21% and that's lower
+
+7098eaa1-082a-4e30-a58b-c092b0f8b5a0-1
+00:06:58.981 --> 00:07:04.434
+than the 25% maximum and so we
+can go ahead with this no take
+
+7098eaa1-082a-4e30-a58b-c092b0f8b5a0-2
+00:07:04.434 --> 00:07:09.360
+zone and so that's how to run a
+the union tool in QGIS.
+
+40ff6c29-57f8-4ec3-af97-7712bd0f9df5-0
+00:07:09.680 --> 00:07:12.920
+So again, just hit save to save
+your progress.

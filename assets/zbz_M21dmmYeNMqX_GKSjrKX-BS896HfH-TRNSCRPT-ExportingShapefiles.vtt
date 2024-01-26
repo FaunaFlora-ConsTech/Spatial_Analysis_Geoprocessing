@@ -1,0 +1,157 @@
+WEBVTT
+
+27c6bea6-10f8-4731-a94d-769f96d0f09a-0
+00:00:02.040 --> 00:00:06.683
+The Protected Area authorities
+have requested for you to share
+
+27c6bea6-10f8-4731-a94d-769f96d0f09a-1
+00:00:06.683 --> 00:00:10.957
+the data for their protected
+area as a shapefile and as a
+
+27c6bea6-10f8-4731-a94d-769f96d0f09a-2
+00:00:10.957 --> 00:00:11.400
+table.
+
+777493f7-fb8a-43d5-891b-a3f8c0ecfb81-0
+00:00:11.920 --> 00:00:15.880
+In this video we will go over
+how to export as a shapefile.
+
+d148ae59-e93a-4d4a-b335-5f57017f1820-0
+00:00:16.280 --> 00:00:21.054
+We'll be using the exported
+layer for just the Ziama points,
+
+d148ae59-e93a-4d4a-b335-5f57017f1820-1
+00:00:21.054 --> 00:00:25.750
+so the Ziama Sightings layer and
+this is going to be a very
+
+d148ae59-e93a-4d4a-b335-5f57017f1820-2
+00:00:25.750 --> 00:00:28.960
+similar process to what we've
+just done.
+
+2eea096e-c862-4d7e-a20e-a2ca973ec6cf-0
+00:00:29.200 --> 00:00:33.750
+We're going to right click on
+this layer, we're going to go
+
+2eea096e-c862-4d7e-a20e-a2ca973ec6cf-1
+00:00:33.750 --> 00:00:38.300
+into the export section here and
+we're going to choose Save
+
+2eea096e-c862-4d7e-a20e-a2ca973ec6cf-2
+00:00:38.300 --> 00:00:43.077
+features As and then the format
+we're going to choose is going
+
+2eea096e-c862-4d7e-a20e-a2ca973ec6cf-3
+00:00:43.077 --> 00:00:47.400
+to be as a shape file this time
+and not as a Geopackage.
+
+cf5032c9-c586-45a5-b002-1172a60287e5-0
+00:00:47.560 --> 00:00:51.545
+So in format we'll choose
+shapefile and then in the file
+
+cf5032c9-c586-45a5-b002-1172a60287e5-1
+00:00:51.545 --> 00:00:55.600
+name section we're going to
+choose where to save this to.
+
+b834c143-a3d8-4474-ac28-7b060a9ef9de-0
+00:00:56.880 --> 00:01:00.920
+And so we're going to go into
+our Hippogriffs project folder.
+
+0274790d-6d23-4212-be4b-518e7643e023-0
+00:01:01.240 --> 00:01:06.400
+But now we're going to create a
+new folder for the Ziama data so
+
+0274790d-6d23-4212-be4b-518e7643e023-1
+00:01:06.400 --> 00:01:11.163
+that we can send the data in
+this folder to Ziama protected
+
+0274790d-6d23-4212-be4b-518e7643e023-2
+00:01:11.163 --> 00:01:11.560
+area.
+
+5a61f09a-719b-46de-83f6-b05331043df7-0
+00:01:12.160 --> 00:01:15.040
+So what we'll do is we'll create
+a new folder.
+
+d07dc7d2-eeda-4d84-889e-6d5e3d6021ce-0
+00:01:15.040 --> 00:01:21.915
+We're going to right click new,
+create the folder, we're going
+
+d07dc7d2-eeda-4d84-889e-6d5e3d6021ce-1
+00:01:21.915 --> 00:01:28.900
+to name it Ziama PA and now we
+can go into this folder and name
+
+d07dc7d2-eeda-4d84-889e-6d5e3d6021ce-2
+00:01:28.900 --> 00:01:32.720
+the shapefile that we're
+creating.
+
+f9672a6f-7c55-4bde-ad52-906aa130a7aa-0
+00:01:32.720 --> 00:01:39.200
+So we'll call it Hippogriff
+Sightings Ziama.
+
+3c2d1402-38a0-43b5-b63a-c3159f6c6018-0
+00:01:40.120 --> 00:01:41.120
+Hit save.
+
+f52ae929-edd6-4931-a3cf-250aa0f88043-0
+00:01:43.800 --> 00:01:50.525
+And now all we need to do is
+click OK and we can see that
+
+f52ae929-edd6-4931-a3cf-250aa0f88043-1
+00:01:50.525 --> 00:01:57.597
+it's added this as a layer into
+our layers list, but it will
+
+f52ae929-edd6-4931-a3cf-250aa0f88043-2
+00:01:57.597 --> 00:02:02.120
+also be in the folder that we
+created.
+
+989e5aef-f206-4041-bcff-3d0d2c632dc8-0
+00:02:03.160 --> 00:02:09.541
+So now hit save and do the same
+thing for the selected points or
+
+989e5aef-f206-4041-bcff-3d0d2c632dc8-1
+00:02:09.541 --> 00:02:13.960
+the points layers for Wonegizi
+and Wologizi.
+
+864d232b-59f7-42c2-a8ab-035d82667030-0
+00:02:14.480 --> 00:02:16.800
+So export these as shape files.
+
+edafe85d-b1eb-492c-b94d-0df88825859f-0
+00:02:17.000 --> 00:02:21.097
+Create a new folder for the
+Wonegizi protected area and a
+
+edafe85d-b1eb-492c-b94d-0df88825859f-1
+00:02:21.097 --> 00:02:25.124
+new folder for the Wologizi
+protected area and store the
+
+edafe85d-b1eb-492c-b94d-0df88825859f-2
+00:02:25.124 --> 00:02:27.880
+associated shapefile into that
+folder.

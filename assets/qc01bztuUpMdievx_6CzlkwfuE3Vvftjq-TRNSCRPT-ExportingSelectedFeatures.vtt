@@ -1,0 +1,228 @@
+WEBVTT
+
+767248f1-07fb-4ce2-bb7f-95954d5bd93e-0
+00:00:03.200 --> 00:00:07.717
+To export selected features in
+QGIS, the first thing you need
+
+767248f1-07fb-4ce2-bb7f-95954d5bd93e-1
+00:00:07.717 --> 00:00:11.360
+to do is run the required
+selection on your data.
+
+e77740e1-b58b-4768-bddb-76628eff9e55-0
+00:00:11.960 --> 00:00:16.777
+In this video we will go over
+how to export features selected
+
+e77740e1-b58b-4768-bddb-76628eff9e55-1
+00:00:16.777 --> 00:00:18.720
+by the location of Ziama.
+
+e5bf07d4-87ee-47e4-8f5e-7e6f2ba36f35-0
+00:00:20.040 --> 00:00:23.491
+So we're going to run a
+selection like we did previously
+
+e5bf07d4-87ee-47e4-8f5e-7e6f2ba36f35-1
+00:00:23.491 --> 00:00:24.400
+in this course.
+
+dd2288ec-3393-46db-905d-21f628a59426-0
+00:00:25.440 --> 00:00:31.149
+So we can either access the
+Select by Location button in the
+
+dd2288ec-3393-46db-905d-21f628a59426-1
+00:00:31.149 --> 00:00:37.327
+selection toolbar up here, or we
+can search for the for it within
+
+dd2288ec-3393-46db-905d-21f628a59426-2
+00:00:37.327 --> 00:00:39.480
+the Processing toolbox.
+
+bc1820ec-0c0e-4d4e-8656-a504166b6ec9-0
+00:00:39.480 --> 00:00:42.720
+So we'd bring up the toolbox
+here and search.
+
+0895d07e-1d20-4383-869b-11918dffc4c2-0
+00:00:45.160 --> 00:00:50.674
+So bring up the Select by
+Location tool and we want to
+
+0895d07e-1d20-4383-869b-11918dffc4c2-1
+00:00:50.674 --> 00:00:56.189
+select features from the
+projected points to make sure
+
+0895d07e-1d20-4383-869b-11918dffc4c2-2
+00:00:56.189 --> 00:01:02.707
+that that is in the top box and
+we want to choose where features
+
+0895d07e-1d20-4383-869b-11918dffc4c2-3
+00:01:02.707 --> 00:01:08.623
+are within like last time and
+it's going to be with inside
+
+0895d07e-1d20-4383-869b-11918dffc4c2-4
+00:01:08.623 --> 00:01:14.840
+Ziama protected area for this
+selection when we ran this tool
+
+9e4fb59b-96cd-4bf5-b8dd-d9513fa0e05c-0
+00:01:14.840 --> 00:01:20.846
+last time we had to use this
+spanner button here because our
+
+9e4fb59b-96cd-4bf5-b8dd-d9513fa0e05c-1
+00:01:20.846 --> 00:01:26.458
+data was not in the same
+projection and so we had to set
+
+9e4fb59b-96cd-4bf5-b8dd-d9513fa0e05c-2
+00:01:26.458 --> 00:01:28.920
+an option to bypass this.
+
+8394003e-bb81-45c1-b66b-4ce93e952fee-0
+00:01:29.200 --> 00:01:33.526
+If you haven't projected your
+layers yet then what you'll need
+
+8394003e-bb81-45c1-b66b-4ce93e952fee-1
+00:01:33.526 --> 00:01:37.715
+to do is click on the spanner
+icon here and then in the drop
+
+8394003e-bb81-45c1-b66b-4ce93e952fee-2
+00:01:37.715 --> 00:01:40.599
+down box choose the Do not
+filter option.
+
+b9d3cc52-1863-42eb-9d03-466d6cf8105d-0
+00:01:42.000 --> 00:01:47.828
+And now we want to make sure
+that it says we're creating a
+
+b9d3cc52-1863-42eb-9d03-466d6cf8105d-1
+00:01:47.828 --> 00:01:53.360
+new selection and then we can
+hit run and run the tool.
+
+a0e6e63e-4037-4153-a731-fe1f139da208-0
+00:01:55.400 --> 00:02:00.257
+And if we exit this window we
+can see that this has selected
+
+a0e6e63e-4037-4153-a731-fe1f139da208-1
+00:02:00.257 --> 00:02:04.160
+the sighting points within Ziama
+protected area.
+
+3fdfa406-aefd-4e2a-9f85-b6b9602c9970-0
+00:02:04.520 --> 00:02:07.720
+So now we want to export these
+selected points.
+
+067bd3ce-d756-4522-b6a8-dff1ba6ff9da-0
+00:02:10.080 --> 00:02:16.500
+So to do that, we will right
+click on our projected points
+
+067bd3ce-d756-4522-b6a8-dff1ba6ff9da-1
+00:02:16.500 --> 00:02:23.248
+layer, hover over export and
+click the Save selected features
+
+067bd3ce-d756-4522-b6a8-dff1ba6ff9da-2
+00:02:23.248 --> 00:02:29.560
+as option and now we can choose
+where we want to save it.
+
+46b7704e-4e95-4396-a3e2-ca60a093e2f8-0
+00:02:29.560 --> 00:02:33.763
+So the format needs to be
+Geopackage to save it into our
+
+46b7704e-4e95-4396-a3e2-ca60a093e2f8-1
+00:02:33.763 --> 00:02:38.262
+project Geopackage and we can
+click on these three dots here
+
+46b7704e-4e95-4396-a3e2-ca60a093e2f8-2
+00:02:38.262 --> 00:02:41.360
+to choose the Geopackage to save
+it into.
+
+af21999d-0b51-41f5-b6f8-405fe5d73209-0
+00:02:42.160 --> 00:02:45.190
+So we're in our Hippogriffs
+folder and we're going to save
+
+af21999d-0b51-41f5-b6f8-405fe5d73209-1
+00:02:45.190 --> 00:02:47.040
+it into our Hippogriffs
+Geopackage.
+
+3913077a-3042-4ab9-84f4-deee3fa00721-0
+00:02:47.040 --> 00:02:52.016
+So we can double click on this
+and then in layer name we can
+
+3913077a-3042-4ab9-84f4-deee3fa00721-1
+00:02:52.016 --> 00:02:56.911
+choose the name of the layer
+that we're going to create, so
+
+3913077a-3042-4ab9-84f4-deee3fa00721-2
+00:02:56.911 --> 00:02:59.440
+we can call it Ziama sightings.
+
+fa4e8b9b-5e8f-4595-a539-8978c9344aae-0
+00:03:00.360 --> 00:03:04.800
+Our coordinate reference system
+is set to the one that we need.
+
+9d945cf3-d30e-4c1e-90c4-28b04311858b-0
+00:03:04.800 --> 00:03:08.778
+So that's fine and we don't need
+to worry about the other options
+
+9d945cf3-d30e-4c1e-90c4-28b04311858b-1
+00:03:08.778 --> 00:03:09.080
+here.
+
+db6cb595-a056-4431-8378-41e045cebd20-0
+00:03:09.080 --> 00:03:16.542
+So we can just click OK and once
+that loads we can see it in our
+
+db6cb595-a056-4431-8378-41e045cebd20-1
+00:03:16.542 --> 00:03:17.920
+layers list.
+
+b3a00c7f-2584-41cf-ad7f-c82adcc946f5-0
+00:03:17.920 --> 00:03:23.800
+We can turn off the projected
+points layer and we can see that
+
+b3a00c7f-2584-41cf-ad7f-c82adcc946f5-1
+00:03:23.800 --> 00:03:29.586
+this exported layer that we have
+created is just the sighting
+
+b3a00c7f-2584-41cf-ad7f-c82adcc946f5-2
+00:03:29.586 --> 00:03:31.080
+points in Ziama.
+
+bbb38a79-5b93-4af9-9bd0-3fd9661b7881-0
+00:03:31.720 --> 00:03:35.640
+So that's how to export selected
+features in QGIS.
+
+b1f2715e-8f15-48c8-abe0-fe5aa29e71ba-0
+00:03:35.840 --> 00:03:40.480
+So now do the same for Wonegizi
+and Wologizi.

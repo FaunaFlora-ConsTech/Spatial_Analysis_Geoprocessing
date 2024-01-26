@@ -1,0 +1,360 @@
+WEBVTT
+
+87bd0697-6673-4692-aace-0289db43cb1c-0
+00:00:00.760 --> 00:00:04.636
+So hopefully now you've got
+something that looks a bit like
+
+87bd0697-6673-4692-aace-0289db43cb1c-1
+00:00:04.636 --> 00:00:04.960
+this.
+
+d9ab7512-be3f-4e12-b15d-96ba39877932-0
+00:00:05.240 --> 00:00:11.654
+Your 3 polygons for the
+protected areas, your point data
+
+d9ab7512-be3f-4e12-b15d-96ba39877932-1
+00:00:11.654 --> 00:00:18.970
+that you created from the table
+and the two tables down here the
+
+d9ab7512-be3f-4e12-b15d-96ba39877932-2
+00:00:18.970 --> 00:00:25.160
+sightings and sheet one which is
+the environment data.
+
+20f340a2-d90e-465b-a6fa-ad37bfe1e0cd-0
+00:00:25.160 --> 00:00:29.200
+So let's right click on this and
+click open to see the table.
+
+c5254679-5d86-4a2c-9e23-48cdf4a68e93-0
+00:00:31.880 --> 00:00:34.680
+In this table we've got 3
+columns.
+
+f9feda69-2044-4d3c-858c-b25d6d329d26-0
+00:00:35.000 --> 00:00:39.671
+The first one is the unique key
+and this is the same as we had
+
+f9feda69-2044-4d3c-858c-b25d6d329d26-1
+00:00:39.671 --> 00:00:41.080
+in the other table.
+
+c5374601-8897-43f6-8c69-f51c431f1b89-0
+00:00:41.520 --> 00:00:46.306
+So it's a different number for
+each GPS point, which is each
+
+c5374601-8897-43f6-8c69-f51c431f1b89-1
+00:00:46.306 --> 00:00:47.640
+row in our table.
+
+7c2216ca-643e-42ea-98d6-e7b7aaf732d3-0
+00:00:48.880 --> 00:00:51.040
+The next column is environment.
+
+82e7a36d-1850-4aff-aabb-972a1a245bf3-0
+00:00:51.360 --> 00:00:55.240
+We can see that there's lots of
+different types of environment.
+
+bd50bda1-8a94-4683-b181-4ffae0130acb-0
+00:00:55.240 --> 00:01:00.311
+The Hippogriffs are being
+spotted in Grassland, Primary
+
+bd50bda1-8a94-4683-b181-4ffae0130acb-1
+00:01:00.311 --> 00:01:06.016
+Forest, Secondary Forest, Farm
+and village and the last column
+
+bd50bda1-8a94-4683-b181-4ffae0130acb-2
+00:01:06.016 --> 00:01:11.630
+was automatically inputted by
+Arc GIS Pro and it is an object
+
+bd50bda1-8a94-4683-b181-4ffae0130acb-3
+00:01:11.630 --> 00:01:14.799
+ID which is a number for each
+row.
+
+d6a3d67b-5ef6-4b68-9f19-8def6160e4a7-0
+00:01:17.320 --> 00:01:21.040
+Now let's take a look at the
+table for our point data.
+
+b923bbe4-6ec0-491a-be01-40103ffedb22-0
+00:01:21.120 --> 00:01:25.008
+So right click on the points in
+your contents and click
+
+b923bbe4-6ec0-491a-be01-40103ffedb22-1
+00:01:25.008 --> 00:01:26.120
+Attribute Table.
+
+0b645dcc-1061-4593-99ce-24be04fdf197-0
+00:01:28.080 --> 00:01:33.728
+So as we remembered, this table
+also has a column for the unique
+
+0b645dcc-1061-4593-99ce-24be04fdf197-1
+00:01:33.728 --> 00:01:35.640
+key of each GPS point.
+
+f2da529f-cb11-4e26-8e0f-39f965398780-0
+00:01:38.520 --> 00:01:43.254
+So again we've got a row for
+each GPS point which is each
+
+f2da529f-cb11-4e26-8e0f-39f965398780-1
+00:01:43.254 --> 00:01:46.520
+sighting the location of each
+sighting.
+
+cbb68974-d168-4e9c-8944-4ffb19216166-0
+00:01:47.960 --> 00:01:50.160
+So that's the same for both
+tables.
+
+3b05d46a-5d39-4504-a436-df1d59916e20-0
+00:01:52.280 --> 00:01:59.829
+So for example, GPS one in our
+point table is the same as GPS
+
+3b05d46a-5d39-4504-a436-df1d59916e20-1
+00:01:59.829 --> 00:02:03.360
+one in our environment table.
+
+88f868f5-4697-46b8-8ab4-a9aa93f3962d-0
+00:02:04.520 --> 00:02:09.383
+So this means that the data is
+related and what we can do is
+
+88f868f5-4697-46b8-8ab4-a9aa93f3962d-1
+00:02:09.383 --> 00:02:14.646
+join the environment data to our
+point data layer so that we have
+
+88f868f5-4697-46b8-8ab4-a9aa93f3962d-2
+00:02:14.646 --> 00:02:16.640
+it all in the same place.
+
+0a1f9846-5e7b-44d7-bb3d-bbc00bc0f482-0
+00:02:20.120 --> 00:02:24.055
+So to do that we're going to add
+a join to our Hippogriff
+
+0a1f9846-5e7b-44d7-bb3d-bbc00bc0f482-1
+00:02:24.055 --> 00:02:25.480
+sightings data layer.
+
+11cbf7d9-1882-4fe2-934d-96d01eb5bb8e-0
+00:02:25.600 --> 00:02:29.769
+So we're going to right click on
+this in our contents, go down to
+
+11cbf7d9-1882-4fe2-934d-96d01eb5bb8e-1
+00:02:29.769 --> 00:02:33.560
+where it says joins and relates
+and then click on add Join.
+
+d61c39cd-e294-462a-bb06-f2f69f6fde66-0
+00:02:37.520 --> 00:02:41.488
+And then in the tool window that
+comes up, we need to put in our
+
+d61c39cd-e294-462a-bb06-f2f69f6fde66-1
+00:02:41.488 --> 00:02:42.160
+parameters.
+
+cf4d4d83-4bee-4d5b-888f-fe8e940780bf-0
+00:02:42.400 --> 00:02:47.810
+So our input table is the table
+where we want the information to
+
+cf4d4d83-4bee-4d5b-888f-fe8e940780bf-1
+00:02:47.810 --> 00:02:52.804
+join into and so that's our
+hippogriff sightings, our point
+
+cf4d4d83-4bee-4d5b-888f-fe8e940780bf-2
+00:02:52.804 --> 00:02:53.719
+data layer.
+
+f400cf01-fd88-49a0-85d3-3e3482550cb5-0
+00:02:56.240 --> 00:03:02.069
+And then for input join field
+and for join table field In
+
+f400cf01-fd88-49a0-85d3-3e3482550cb5-1
+00:03:02.069 --> 00:03:08.400
+these boxes we want to put in
+the columns from each table that
+
+f400cf01-fd88-49a0-85d3-3e3482550cb5-2
+00:03:08.400 --> 00:03:12.320
+can be used to join the data
+together.
+
+8ce397b7-1f49-493a-8bf9-335e57a046f0-0
+00:03:12.600 --> 00:03:16.825
+So this is our unique key column
+because we have this column in
+
+8ce397b7-1f49-493a-8bf9-335e57a046f0-1
+00:03:16.825 --> 00:03:18.080
+each of our tables.
+
+9e62153f-9263-4440-8ecc-5ab76b20ec8f-0
+00:03:18.400 --> 00:03:20.800
+So we can leave these both as
+unique key.
+
+1f217398-35ed-4064-9857-9f585bc065ae-0
+00:03:23.040 --> 00:03:27.958
+And for join table it's what
+table we want to join to our
+
+1f217398-35ed-4064-9857-9f585bc065ae-1
+00:03:27.958 --> 00:03:29.400
+point data layer.
+
+c2582ed8-2227-4de3-96af-686d56fefd2d-0
+00:03:29.480 --> 00:03:34.760
+And so that's sheet one as
+that's the environment data.
+
+a821e034-8ffb-4d21-bb07-544e1f73bde4-0
+00:03:36.320 --> 00:03:41.925
+And now we just need to hit OK
+and we can check our table for
+
+a821e034-8ffb-4d21-bb07-544e1f73bde4-1
+00:03:41.925 --> 00:03:47.440
+our point data layer to see if
+the join has been successful.
+
+3e6daf50-2296-4ec5-9262-a49d04c3fefe-0
+00:03:48.960 --> 00:03:53.840
+And if we scroll across we can
+see that we now have a column
+
+3e6daf50-2296-4ec5-9262-a49d04c3fefe-1
+00:03:53.840 --> 00:03:58.560
+for environment within our
+hippogriff sightings point data
+
+3e6daf50-2296-4ec5-9262-a49d04c3fefe-2
+00:03:58.560 --> 00:03:59.520
+layer table.
+
+6958c77c-e101-4c67-b175-b721682022e6-0
+00:04:00.920 --> 00:04:05.566
+So now that means that each
+point on our map can show us
+
+6958c77c-e101-4c67-b175-b721682022e6-1
+00:04:05.566 --> 00:04:10.538
+where a sighting happened, but
+also the type of sighting and
+
+6958c77c-e101-4c67-b175-b721682022e6-2
+00:04:10.538 --> 00:04:13.880
+the environment in which it
+occurred in.
+
+1fccbdbb-0d09-4a16-a810-a0127a7b8526-0
+00:04:15.240 --> 00:04:17.320
+So that's great, we've added the
+data in.
+
+66edb613-baba-47c0-b35a-d1f808ca9076-0
+00:04:17.480 --> 00:04:23.117
+But when you add a join to save
+the data into the layer, you
+
+66edb613-baba-47c0-b35a-d1f808ca9076-1
+00:04:23.117 --> 00:04:25.520
+need to export that layer.
+
+f826d20e-22b0-4e71-8fda-3252bc6f7472-0
+00:04:26.080 --> 00:04:31.323
+So we need to right click on our
+Hippogriff Sightings layer, go
+
+f826d20e-22b0-4e71-8fda-3252bc6f7472-1
+00:04:31.323 --> 00:04:34.600
+into Data and click on Export
+Features.
+
+e59ba027-3e1b-4e89-8bf3-f86004cfd392-0
+00:04:38.720 --> 00:04:43.139
+Our input features is our
+Hippogriff Sightings point
+
+e59ba027-3e1b-4e89-8bf3-f86004cfd392-1
+00:04:43.139 --> 00:04:43.640
+layer.
+
+5e6cb9a0-44f7-4286-a6b6-b68ec93d2fc0-0
+00:04:43.640 --> 00:04:45.600
+So we can leave this how it is.
+
+6a259d91-d319-4892-8b9a-7a99687604c9-0
+00:04:46.480 --> 00:04:51.485
+And then the box underneath is
+where we want to save this layer
+
+6a259d91-d319-4892-8b9a-7a99687604c9-1
+00:04:51.485 --> 00:04:51.720
+to.
+
+f66de7ee-bb2c-4ecd-92da-950bef61a2f0-0
+00:04:51.720 --> 00:04:56.113
+So click on the browse icon and
+we're going to save it in our
+
+f66de7ee-bb2c-4ecd-92da-950bef61a2f0-1
+00:04:56.113 --> 00:04:58.240
+Geo database for this project.
+
+25c345d3-a864-4db6-b947-458c7074653c-0
+00:04:58.800 --> 00:05:04.408
+So go into your Geo database and
+then we'll call this layer
+
+25c345d3-a864-4db6-b947-458c7074653c-1
+00:05:04.408 --> 00:05:07.120
+Sightings Environment points.
+
+0db2f1ef-feea-4135-beeb-174cb658c5ca-0
+00:05:10.200 --> 00:05:22.683
+Click save and then click OK and
+that will create a new layer
+
+0db2f1ef-feea-4135-beeb-174cb658c5ca-1
+00:05:22.683 --> 00:05:29.730
+that has the join saves within
+it.
+
+b86a64fe-f309-4a08-a689-331264abfdb3-0
+00:05:33.490 --> 00:05:38.605
+So you should be able to see
+that new layer in your contents
+
+b86a64fe-f309-4a08-a689-331264abfdb3-1
+00:05:38.605 --> 00:05:43.470
+now, and we can just turn off
+the other point layer as we
+
+b86a64fe-f309-4a08-a689-331264abfdb3-2
+00:05:43.470 --> 00:05:49.005
+don't need that anymore and just
+remember to hit save to save our
+
+b86a64fe-f309-4a08-a689-331264abfdb3-3
+00:05:49.005 --> 00:05:49.759
+progress.
